@@ -1991,7 +1991,180 @@
 
     <!--_____ Heavy Weapons _____-->
 
+    <!-- Minigun (Fallout 3/ FNV) -->
 
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Minigun_FO3</defName>
+        <label>Minigun</label>
+        <description>
+            The Minigun is a multi-barrel, rotary machine gun capable of firing 5mm rounds at an extremely high rate. Its devastating firepower makes it a favorite for heavy support roles, but its weight and bulk limit mobility.
+        </description>
+        <graphicData>
+            <texPath>Weapons/Heavy/Minigun_FO3</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Minigun</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>10</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>90000</WorkToMake>
+            <Mass>12.0</Mass>
+            <AccuracyTouch>0.50</AccuracyTouch>
+            <AccuracyShort>0.45</AccuracyShort>
+            <AccuracyMedium>0.30</AccuracyMedium>
+            <AccuracyLong>0.10</AccuracyLong>
+            <RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Minigun_FO3</li>
+        </weaponTags>
+        <costList>
+            <Steel>180</Steel>
+            <ComponentIndustrial>14</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_5mm</defaultProjectile>
+                <warmupTime>2.5</warmupTime>
+                <range>28</range>
+                <burstShotCount>25</burstShotCount>
+                <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Minigun</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>16</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="WeaponRequirement.CompProperties_WeaponRequirement">
+                <requiredApparels>
+                    <li>FCP_Apparel_Power_Armor_Frame</li>
+                </requiredApparels>
+            </li>
+            <li Class="BM_HeavyWeapon.VerbProperties_ApparelAmmo">
+                <verbClass>BM_HeavyWeapon.Verb_Shoot_ApparelAmmo</verbClass>
+                <apparelList>
+                    <li>FCP_Apparel_Minigun_Ammo_Pack</li>
+                </apparelList>
+                <missingReason>Missing ammo pack. Equip it first.</missingReason>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_5mm</defaultProjectile>
+                <warmupTime>6.0</warmupTime>
+                <minRange>1.9</minRange>
+                <range>28</range>
+                <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>AN_LaserDrill_Shot</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+                <pelletCount>1</pelletCount>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Light Machine Gun -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Light_Machine_Gun</defName>
+        <label>Light Machine Gun</label>
+        <description>
+            The Light Machine Gun is a pre-war, fully automatic support weapon chambered for 5.56mm rounds. Designed for sustained suppressive fire, it features a high-capacity magazine and a high rate of fire, making it ideal for pinning down enemies and providing covering fire in open combat.
+        </description>
+        <graphicData>
+            <texPath>Weapons/Heavy/LMG</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_LMG</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>60000</WorkToMake>
+            <Mass>8.5</Mass>
+            <AccuracyTouch>0.55</AccuracyTouch>
+            <AccuracyShort>0.60</AccuracyShort>
+            <AccuracyMedium>0.55</AccuracyMedium>
+            <AccuracyLong>0.40</AccuracyLong>
+            <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Light_Machine_Gun</li>
+        </weaponTags>
+        <costList>
+            <Steel>120</Steel>
+            <ComponentIndustrial>10</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_556mm</defaultProjectile>
+                <warmupTime>1.8</warmupTime>
+                <range>32</range>
+                <burstShotCount>12</burstShotCount>
+                <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_LMG</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>13</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
 
     <!--_____ Pistols _____-->
 
@@ -2061,38 +2234,5 @@
             </li>
         </modExtensions>
     </ThingDef>
-
-<!-- Weapon Req Code -->
-
-<li Class="WeaponRequirement.CompProperties_WeaponRequirement">  <!-- Comp class on weapons -->
-  <requiredApparels>    <!-- Required apparel in order to use the weapon -->
-    <li>EnchantedRing</li>
-  </requiredApparels>
-  <hediffWithMissingApparels>Unworthy</hediffWithMissingApparels>  <!-- Debuff if the pawn is using the weapon without the required apparel -->
-</li>
-
-<!-- Heavy Weapon Code -->
-
-<li Class="BM_HeavyWeapon.VerbProperties_ApparelAmmo">
-  <verbClass>BM_HeavyWeapon.Verb_Shoot_ApparelAmmo</verbClass>
-  <apparelList>
-    <li>Apparel_NecroHunterEnergyPack</li>    <!-- Apparel req to store ammunition for weapon -->
-  </apparelList>
-  <missingReason>Missing ammo pack. Equip it first.</missingReason>
-  <hasStandardCommand>true</hasStandardCommand>
-  <!-- <defaultProjectile>Bullet_LaserDrill</defaultProjectile>
-  <warmupTime>6.0</warmupTime>
-  <minRange>1.9</minRange> -->
-  <range>45</range>
-  <!--<ticksBetweenBurstShots>12</ticksBetweenBurstShots>-->
-  <!-- <burstShotCount>1</burstShotCount>
-  <soundCast>AN_LaserDrill_Shot</soundCast>
-  <soundCastTail>GunTail_Heavy</soundCastTail>
-  <muzzleFlashScale>9</muzzleFlashScale>
-  <pelletCount>2</pelletCount>  Amount of bullets that can be fired per shot, very important for the code to work -->
-  <targetParams>
-    <canTargetLocations>true</canTargetLocations>
-  </targetParams>
-</li>
 
 </Defs>
