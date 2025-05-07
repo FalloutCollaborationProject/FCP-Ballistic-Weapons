@@ -999,7 +999,7 @@
 
     <!-- 9mm Hunting Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>FCP_Gun_9mm_Hunting_Rifle</defName>
         <label>9mm Hunting Rifle</label>
         <description>A bolt-action hunting rifle chambered for 9mm rounds. While less powerful than larger-caliber rifles, its low recoil and plentiful ammunition make it a practical choice for hunting small game and for novice marksmen in the wasteland.</description>
@@ -1071,11 +1071,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-    </ThingDef>
+    </ThingDef> -->
 
     <!-- .223 Rangemaster Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>FCP_Gun_223_Rangemaster</defName>
         <label>.223 Rangemaster Rifle</label>
         <description>The .223 Rangemaster is a precision bolt-action rifle chambered for .223 rounds. Favored by marksmen for its high accuracy and range, it is a reliable choice for hunting and long-range engagements in the wasteland.</description>
@@ -1147,7 +1147,7 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-    </ThingDef>
+    </ThingDef> -->
 
     <!--_____ Submachine Guns _____-->
 
@@ -1685,6 +1685,82 @@
         </tools>
     </ThingDef>
 
+    <!-- Combat Shotgun -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Combat_Shotgun</defName>
+        <label>Combat Shotgun</label>
+        <description>The Combat Shotgun is a semi-automatic, magazine-fed shotgun chambered for 12 gauge shells. Designed for military and law enforcement, it offers a high rate of fire and reliability in close-quarters combat, making it a favorite among wasteland enforcers.</description>
+        <graphicData>
+            <texPath>Weapons/Shotguns/FCP_Combat_Shotgun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Shotgun</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>35000</WorkToMake>
+            <Mass>4.0</Mass>
+            <AccuracyTouch>0.90</AccuracyTouch>
+            <AccuracyShort>0.65</AccuracyShort>
+            <AccuracyMedium>0.28</AccuracyMedium>
+            <AccuracyLong>0.08</AccuracyLong>
+            <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Combat_Shotgun</li>
+        </weaponTags>
+        <costList>
+            <Steel>60</Steel>
+            <ComponentIndustrial>5</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
+                <warmupTime>0.6</warmupTime>
+                <range>17</range>
+                <burstShotCount>6</burstShotCount>
+                <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Combat_Shotgun</soundCast>
+                <soundCastTail>GunTail_Small</soundCastTail>
+                <muzzleFlashScale>5</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>7</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>7</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
     <!-- Riot Shotgun -->
 
     <ThingDef ParentName="BaseHumanMakeableGun">
@@ -1996,9 +2072,7 @@
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>FCP_Gun_Minigun_FO3</defName>
         <label>Minigun</label>
-        <description>
-            The Minigun is a multi-barrel, rotary machine gun capable of firing 5mm rounds at an extremely high rate. Its devastating firepower makes it a favorite for heavy support roles, but its weight and bulk limit mobility.
-        </description>
+        <description>The Minigun is a multi-barrel, rotary machine gun capable of firing 5mm rounds at an extremely high rate. Its devastating firepower makes it a favorite for heavy support roles, but its weight and bulk limit mobility.</description>
         <graphicData>
             <texPath>Weapons/Heavy/Minigun_FO3</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -2093,9 +2167,7 @@
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>FCP_Gun_Light_Machine_Gun</defName>
         <label>Light Machine Gun</label>
-        <description>
-            The Light Machine Gun is a pre-war, fully automatic support weapon chambered for 5.56mm rounds. Designed for sustained suppressive fire, it features a high-capacity magazine and a high rate of fire, making it ideal for pinning down enemies and providing covering fire in open combat.
-        </description>
+        <description>The Light Machine Gun is a pre-war, fully automatic support weapon chambered for 5.56mm rounds. Designed for sustained suppressive fire, it features a high-capacity magazine and a high rate of fire, making it ideal for pinning down enemies and providing covering fire in open combat.</description>
         <graphicData>
             <texPath>Weapons/Heavy/LMG</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -2168,10 +2240,767 @@
 
     <!--_____ Pistols _____-->
 
+    <!-- 10mm Pistol -->
 
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_10mm_Pistol</defName>
+        <label>10mm Pistol</label>
+        <description>The 10mm Pistol is a semi-automatic sidearm chambered for 10mm rounds. Favored for its reliability and stopping power, it is a common sight among wastelanders and pre-war security forces alike.</description>
+        <graphicData>
+            <texPath>Weapons/Pistols/FCP_10mm_Pistol</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Pistol</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>12000</WorkToMake>
+            <Mass>1.5</Mass>
+            <AccuracyTouch>0.85</AccuracyTouch>
+            <AccuracyShort>0.70</AccuracyShort>
+            <AccuracyMedium>0.45</AccuracyMedium>
+            <AccuracyLong>0.18</AccuracyLong>
+            <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_10mm_Pistol</li>
+        </weaponTags>
+        <costList>
+            <Steel>28</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_10mm</defaultProjectile>
+                <warmupTime>0.4</warmupTime>
+                <range>20</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_10mm_Pistol</soundCast>
+                <soundCastTail>GunTail_Small</soundCastTail>
+                <muzzleFlashScale>2.5</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>4</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>4</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <!-- Silenced 10mm Pistol -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Silenced_10mm_Pistol</defName>
+        <label>Silenced 10mm Pistol</label>
+        <description>The Silenced 10mm Pistol is a semi-automatic sidearm chambered for 10mm rounds and fitted with an integral suppressor. Favored by assassins and covert operatives, it offers a balance of stopping power and stealth.</description>
+        <graphicData>
+            <texPath>Weapons/Pistols/FCP_Silenced_10mm_Pistol</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Pistol</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>13000</WorkToMake>
+            <Mass>1.6</Mass>
+            <AccuracyTouch>0.87</AccuracyTouch>
+            <AccuracyShort>0.72</AccuracyShort>
+            <AccuracyMedium>0.44</AccuracyMedium>
+            <AccuracyLong>0.16</AccuracyLong>
+            <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Silenced_10mm_Pistol</li>
+        </weaponTags>
+        <costList>
+            <Steel>30</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_10mm</defaultProjectile>
+                <warmupTime>0.35</warmupTime>
+                <range>19</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Silenced_10mm_Pistol</soundCast>
+                <soundCastTail>GunTail_Silenced</soundCastTail>
+                <muzzleFlashScale>2.0</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>4</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>4</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <!-- Chinese Pistol -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Chinese_Pistol</defName>
+        <label>Chinese Pistol</label>
+        <description>The Chinese Pistol is a compact, semi-automatic sidearm chambered for 9mm rounds. Manufactured before the Great War, it is lightweight and easy to conceal, but suffers from low stopping power and questionable reliability.</description>
+        <graphicData>
+            <texPath>Weapons/Pistols/FCP_Chinese_Pistol</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Pistol</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>7000</WorkToMake>
+            <Mass>0.9</Mass>
+            <AccuracyTouch>0.80</AccuracyTouch>
+            <AccuracyShort>0.65</AccuracyShort>
+            <AccuracyMedium>0.32</AccuracyMedium>
+            <AccuracyLong>0.08</AccuracyLong>
+            <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Chinese_Pistol</li>
+        </weaponTags>
+        <costList>
+            <Steel>16</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_9mm</defaultProjectile>
+                <warmupTime>0.25</warmupTime>
+                <range>15</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Chinese_Pistol</soundCast>
+                <soundCastTail>GunTail_Small</soundCastTail>
+                <muzzleFlashScale>1.8</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>2.5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>2.5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <!-- 9mm Pistol -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_9mm_Pistol</defName>
+        <label>9mm Pistol</label>
+        <description>The 9mm Pistol is a lightweight, semi-automatic sidearm chambered for 9mm rounds. Its low recoil and plentiful ammunition make it a popular choice for both civilians and wastelanders, though it lacks the stopping power of larger calibers.</description>
+        <graphicData>
+            <texPath>Weapons/Pistols/FCP_9mm_Pistol</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Pistol</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>9000</WorkToMake>
+            <Mass>1.1</Mass>
+            <AccuracyTouch>0.88</AccuracyTouch>
+            <AccuracyShort>0.72</AccuracyShort>
+            <AccuracyMedium>0.40</AccuracyMedium>
+            <AccuracyLong>0.12</AccuracyLong>
+            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_9mm_Pistol</li>
+        </weaponTags>
+        <costList>
+            <Steel>22</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_9mm</defaultProjectile>
+                <warmupTime>0.35</warmupTime>
+                <range>19</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_9mm_Pistol</soundCast>
+                <soundCastTail>GunTail_Small</soundCastTail>
+                <muzzleFlashScale>2.2</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>3.5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>3.5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <!-- 5.56mm Pistol -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_556_Pistol</defName>
+        <label>5.56mm Pistol</label>
+        <description>The 5.56mm Pistol is a rare, high-powered sidearm chambered for 5.56mm rifle rounds. Its unique design offers superior penetration and range compared to typical pistols, but with increased recoil and wear.</description>
+        <graphicData>
+            <texPath>Weapons/Pistols/FCP_556_Pistol</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Pistol</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>16000</WorkToMake>
+            <Mass>1.7</Mass>
+            <AccuracyTouch>0.82</AccuracyTouch>
+            <AccuracyShort>0.74</AccuracyShort>
+            <AccuracyMedium>0.52</AccuracyMedium>
+            <AccuracyLong>0.22</AccuracyLong>
+            <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_556_Pistol</li>
+        </weaponTags>
+        <costList>
+            <Steel>32</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_556mm</defaultProjectile>
+                <warmupTime>0.5</warmupTime>
+                <range>23</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_556_Pistol</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>3.0</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <!-- 12.7mm Pistol -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_127mm_Pistol</defName>
+        <label>12.7mm Pistol</label>
+        <description>The 12.7mm Pistol is a heavy, semi-automatic sidearm chambered for 12.7mm rounds. Its immense stopping power and armor penetration make it a favorite among wasteland enforcers, but its weight and recoil require a strong hand.</description>
+        <graphicData>
+            <texPath>Weapons/Pistols/FCP_127mm_Pistol</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Pistol</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>20000</WorkToMake>
+            <Mass>2.2</Mass>
+            <AccuracyTouch>0.80</AccuracyTouch>
+            <AccuracyShort>0.68</AccuracyShort>
+            <AccuracyMedium>0.38</AccuracyMedium>
+            <AccuracyLong>0.10</AccuracyLong>
+            <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_127mm_Pistol</li>
+        </weaponTags>
+        <costList>
+            <Steel>38</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_127mm</defaultProjectile>
+                <warmupTime>0.6</warmupTime>
+                <range>18</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_127mm_Pistol</soundCast>
+                <soundCastTail>GunTail_Small</soundCastTail>
+                <muzzleFlashScale>3.5</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <!-- Silenced .22 Pistol -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Silenced_22_Pistol</defName>
+        <label>Silenced .22 Pistol</label>
+        <description>The Silenced .22 Pistol is a lightweight, semi-automatic sidearm chambered for .22 LR rounds and equipped with an integral suppressor. Extremely quiet and easy to control, it is favored for stealth operations but lacks stopping power.</description>
+        <graphicData>
+            <texPath>Weapons/Pistols/FCP_Silenced_22_Pistol</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Pistol</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>3</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>8000</WorkToMake>
+            <Mass>0.9</Mass>
+            <AccuracyTouch>0.92</AccuracyTouch>
+            <AccuracyShort>0.80</AccuracyShort>
+            <AccuracyMedium>0.38</AccuracyMedium>
+            <AccuracyLong>0.10</AccuracyLong>
+            <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Silenced_22_Pistol</li>
+        </weaponTags>
+        <costList>
+            <Steel>16</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_22LR</defaultProjectile>
+                <warmupTime>0.25</warmupTime>
+                <range>16</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Silenced_22_Pistol</soundCast>
+                <soundCastTail>GunTail_Silenced</soundCastTail>
+                <muzzleFlashScale>1.5</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>2.5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>2.5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
 
     <!--_____ Revolvers _____-->
 
+    <!-- .357 Revolver -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_357_Revolver</defName>
+        <label>.357 Revolver</label>
+        <description>The .357 Revolver is a classic, six-shot sidearm chambered for .357 Magnum rounds. Renowned for its reliability and stopping power, it is a favored weapon among lawmen and gunslingers in the wasteland.</description>
+        <graphicData>
+            <texPath>Weapons/Revolvers/FCP_357_Revolver</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Revolver</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>14000</WorkToMake>
+            <Mass>1.4</Mass>
+            <AccuracyTouch>0.87</AccuracyTouch>
+            <AccuracyShort>0.73</AccuracyShort>
+            <AccuracyMedium>0.42</AccuracyMedium>
+            <AccuracyLong>0.13</AccuracyLong>
+            <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_357_Revolver</li>
+        </weaponTags>
+        <costList>
+            <Steel>26</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_357</defaultProjectile>
+                <warmupTime>0.45</warmupTime>
+                <range>21</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_357_Revolver</soundCast>
+                <soundCastTail>GunTail_Small</soundCastTail>
+                <muzzleFlashScale>2.7</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>4.5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>4.5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <!-- .44 Magnum Revolver -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_44Magnum_Revolver</defName>
+        <label>.44 Magnum Revolver</label>
+        <description>The .44 Magnum Revolver is a powerful, six-shot sidearm chambered for .44 Magnum rounds. Renowned for its high stopping power and intimidating presence, it is a prized weapon among wasteland hunters and enforcers.</description>
+        <graphicData>
+            <texPath>Weapons/Revolvers/FCP_44Magnum_Revolver</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Revolver</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>17000</WorkToMake>
+            <Mass>1.7</Mass>
+            <AccuracyTouch>0.85</AccuracyTouch>
+            <AccuracyShort>0.70</AccuracyShort>
+            <AccuracyMedium>0.40</AccuracyMedium>
+            <AccuracyLong>0.12</AccuracyLong>
+            <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_44Magnum_Revolver</li>
+        </weaponTags>
+        <costList>
+            <Steel>30</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_44Magnum</defaultProjectile>
+                <warmupTime>0.55</warmupTime>
+                <range>22</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_44Magnum_Revolver</soundCast>
+                <soundCastTail>GunTail_Small</soundCastTail>
+                <muzzleFlashScale>3.0</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <!-- Hunting Revolver -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Hunting_Revolver</defName>
+        <label>Hunting Revolver</label>
+        <description>The Hunting Revolver is a large, single-action revolver chambered for .45-70 Government rounds. Designed for hunting big game, it delivers devastating power and accuracy, but its heavy frame and slow rate of fire make it unwieldy in close combat.</description>
+        <graphicData>
+            <texPath>Weapons/Revolvers/FCP_Hunting_Revolver</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Revolver</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>22000</WorkToMake>
+            <Mass>2.4</Mass>
+            <AccuracyTouch>0.82</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.48</AccuracyMedium>
+            <AccuracyLong>0.18</AccuracyLong>
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Hunting_Revolver</li>
+        </weaponTags>
+        <costList>
+            <Steel>40</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_4570</defaultProjectile>
+                <warmupTime>0.7</warmupTime>
+                <range>26</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Hunting_Revolver</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>3.8</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
 
     <!--_____ Bullets _____-->
 
