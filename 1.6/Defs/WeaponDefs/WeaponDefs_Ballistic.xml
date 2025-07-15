@@ -626,7 +626,7 @@
 
     <!-- Combat Rifle Short -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>FCP_Gun_Combat_Rifle_Short</defName>
         <label>Combat Rifle Short</label>
         <description>A heavily modified combat rifle with the shortest available stock and barrel. Compact and easy to handle, it sacrifices range and accuracy for improved mobility and faster aiming.</description>
@@ -698,7 +698,7 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-    </ThingDef>
+    </ThingDef> -->
 
     <!-- Combat Rifle -->
 
@@ -778,7 +778,7 @@
 
     <!-- Combat Rifle Scoped -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>FCP_Gun_Combat_Rifle_Scoped</defName>
         <label>Scoped Combat Rifle</label>
         <description>A standard combat rifle fitted with a long-range scope. This configuration is favored by marksmen who need to engage targets at greater distances, offering improved accuracy and target acquisition.</description>
@@ -850,11 +850,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-    </ThingDef>
+    </ThingDef> -->
 
     <!-- Combat Rifle Marksman -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>FCP_Gun_Combat_Rifle_Marksman</defName>
         <label>Marksman Combat Rifle</label>
         <description>A highly customized combat rifle equipped with the best marksman stock, long barrel, and a medium-range scope. This variant is optimized for accuracy and stability, making it ideal for sharpshooters and long-range engagements.</description>
@@ -926,7 +926,7 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-    </ThingDef>
+    </ThingDef> -->
 
     <!-- BB Gun -->
 
@@ -1462,7 +1462,7 @@
 
     <!-- .223 Rangemaster Rifle -->
 
-    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>FCP_Gun_223_Rangemaster</defName>
         <label>.223 Rangemaster Rifle</label>
         <description>The .223 Rangemaster is a precision bolt-action rifle chambered for .223 rounds. Favored by marksmen for its high accuracy and range, it is a reliable choice for hunting and long-range engagements in the wasteland.</description>
@@ -1510,7 +1510,7 @@
                 <range>36</range>
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
-                <soundCast>FCP_Sound_Shot_223mm_Rangemaster</soundCast>
+                <soundCast>FCP_Sound_Shot_Service_Rifle</soundCast>
                 <soundCastTail>GunTail_Long</soundCastTail>
                 <muzzleFlashScale>8</muzzleFlashScale>
             </li>
@@ -1534,11 +1534,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-    </ThingDef> -->
+    </ThingDef>
 
     <!-- Pipe Bolt-Action Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>FCP_Gun_Pipe_BoltAction_Rifle</defName>
         <label>Pipe Bolt-Action Rifle</label>
         <description>The Pipe Bolt-Action Rifle is a crude, homemade firearm assembled from scavenged pipes and scrap metal. While unreliable and lacking in power, it is easy to produce and maintain, making it a common weapon among wasteland survivors.</description>
@@ -1611,7 +1611,7 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-    </ThingDef>
+    </ThingDef> -->
 
     <!--_____ Submachine Guns _____-->
 
@@ -1997,7 +1997,7 @@
 
     <!-- Pipe Gun -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>FCP_Gun_Pipe_Burst</defName>
         <label>Pipe Gun</label>
         <description>The Pipe Gun is a makeshift, fully automatic firearm cobbled together from pipes and scrap. While unreliable and inaccurate, it can fire short bursts, making it dangerous in close quarters despite its crude construction.</description>
@@ -2070,7 +2070,7 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-    </ThingDef>
+    </ThingDef> -->
 
     <!--_____ Shotguns _____-->
 
@@ -3621,7 +3621,7 @@
 
     <!-- Pipe Revolver -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>FCP_Gun_Pipe_Revolver</defName>
         <label>Pipe Revolver</label>
         <description>
@@ -3696,6 +3696,6 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
-    </ThingDef>
+    </ThingDef> -->
 
 </Defs>
