@@ -18,7 +18,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>8</Crafting>
@@ -101,7 +101,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -177,7 +177,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -253,7 +253,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -329,7 +329,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -405,7 +405,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -483,7 +483,7 @@
         <soundInteract>Interact_SniperRifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>8</Crafting>
@@ -559,7 +559,7 @@
         <soundInteract>Interact_SniperRifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -637,7 +637,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -713,7 +713,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -789,7 +789,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -865,7 +865,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>8</Crafting>
@@ -941,7 +941,7 @@
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>2</Crafting>
@@ -1017,7 +1017,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -1093,7 +1093,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>5</Crafting>
@@ -1169,7 +1169,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -1245,7 +1245,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>5</Crafting>
@@ -1321,7 +1321,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>3</Crafting>
@@ -1397,7 +1397,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>3</Crafting>
@@ -1473,7 +1473,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -1549,7 +1549,7 @@
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>2</Crafting>
@@ -1628,7 +1628,7 @@
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>5</Crafting>
@@ -1704,7 +1704,7 @@
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -1780,7 +1780,7 @@
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -1856,7 +1856,7 @@
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>5</Crafting>
@@ -1932,7 +1932,7 @@
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>5</Crafting>
@@ -2008,7 +2008,7 @@
         <soundInteract>Interact_SMG</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>2</Crafting>
@@ -2087,7 +2087,7 @@
         <soundInteract>Interact_Shotgun</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -2163,7 +2163,7 @@
         <soundInteract>Interact_Shotgun</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>5</Crafting>
@@ -2239,7 +2239,7 @@
         <soundInteract>Interact_Shotgun</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -2315,7 +2315,7 @@
         <soundInteract>Interact_Shotgun</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -2391,7 +2391,7 @@
         <soundInteract>Interact_Shotgun</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>3</Crafting>
@@ -2467,7 +2467,7 @@
         <soundInteract>Interact_Shotgun</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -2543,7 +2543,7 @@
         <soundInteract>Interact_Shotgun</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>2</Crafting>
@@ -2621,7 +2621,7 @@
         <soundInteract>Interact_Minigun</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>10</Crafting>
@@ -2716,7 +2716,7 @@
         <soundInteract>Interact_LMG</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>8</Crafting>
@@ -2794,7 +2794,7 @@
         <soundInteract>Interact_Pistol</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -2870,7 +2870,7 @@
         <soundInteract>Interact_Pistol</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -2946,7 +2946,7 @@
         <soundInteract>Interact_Pistol</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>2</Crafting>
@@ -3022,7 +3022,7 @@
         <soundInteract>Interact_Pistol</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>3</Crafting>
@@ -3098,7 +3098,7 @@
         <soundInteract>Interact_Pistol</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>6</Crafting>
@@ -3174,7 +3174,7 @@
         <soundInteract>Interact_Pistol</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -3250,7 +3250,7 @@
         <soundInteract>Interact_Pistol</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>3</Crafting>
@@ -3328,7 +3328,7 @@
         <soundInteract>Interact_Revolver</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>2</Crafting>
@@ -3404,7 +3404,7 @@
         <soundInteract>Interact_Revolver</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>4</Crafting>
@@ -3480,7 +3480,7 @@
         <soundInteract>Interact_Revolver</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>5</Crafting>
@@ -3556,7 +3556,7 @@
         <soundInteract>Interact_Revolver</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>7</Crafting>
@@ -3634,7 +3634,7 @@
         <soundInteract>Interact_Revolver</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
-                <li>FCP_Research_Basic_Weapons_Manufacturing</li>
+                <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
             <skillRequirements>
                 <Crafting>2</Crafting>
