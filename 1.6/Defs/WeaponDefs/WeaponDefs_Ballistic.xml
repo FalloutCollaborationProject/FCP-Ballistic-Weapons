@@ -85,6 +85,9 @@
                     <li>FCP_Apparel_Power_Armor_Frame</li>
                 </requiredApparels>
             </li>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
         </comps>
     </ThingDef>
 
@@ -162,6 +165,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- R-91 Assault Rifle -->
@@ -238,6 +246,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Chinese Assault Rifle -->
@@ -314,6 +327,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Marksman Carbine -->
@@ -390,6 +408,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Assault Carbine -->
@@ -466,6 +489,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!--_____ Sniper Rifles _____-->
@@ -544,6 +572,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Scoped Hunting Rifle -->
@@ -620,6 +653,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!--_____ Rifles _____-->
@@ -774,6 +812,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Combat Rifle Scoped -->
@@ -1002,6 +1045,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Brush Gun -->
@@ -1078,6 +1126,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Cowboy Repeater -->
@@ -2148,6 +2201,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Hunting Shotgun -->
@@ -2700,6 +2758,9 @@
                     <canTargetLocations>true</canTargetLocations>
                 </targetParams>
             </li>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
         </comps>
     </ThingDef>
 
@@ -2777,6 +2838,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!--_____ Pistols _____-->
@@ -2855,6 +2921,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Silenced 10mm Pistol -->
@@ -2931,6 +3002,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Chinese Pistol -->
@@ -3007,6 +3083,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- 9mm Pistol -->
@@ -3083,6 +3164,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- 5.56mm Pistol -->
@@ -3159,6 +3245,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- 12.7mm Pistol -->
@@ -3235,6 +3326,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Silenced .22 Pistol -->
@@ -3311,6 +3407,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!--_____ Revolvers _____-->
@@ -3389,6 +3490,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- .357 Revolver -->
