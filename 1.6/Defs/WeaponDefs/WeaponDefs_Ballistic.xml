@@ -138,7 +138,7 @@
                 <range>30</range>
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
-                <soundCast>FCP_Sound_Shot_Service_Rifle</soundCast>
+                <soundCast>FCP_Sound_Shot_Marksman_Carbine</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>7</muzzleFlashScale>
             </li>
