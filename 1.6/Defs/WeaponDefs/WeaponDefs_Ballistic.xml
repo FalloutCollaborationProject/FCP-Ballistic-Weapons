@@ -41,6 +41,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_FO4_Assault_Rifle</li>
+            <li>FCP_Power_Armor_Required</li>
         </weaponTags>
         <costList>
             <Steel>85</Steel>
@@ -127,6 +128,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_Service_Rifle</li>
+            <li>FCP_Assault_Rifle</li>
         </weaponTags>
         <costList>
             <Steel>65</Steel>
@@ -208,6 +210,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_R91_Rifle</li>
+            <li>FCP_Assault_Rifle</li>
         </weaponTags>
         <costList>
             <Steel>65</Steel>
@@ -289,6 +292,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_Chinese_Assault_Rifle</li>
+            <li>FCP_Assault_Rifle</li>
         </weaponTags>
         <costList>
             <Steel>70</Steel>
@@ -370,6 +374,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_Marksman_Carbine</li>
+            <li>FCP_Assault_Rifle</li>
         </weaponTags>
         <costList>
             <Steel>70</Steel>
@@ -451,6 +456,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_Assault_Carbine</li>
+            <li>FCP_Assault_Rifle</li>
         </weaponTags>
         <costList>
             <Steel>65</Steel>
@@ -534,6 +540,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_DKS_501_Sniper_Rifle</li>
+            <li>FCP_Sniper_Rifle</li>
         </weaponTags>
         <costList>
             <Steel>80</Steel>
@@ -615,6 +622,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_Scoped_Hunting_Rifle</li>
+            <li>FCP_Sniper_Rifle</li>
         </weaponTags>
         <costList>
             <Steel>75</Steel>
@@ -774,6 +782,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_Combat_Rifle</li>
+            <li>FCP_Rifle</li>
         </weaponTags>
         <costList>
             <Steel>65</Steel>
@@ -1007,6 +1016,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_BB_Gun</li>
+            <li>FCP_Rifle</li>
         </weaponTags>
         <costList>
             <Steel>10</Steel>
@@ -1088,6 +1098,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_Brush_Gun</li>
+            <li>FCP_Rifle</li>
         </weaponTags>
         <costList>
             <Steel>65</Steel>
@@ -1169,6 +1180,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_Cowboy_Repeater</li>
+            <li>FCP_Rifle</li>
         </weaponTags>
         <costList>
             <Steel>40</Steel>
@@ -1245,6 +1257,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_Trail_Carbine</li>
+            <li>FCP_Rifle</li>
         </weaponTags>
         <costList>
             <Steel>55</Steel>
@@ -1321,6 +1334,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_32_Hunting_Rifle</li>
+            <li>FCP_Rifle</li>
         </weaponTags>
         <costList>
             <Steel>50</Steel>
@@ -1704,6 +1718,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_10mm_SMG</li>
+            <li>FCP_SMG</li>
         </weaponTags>
         <costList>
             <Steel>45</Steel>
@@ -1780,6 +1795,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_9mm_SMG</li>
+            <li>FCP_SMG</li>
         </weaponTags>
         <costList>
             <Steel>40</Steel>
@@ -1856,6 +1872,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_127mm_SMG</li>
+            <li>FCP_SMG</li>
         </weaponTags>
         <costList>
             <Steel>60</Steel>
@@ -1932,6 +1949,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_45_SMG</li>
+            <li>FCP_SMG</li>
         </weaponTags>
         <costList>
             <Steel>50</Steel>
@@ -2008,6 +2026,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_Silenced_22_SMG</li>
+            <li>FCP_SMG</li>
         </weaponTags>
         <costList>
             <Steel>38</Steel>
@@ -2223,8 +2242,10 @@
             <researchPrerequisites>
                 <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>5</Crafting>
+        <weaponTags>
+            <li>FCP_Caravan_Shotgun</li>
+            <li>FCP_Shotgun</li>
+        </weaponTags>
             </skillRequirements>
             <recipeUsers>
                 <li>FCP_Production_Simple_Weapons_Workbench</li>
@@ -2299,6 +2320,10 @@
             <researchPrerequisites>
                 <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
+        <weaponTags>
+            <li>FCP_Hunting_Shotgun</li>
+            <li>FCP_Shotgun</li>
+        </weaponTags>
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
@@ -2451,6 +2476,10 @@
             <researchPrerequisites>
                 <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
+        <weaponTags>
+            <li>FCP_Combat_Shotgun</li>
+            <li>FCP_Shotgun</li>
+        </weaponTags>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -2624,6 +2653,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_Single_Shotgun</li>
+            <li>FCP_Shotgun</li>
         </weaponTags>
         <costList>
             <Steel>16</Steel>
@@ -2702,6 +2732,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_Minigun_FO3</li>
+            <li>FCP_Power_Armor_Required</li>
         </weaponTags>
         <costList>
             <Steel>180</Steel>
@@ -2800,6 +2831,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_Light_Machine_Gun</li>
+            <li>FCP_Heavy_Weapon</li>
         </weaponTags>
         <costList>
             <Steel>120</Steel>
@@ -2883,6 +2915,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_10mm_Pistol</li>
+            <li>FCP_Pistol</li>
         </weaponTags>
         <costList>
             <Steel>28</Steel>
@@ -2964,6 +2997,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_Silenced_10mm_Pistol</li>
+            <li>FCP_Pistol</li>
         </weaponTags>
         <costList>
             <Steel>30</Steel>
@@ -3045,6 +3079,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_Chinese_Pistol</li>
+            <li>FCP_Pistol</li>
         </weaponTags>
         <costList>
             <Steel>16</Steel>
@@ -3126,6 +3161,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_9mm_Pistol</li>
+            <li>FCP_Pistol</li>
         </weaponTags>
         <costList>
             <Steel>22</Steel>
@@ -3207,6 +3243,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_556_Pistol</li>
+            <li>FCP_Pistol</li>
         </weaponTags>
         <costList>
             <Steel>32</Steel>
@@ -3288,6 +3325,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_127mm_Pistol</li>
+            <li>FCP_Pistol</li>
         </weaponTags>
         <costList>
             <Steel>38</Steel>
@@ -3369,6 +3407,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_Silenced_22_Pistol</li>
+            <li>FCP_Pistol</li>
         </weaponTags>
         <costList>
             <Steel>16</Steel>
@@ -3452,6 +3491,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_32_Pistol</li>
+            <li>FCP_Revolver</li>
         </weaponTags>
         <costList>
             <Steel>14</Steel>
@@ -3533,6 +3573,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_357_Revolver</li>
+            <li>FCP_Revolver</li>
         </weaponTags>
         <costList>
             <Steel>26</Steel>
@@ -3609,6 +3650,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_44Magnum_Revolver</li>
+            <li>FCP_Revolver</li>
         </weaponTags>
         <costList>
             <Steel>30</Steel>
@@ -3685,6 +3727,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_Hunting_Revolver</li>
+            <li>FCP_Revolver</li>
         </weaponTags>
         <costList>
             <Steel>40</Steel>
