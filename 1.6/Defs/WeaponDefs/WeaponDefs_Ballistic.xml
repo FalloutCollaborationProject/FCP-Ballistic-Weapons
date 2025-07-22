@@ -2242,6 +2242,9 @@
             <researchPrerequisites>
                 <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
         <weaponTags>
             <li>FCP_Caravan_Shotgun</li>
             <li>FCP_Shotgun</li>
