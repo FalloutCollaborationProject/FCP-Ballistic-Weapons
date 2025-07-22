@@ -2246,7 +2246,6 @@
             <li>FCP_Caravan_Shotgun</li>
             <li>FCP_Shotgun</li>
         </weaponTags>
-            </skillRequirements>
             <recipeUsers>
                 <li>FCP_Production_Simple_Weapons_Workbench</li>
             </recipeUsers>
