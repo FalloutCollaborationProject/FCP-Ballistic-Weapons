@@ -550,7 +550,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_308</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_308mm</defaultProjectile>
                 <warmupTime>2.0</warmupTime>
                 <range>45</range>
                 <burstShotCount>1</burstShotCount>
@@ -1344,7 +1344,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_32</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_32mm</defaultProjectile>
                 <warmupTime>1.5</warmupTime>
                 <range>35</range>
                 <burstShotCount>1</burstShotCount>
@@ -3731,7 +3731,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_4570</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_4570mm</defaultProjectile>
                 <warmupTime>0.7</warmupTime>
                 <range>26</range>
                 <burstShotCount>1</burstShotCount>
