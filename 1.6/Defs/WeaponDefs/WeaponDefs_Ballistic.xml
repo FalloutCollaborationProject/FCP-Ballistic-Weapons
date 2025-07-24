@@ -472,7 +472,7 @@
                 <burstShotCount>5</burstShotCount>
                 <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Assault_Carbine</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>6</muzzleFlashScale>
             </li>
         </verbs>
@@ -514,7 +514,7 @@
             <texPath>Weapons/Sniper_Rifles/FCP_DKS_501_Sniper_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_SniperRifle</soundInteract>
+        <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
                 <li>FCP_Research_Gunsmithing</li>
@@ -556,7 +556,7 @@
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_DKS_501_Sniper_Rifle</soundCast>
-                <soundCastTail>GunTail_Long</soundCastTail>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>
             </li>
         </verbs>
@@ -596,7 +596,7 @@
             <texPath>Weapons/Sniper_Rifles/FCP_Scoped_Hunting_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_SniperRifle</soundInteract>
+        <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
                 <li>FCP_Research_Gunsmithing</li>
@@ -638,7 +638,7 @@
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_308mm_Hunting_Rifle</soundCast>
-                <soundCastTail>GunTail_Long</soundCastTail>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>10</muzzleFlashScale>
             </li>
         </verbs>
@@ -1032,7 +1032,7 @@
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_BB</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>1.5</muzzleFlashScale>
             </li>
         </verbs>
@@ -1577,8 +1577,8 @@
                 <range>36</range>
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
-                <soundCast>FCP_Sound_Shot_Service_Rifle</soundCast>
-                <soundCastTail>GunTail_Long</soundCastTail>
+                <soundCast>FCP_Sound_Shot_Assault_Carbine</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>8</muzzleFlashScale>
             </li>
         </verbs>
@@ -1655,7 +1655,7 @@
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Pipe_BoltAction_Rifle</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>3.5</muzzleFlashScale>
             </li>
         </verbs>
@@ -1734,7 +1734,7 @@
                 <burstShotCount>6</burstShotCount>
                 <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_10mm_SMG</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>5</muzzleFlashScale>
             </li>
         </verbs>
@@ -1811,7 +1811,7 @@
                 <burstShotCount>7</burstShotCount>
                 <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_9mm_SMG</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>4</muzzleFlashScale>
             </li>
         </verbs>
@@ -1888,7 +1888,7 @@
                 <burstShotCount>5</burstShotCount>
                 <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_127mm_SMG</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>6</muzzleFlashScale>
             </li>
         </verbs>
@@ -1965,7 +1965,7 @@
                 <burstShotCount>5</burstShotCount>
                 <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_45mm_SMG</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>5</muzzleFlashScale>
             </li>
         </verbs>
@@ -2042,7 +2042,7 @@
                 <burstShotCount>8</burstShotCount>
                 <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Silenced_22_SMG</soundCast>
-                <soundCastTail>GunTail_Silenced</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>2.0</muzzleFlashScale>
             </li>
         </verbs>
@@ -2119,7 +2119,7 @@
                 <burstShotCount>3</burstShotCount>
                 <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Pipe_Burst</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>2.8</muzzleFlashScale>
             </li>
         </verbs>
@@ -2197,7 +2197,7 @@
                 <burstShotCount>2</burstShotCount>
                 <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Caravan_Shotgun</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>4</muzzleFlashScale>
             </li>
         </verbs>
@@ -2245,10 +2245,6 @@
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-        <weaponTags>
-            <li>FCP_Caravan_Shotgun</li>
-            <li>FCP_Shotgun</li>
-        </weaponTags>
             <recipeUsers>
                 <li>FCP_Production_Simple_Weapons_Workbench</li>
             </recipeUsers>
@@ -2266,6 +2262,8 @@
             <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
         </statBases>
         <weaponTags>
+            <li>FCP_Caravan_Shotgun</li>
+            <li>FCP_Shotgun</li>
             <li>FCP_Hunting_Shotgun</li>
         </weaponTags>
         <costList>
@@ -2282,7 +2280,7 @@
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Hunting_Shotgun</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>5</muzzleFlashScale>
             </li>
         </verbs>
@@ -2322,10 +2320,6 @@
             <researchPrerequisites>
                 <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
-        <weaponTags>
-            <li>FCP_Hunting_Shotgun</li>
-            <li>FCP_Shotgun</li>
-        </weaponTags>
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
@@ -2346,6 +2340,7 @@
             <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
         </statBases>
         <weaponTags>
+            <li>FCP_Shotgun</li>
             <li>FCP_Combat_Shotgun</li>
         </weaponTags>
         <costList>
@@ -2362,7 +2357,7 @@
                 <burstShotCount>6</burstShotCount>
                 <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Combat_Shotgun</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>5</muzzleFlashScale>
             </li>
         </verbs>
@@ -2438,7 +2433,7 @@
                 <burstShotCount>7</burstShotCount>
                 <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Riot_Shotgun</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>5</muzzleFlashScale>
             </li>
         </verbs>
@@ -2478,10 +2473,6 @@
             <researchPrerequisites>
                 <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
-        <weaponTags>
-            <li>FCP_Combat_Shotgun</li>
-            <li>FCP_Shotgun</li>
-        </weaponTags>
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
@@ -2502,6 +2493,7 @@
             <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
         </statBases>
         <weaponTags>
+            <li>FCP_Shotgun</li>
             <li>FCP_SawnOff_Shotgun</li>
         </weaponTags>
         <costList>
@@ -2518,7 +2510,7 @@
                 <burstShotCount>2</burstShotCount>
                 <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_SawnOff_Shotgun</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>3.5</muzzleFlashScale>
             </li>
         </verbs>
@@ -2594,7 +2586,7 @@
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_LeverAction_Shotgun</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>5</muzzleFlashScale>
             </li>
         </verbs>
@@ -2671,7 +2663,7 @@
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Single_Shotgun</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>3.5</muzzleFlashScale>
             </li>
         </verbs>
@@ -2708,7 +2700,7 @@
             <texPath>Weapons/Heavy/Minigun_FO3</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Minigun</soundInteract>
+        <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
                 <li>FCP_Research_Gunsmithing</li>
@@ -2807,7 +2799,7 @@
             <texPath>Weapons/Heavy/LMG</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_LMG</soundInteract>
+        <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
                 <li>FCP_Research_Gunsmithing</li>
@@ -2891,7 +2883,7 @@
             <texPath>Weapons/Pistols/FCP_10mm_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Pistol</soundInteract>
+        <soundInteract>Interact_Autopistol</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
                 <li>FCP_Research_Gunsmithing</li>
@@ -2933,7 +2925,7 @@
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_10mm_Pistol</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>2.5</muzzleFlashScale>
             </li>
         </verbs>
@@ -2973,7 +2965,7 @@
             <texPath>Weapons/Pistols/FCP_Silenced_10mm_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Pistol</soundInteract>
+        <soundInteract>Interact_Autopistol</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
                 <li>FCP_Research_Gunsmithing</li>
@@ -3015,7 +3007,7 @@
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Silenced_10mm_Pistol</soundCast>
-                <soundCastTail>GunTail_Silenced</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>2.0</muzzleFlashScale>
             </li>
         </verbs>
@@ -3055,7 +3047,7 @@
             <texPath>Weapons/Pistols/FCP_Chinese_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Pistol</soundInteract>
+        <soundInteract>Interact_Autopistol</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
                 <li>FCP_Research_Gunsmithing</li>
@@ -3097,7 +3089,7 @@
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Chinese_Pistol</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>1.8</muzzleFlashScale>
             </li>
         </verbs>
@@ -3137,7 +3129,7 @@
             <texPath>Weapons/Pistols/FCP_9mm_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Pistol</soundInteract>
+        <soundInteract>Interact_Autopistol</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
                 <li>FCP_Research_Gunsmithing</li>
@@ -3179,7 +3171,7 @@
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_9mm_Pistol</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>2.2</muzzleFlashScale>
             </li>
         </verbs>
@@ -3219,7 +3211,7 @@
             <texPath>Weapons/Pistols/FCP_556_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Pistol</soundInteract>
+        <soundInteract>Interact_Autopistol</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
                 <li>FCP_Research_Gunsmithing</li>
@@ -3301,7 +3293,7 @@
             <texPath>Weapons/Pistols/FCP_127mm_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Pistol</soundInteract>
+        <soundInteract>Interact_Autopistol</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
                 <li>FCP_Research_Gunsmithing</li>
@@ -3342,8 +3334,8 @@
                 <range>18</range>
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
-                <soundCast>FCP_Sound_Shot_127mm_Pistol</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCast>FCP_Sound_Shot_127mm_SMG</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>3.5</muzzleFlashScale>
             </li>
         </verbs>
@@ -3383,7 +3375,7 @@
             <texPath>Weapons/Pistols/FCP_Silenced_22_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Pistol</soundInteract>
+        <soundInteract>Interact_Autopistol</soundInteract>
         <recipeMaker>
             <researchPrerequisites>
                 <li>FCP_Research_Gunsmithing</li>
@@ -3425,7 +3417,7 @@
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Silenced_22_Pistol</soundCast>
-                <soundCastTail>GunTail_Silenced</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>1.5</muzzleFlashScale>
             </li>
         </verbs>
@@ -3509,7 +3501,7 @@
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_32_Pistol</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>1.7</muzzleFlashScale>
             </li>
         </verbs>
@@ -3591,7 +3583,7 @@
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_357_Revolver</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>2.7</muzzleFlashScale>
             </li>
         </verbs>
@@ -3668,7 +3660,7 @@
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_44Magnum_Revolver</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>3.0</muzzleFlashScale>
             </li>
         </verbs>
@@ -3824,7 +3816,7 @@
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Pipe_Revolver</soundCast>
-                <soundCastTail>GunTail_Small</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>1.6</muzzleFlashScale>
             </li>
         </verbs>
