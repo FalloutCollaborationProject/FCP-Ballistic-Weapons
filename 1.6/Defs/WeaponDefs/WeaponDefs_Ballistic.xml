@@ -2775,7 +2775,7 @@
                 <range>28</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
                 <burstShotCount>1</burstShotCount>
-                <soundCast>AN_LaserDrill_Shot</soundCast>
+                <soundCast>FCP_Sound_Shot_Minigun</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
                 <pelletCount>1</pelletCount>
