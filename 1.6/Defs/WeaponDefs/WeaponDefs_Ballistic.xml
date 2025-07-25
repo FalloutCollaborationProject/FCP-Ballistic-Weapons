@@ -3867,6 +3867,7 @@
             <AccuracyLong>0.60</AccuracyLong>
             <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
         </statBases>
+        <smeltable>false</smeltable>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -3908,6 +3909,7 @@
             <AccuracyLong>0.65</AccuracyLong>
             <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
         </statBases>
+        <smeltable>false</smeltable>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -3949,6 +3951,7 @@
             <AccuracyLong>0.60</AccuracyLong>
             <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
         </statBases>
+        <smeltable>false</smeltable>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -3990,6 +3993,7 @@
             <AccuracyLong>0.98</AccuracyLong>
             <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
         </statBases>
+        <smeltable>false</smeltable>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -4031,6 +4035,7 @@
             <AccuracyLong>0.95</AccuracyLong>
             <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
         </statBases>
+        <smeltable>false</smeltable>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -4073,6 +4078,7 @@
             <AccuracyLong>0.85</AccuracyLong>
             <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
         </statBases>
+        <smeltable>false</smeltable>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -4116,6 +4122,7 @@
             <AccuracyLong>0.15</AccuracyLong>
             <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
         </statBases>
+        <smeltable>false</smeltable>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -4158,6 +4165,7 @@
             <AccuracyLong>0.90</AccuracyLong>
             <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
         </statBases>
+        <smeltable>false</smeltable>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
