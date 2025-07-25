@@ -2801,7 +2801,7 @@
         <label>Light Machine Gun</label>
         <description>The Light Machine Gun is a pre-war, fully automatic support weapon chambered for 5.56mm rounds. Designed for sustained suppressive fire, it features a high-capacity magazine and a high rate of fire, making it ideal for pinning down enemies and providing covering fire in open combat.</description>
         <graphicData>
-            <texPath>Weapons/Heavy/LMG</texPath>
+            <texPath>Weapons/Heavy_Weapons/FCP_Light_Machine_Gun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
