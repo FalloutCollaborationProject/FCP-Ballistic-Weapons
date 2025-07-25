@@ -2474,6 +2474,11 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Shotgun</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+            </researchPrerequisites>
+         <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
             <recipeUsers>
