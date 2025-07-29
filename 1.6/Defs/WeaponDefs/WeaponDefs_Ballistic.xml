@@ -2702,7 +2702,7 @@
         <label>Minigun</label>
         <description>The Minigun is a multi-barrel, rotary machine gun capable of firing 5mm rounds at an extremely high rate. Its devastating firepower makes it a favorite for heavy support roles, but its weight and bulk limit mobility.</description>
         <graphicData>
-            <texPath>Weapons/Heavy/FCP_Minigun</texPath>
+            <texPath>Weapons/Heavy_Weapons/FCP_Minigun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
