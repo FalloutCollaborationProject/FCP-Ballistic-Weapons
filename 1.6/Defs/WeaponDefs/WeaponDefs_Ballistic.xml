@@ -3846,4 +3846,347 @@
         </tools>
     </ThingDef> -->
 
+
+    <!--_____ Unique Weapons _____-->
+
+    <!-- That Gun -->
+
+    <ThingDef ParentName="BaseGun">
+        <defName>FCP_Gun_ThatGun</defName>
+        <label>That Gun</label>
+        <description>A unique, well-worn revolver with a distinctive design. Chambered in 5.56mm, it is famed for its reliability and history.</description>
+        <graphicData>
+            <texPath>Weapons/Unique/FCP_That_Gun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>1.2</Mass>
+            <AccuracyTouch>0.70</AccuracyTouch>
+            <AccuracyShort>0.80</AccuracyShort>
+            <AccuracyMedium>0.75</AccuracyMedium>
+            <AccuracyLong>0.60</AccuracyLong>
+            <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+        </statBases>
+        <smeltable>false</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_556mm</defaultProjectile>
+                <warmupTime>0.6</warmupTime>
+                <range>24</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>FCP_Sound_Shot_ThatGun</soundCast>
+                <soundCastTail>GunTail_Small</soundCastTail>
+                <muzzleFlashScale>6</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Unique</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.UniqueThingExtension"></li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Lucky -->
+
+    <ThingDef ParentName="BaseGun">
+        <defName>FCP_Gun_Lucky</defName>
+        <label>Lucky</label>
+        <description>A pristine .357 Magnum revolver with intricate engravings. Its action is smooth and it is renowned for its accuracy and speed.</description>
+        <graphicData>
+            <texPath>Weapons/Unique/FCP_Lucky</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>1.0</Mass>
+            <AccuracyTouch>0.75</AccuracyTouch>
+            <AccuracyShort>0.85</AccuracyShort>
+            <AccuracyMedium>0.80</AccuracyMedium>
+            <AccuracyLong>0.65</AccuracyLong>
+            <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+        </statBases>
+        <smeltable>false</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_357mm</defaultProjectile>
+                <warmupTime>0.5</warmupTime>
+                <range>22</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>FCP_Sound_Shot_Lucky</soundCast>
+                <soundCastTail>GunTail_Small</soundCastTail>
+                <muzzleFlashScale>5</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Unique</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.UniqueThingExtension"></li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Maria -->
+
+    <ThingDef ParentName="BaseGun">
+        <defName>FCP_Gun_Maria</defName>
+        <label>Maria</label>
+        <description>A beautifully engraved 9mm pistol, once belonging to a notorious figure. It is both elegant and deadly.</description>
+        <graphicData>
+            <texPath>Weapons/Unique/FCP_Maria</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>0.9</Mass>
+            <AccuracyTouch>0.80</AccuracyTouch>
+            <AccuracyShort>0.85</AccuracyShort>
+            <AccuracyMedium>0.80</AccuracyMedium>
+            <AccuracyLong>0.60</AccuracyLong>
+            <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+        </statBases>
+        <smeltable>false</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_9mm</defaultProjectile>
+                <warmupTime>0.4</warmupTime>
+                <range>20</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>FCP_Sound_Shot_Maria</soundCast>
+                <soundCastTail>GunTail_Small</soundCastTail>
+                <muzzleFlashScale>4</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Unique</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.UniqueThingExtension"></li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Gobi Campaign Scout Rifle -->
+
+    <ThingDef ParentName="BaseGun">
+        <defName>FCP_Gun_GobiCampaignScoutRifle</defName>
+        <label>Gobi Campaign Scout Rifle</label>
+        <description>A rare, custom sniper rifle awarded to elite marksmen. It is lightweight, accurate, and highly prized.</description>
+        <graphicData>
+            <texPath>Weapons/Unique/FCP_Gobi_Campaign_Scout_Rifle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>4.0</Mass>
+            <AccuracyTouch>0.60</AccuracyTouch>
+            <AccuracyShort>0.85</AccuracyShort>
+            <AccuracyMedium>0.95</AccuracyMedium>
+            <AccuracyLong>0.98</AccuracyLong>
+            <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+        </statBases>
+        <smeltable>false</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_308mm</defaultProjectile>
+                <warmupTime>1.5</warmupTime>
+                <range>40</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>FCP_Sound_Shot_GobiScout</soundCast>
+                <soundCastTail>GunTail_Long</soundCastTail>
+                <muzzleFlashScale>8</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Unique</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.UniqueThingExtension"></li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Medicine Stick -->
+
+    <ThingDef ParentName="BaseGun">
+        <defName>FCP_Gun_MedicineStick</defName>
+        <label>Medicine Stick</label>
+        <description>A unique lever-action brush gun decorated with tribal markings. It is powerful, accurate, and a symbol of respect.</description>
+        <graphicData>
+            <texPath>Weapons/Unique/FCP_Medicine_Stick</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <Mass>3.8</Mass>
+            <AccuracyTouch>0.65</AccuracyTouch>
+            <AccuracyShort>0.80</AccuracyShort>
+            <AccuracyMedium>0.90</AccuracyMedium>
+            <AccuracyLong>0.95</AccuracyLong>
+            <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+        </statBases>
+        <smeltable>false</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_4570mm</defaultProjectile>
+                <warmupTime>1.2</warmupTime>
+                <range>36</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>FCP_Sound_Shot_MedicineStick</soundCast>
+                <soundCastTail>GunTail_Long</soundCastTail>
+                <muzzleFlashScale>7</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Unique</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.UniqueThingExtension"></li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Bozar -->
+
+    <ThingDef ParentName="BaseGun">
+        <defName>FCP_Gun_Bozar</defName>
+        <label>Bozar</label>
+        <description>A unique automatic marksman rifle chambered in .308. Combining the accuracy of a sniper rifle with the fire rate of a machine gun, it is a rare and devastating weapon.</description>
+        <graphicData>
+            <texPath>Weapons/Unique/FCP_Bozar</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <Mass>7.5</Mass>
+            <AccuracyTouch>0.60</AccuracyTouch>
+            <AccuracyShort>0.85</AccuracyShort>
+            <AccuracyMedium>0.90</AccuracyMedium>
+            <AccuracyLong>0.85</AccuracyLong>
+            <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+        </statBases>
+        <smeltable>false</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_308mm</defaultProjectile>
+                <warmupTime>0.7</warmupTime>
+                <range>36</range>
+                <burstShotCount>6</burstShotCount>
+                <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Bozar</soundCast>
+                <soundCastTail>GunTail_Long</soundCastTail>
+                <muzzleFlashScale>7</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Unique</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.UniqueThingExtension"></li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Dinner Bell -->
+
+    <ThingDef ParentName="BaseGun">
+        <defName>FCP_Gun_DinnerBell</defName>
+        <label>Dinner Bell</label>
+        <description>A unique pump-action hunting shotgun, renowned for its reliability and stopping power. Its custom modifications make it a favorite for wasteland hunters.</description>
+        <graphicData>
+            <texPath>Weapons/Unique/FCP_Dinner_Bell</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Shotgun</soundInteract>
+        <statBases>
+            <Mass>3.2</Mass>
+            <AccuracyTouch>0.85</AccuracyTouch>
+            <AccuracyShort>0.80</AccuracyShort>
+            <AccuracyMedium>0.45</AccuracyMedium>
+            <AccuracyLong>0.15</AccuracyLong>
+            <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+        </statBases>
+        <smeltable>false</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
+                <warmupTime>0.5</warmupTime>
+                <range>22</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>FCP_Sound_Shot_DinnerBell</soundCast>
+                <soundCastTail>GunTail_Shotgun</soundCastTail>
+                <muzzleFlashScale>4</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Unique</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.UniqueThingExtension"></li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Ratslayer -->
+    
+    <ThingDef ParentName="BaseGun">
+        <defName>FCP_Gun_Ratslayer</defName>
+        <label>Ratslayer</label>
+        <description>A unique, silenced varmint rifle with a custom scope. Lightweight, accurate, and perfect for picking off small targets at range.</description>
+        <graphicData>
+            <texPath>Weapons/Unique/FCP_Ratslayer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <Mass>2.8</Mass>
+            <AccuracyTouch>0.80</AccuracyTouch>
+            <AccuracyShort>0.90</AccuracyShort>
+            <AccuracyMedium>0.95</AccuracyMedium>
+            <AccuracyLong>0.90</AccuracyLong>
+            <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+        </statBases>
+        <smeltable>false</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_22LR</defaultProjectile>
+                <warmupTime>0.3</warmupTime>
+                <range>30</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>FCP_Sound_Shot_Ratslayer</soundCast>
+                <soundCastTail>GunTail_Silenced</soundCastTail>
+                <muzzleFlashScale>2.5</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Unique</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.UniqueThingExtension"></li>
+        </modExtensions>
+    </ThingDef>
+
 </Defs>
