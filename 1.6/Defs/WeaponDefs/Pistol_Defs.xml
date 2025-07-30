@@ -712,7 +712,7 @@
                 <range>17</range>
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
-                <soundCast>FCP_Sound_Shot_14mm_Pistol</soundCast>
+                <soundCast>FCP_Sound_Shot_10mm_Pistol</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>3.8</muzzleFlashScale>
             </li>
@@ -876,7 +876,7 @@
                 <range>18</range>
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
-                <soundCast>FCP_Sound_Shot_Colt_6520</soundCast>
+                <soundCast>FCP_Sound_Shot_10mm_Pistol</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>2.3</muzzleFlashScale>
             </li>

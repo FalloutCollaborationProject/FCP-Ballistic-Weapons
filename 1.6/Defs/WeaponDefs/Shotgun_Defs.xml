@@ -649,7 +649,7 @@
                 <range>16</range>
                 <burstShotCount>8</burstShotCount>
                 <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-                <soundCast>FCP_Sound_Shot_Citykiller</soundCast>
+                <soundCast>FCP_Sound_Shot_Combat_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>5.5</muzzleFlashScale>
             </li>
@@ -734,7 +734,7 @@
                 <range>17</range>
                 <burstShotCount>10</burstShotCount>
                 <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-                <soundCast>FCP_Sound_Shot_Combat_Shotgun_MkII</soundCast>
+                <soundCast>FCP_Sound_Shot_Combat_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>6</muzzleFlashScale>
             </li>
@@ -819,7 +819,7 @@
                 <range>15</range>
                 <burstShotCount>20</burstShotCount>
                 <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-                <soundCast>FCP_Sound_Shot_Jackhammer</soundCast>
+                <soundCast>FCP_Sound_Shot_Combat_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>7</muzzleFlashScale>
             </li>
