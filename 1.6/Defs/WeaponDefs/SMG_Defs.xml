@@ -80,6 +80,93 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- HK-10 SMG -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_HK_10</defName>
+        <label>HK-10 SMG</label>
+        <description>The HK-10 is a modern, compact submachine gun known for its reliability and high rate of fire. Favored by security forces and elite units for urban operations.</description>
+        <graphicData>
+            <texPath>Weapons/Submachine_Guns/FCP_HK_10</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_SMG</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>28000</WorkToMake>
+            <Mass>3.0</Mass>
+            <AccuracyTouch>0.78</AccuracyTouch>
+            <AccuracyShort>0.68</AccuracyShort>
+            <AccuracyMedium>0.42</AccuracyMedium>
+            <AccuracyLong>0.22</AccuracyLong>
+            <RangedWeapon_Cooldown>1.05</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_HK_10</li>
+            <li>FCP_SMG</li>
+        </weaponTags>
+        <costList>
+            <Steel>48</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_10mm</defaultProjectile>
+                <warmupTime>0.55</warmupTime>
+                <range>19</range>
+                <burstShotCount>7</burstShotCount>
+                <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_10mm_SMG</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>4.5</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- 9mm SMG -->
@@ -157,6 +244,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- 12.7mm SMG -->
@@ -234,6 +326,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- .45 SMG -->
@@ -393,6 +490,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Pipe Gun -->
@@ -470,6 +572,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef> -->
 
 </Defs>
