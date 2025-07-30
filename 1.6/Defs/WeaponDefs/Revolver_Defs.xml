@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Ballistic Weapons __________-->
+
+    <!--_____ Revolvers _____-->
+
+    <!-- .32 Pistol -->
+
+    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_32_Pistol</defName>
+        <label>.32 Pistol</label>
+        <description>The .32 Pistol is a simple, six-shot revolver chambered for .32 caliber rounds. Commonly found throughout the wasteland, it is easy to maintain and use, but lacks the stopping power of larger handguns.</description>
+        <graphicData>
+            <texPath>Weapons/Revolvers/FCP_32_Pistol</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Revolver</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>7000</WorkToMake>
+            <Mass>1.0</Mass>
+            <AccuracyTouch>0.86</AccuracyTouch>
+            <AccuracyShort>0.68</AccuracyShort>
+            <AccuracyMedium>0.32</AccuracyMedium>
+            <AccuracyLong>0.08</AccuracyLong>
+            <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_32_Pistol</li>
+            <li>FCP_Revolver</li>
+        </weaponTags>
+        <costList>
+            <Steel>14</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_32mm</defaultProjectile>
+                <warmupTime>0.3</warmupTime>
+                <range>15</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_32_Pistol</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>1.7</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>2.5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>2.5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef> -->
+
+    <!-- .357 Revolver -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_357_Revolver</defName>
+        <label>.357 Revolver</label>
+        <description>The .357 Revolver is a classic, six-shot sidearm chambered for .357 Magnum rounds. Renowned for its reliability and stopping power, it is a favored weapon among lawmen and gunslingers in the wasteland.</description>
+        <graphicData>
+            <texPath>Weapons/Revolvers/FCP_357_Revolver</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Revolver</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>14000</WorkToMake>
+            <Mass>1.4</Mass>
+            <AccuracyTouch>0.87</AccuracyTouch>
+            <AccuracyShort>0.73</AccuracyShort>
+            <AccuracyMedium>0.42</AccuracyMedium>
+            <AccuracyLong>0.13</AccuracyLong>
+            <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_357_Revolver</li>
+            <li>FCP_Revolver</li>
+        </weaponTags>
+        <costList>
+            <Steel>26</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_357mm</defaultProjectile>
+                <warmupTime>0.45</warmupTime>
+                <range>21</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_357_Revolver</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>2.7</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>4.5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>4.5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <!-- .44 Magnum Revolver -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_44Magnum_Revolver</defName>
+        <label>.44 Magnum Revolver</label>
+        <description>The .44 Magnum Revolver is a powerful, six-shot sidearm chambered for .44 Magnum rounds. Renowned for its high stopping power and intimidating presence, it is a prized weapon among wasteland hunters and enforcers.</description>
+        <graphicData>
+            <texPath>Weapons/Revolvers/FCP_44Magnum_Revolver</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Revolver</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>5</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>17000</WorkToMake>
+            <Mass>1.7</Mass>
+            <AccuracyTouch>0.85</AccuracyTouch>
+            <AccuracyShort>0.70</AccuracyShort>
+            <AccuracyMedium>0.40</AccuracyMedium>
+            <AccuracyLong>0.12</AccuracyLong>
+            <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_44Magnum_Revolver</li>
+            <li>FCP_Revolver</li>
+        </weaponTags>
+        <costList>
+            <Steel>30</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_44Magnum</defaultProjectile>
+                <warmupTime>0.55</warmupTime>
+                <range>22</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_44Magnum_Revolver</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>3.0</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <!-- Hunting Revolver -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Hunting_Revolver</defName>
+        <label>Hunting Revolver</label>
+        <description>The Hunting Revolver is a large, single-action revolver chambered for .45-70 Government rounds. Designed for hunting big game, it delivers devastating power and accuracy, but its heavy frame and slow rate of fire make it unwieldy in close combat.</description>
+        <graphicData>
+            <texPath>Weapons/Revolvers/FCP_Hunting_Revolver</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Revolver</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>22000</WorkToMake>
+            <Mass>2.4</Mass>
+            <AccuracyTouch>0.82</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.48</AccuracyMedium>
+            <AccuracyLong>0.18</AccuracyLong>
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Hunting_Revolver</li>
+            <li>FCP_Revolver</li>
+        </weaponTags>
+        <costList>
+            <Steel>40</Steel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_4570mm</defaultProjectile>
+                <warmupTime>0.7</warmupTime>
+                <range>26</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Hunting_Revolver</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>3.8</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>6</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+
+    <!-- Pipe Revolver -->
+
+    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Pipe_Revolver</defName>
+        <label>Pipe Revolver</label>
+        <description>
+            The Pipe Revolver is a crude, homemade revolver assembled from scavenged pipes and scrap metal. While unreliable and slow to reload, it is easy to craft and maintain, making it a common sidearm among wasteland survivors.
+        </description>
+        <graphicData>
+            <texPath>Weapons/Revolvers/FCP_Pipe_Revolver</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Revolver</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>5000</WorkToMake>
+            <Mass>1.2</Mass>
+            <AccuracyTouch>0.60</AccuracyTouch>
+            <AccuracyShort>0.55</AccuracyShort>
+            <AccuracyMedium>0.28</AccuracyMedium>
+            <AccuracyLong>0.07</AccuracyLong>
+            <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Pipe_Weapons</li>
+        </weaponTags>
+        <costList>
+            <Steel>10</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+            <WoodLog>6</WoodLog>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_32mm</defaultProjectile>
+                <warmupTime>0.6</warmupTime>
+                <range>17</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Pipe_Revolver</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>1.6</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>2.5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>2.5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef> -->
+
+</Defs>

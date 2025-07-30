@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Ballistic Weapons __________-->
+
+    <!--_____ Sniper Rifles _____-->
+
+    <!-- DKS-501 Sniper Rifle -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_DKS_501_Sniper_Rifle</defName>
+        <label>DKS-501 Sniper Rifle</label>
+        <description>The DKS-501 is a pre-war bolt-action sniper rifle chambered for .308 rounds. Known for its exceptional accuracy and stopping power, it is a favorite among marksmen for long-range engagements.</description>
+        <graphicData>
+            <texPath>Weapons/Sniper_Rifles/FCP_DKS_501_Sniper_Rifle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>50000</WorkToMake>
+            <Mass>5.5</Mass>
+            <AccuracyTouch>0.50</AccuracyTouch>
+            <AccuracyShort>0.70</AccuracyShort>
+            <AccuracyMedium>0.85</AccuracyMedium>
+            <AccuracyLong>0.95</AccuracyLong>
+            <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_DKS_501_Sniper_Rifle</li>
+            <li>FCP_Sniper_Rifle</li>
+        </weaponTags>
+        <costList>
+            <Steel>80</Steel>
+            <ComponentIndustrial>8</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_308mm</defaultProjectile>
+                <warmupTime>2.0</warmupTime>
+                <range>45</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_DKS_501_Sniper_Rifle</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>12</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Scoped Hunting Rifle -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Scoped_Hunting_Rifle</defName>
+        <label>Scoped Hunting Rifle</label>
+        <description>The Scoped Hunting Rifle is a pre-war bolt-action rifle chambered for .308 rounds. Equipped with a scope, it is highly accurate and effective for medium to long-range engagements, making it a reliable choice for hunters and marksmen alike.</description>
+        <graphicData>
+            <texPath>Weapons/Sniper_Rifles/FCP_Scoped_Hunting_Rifle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>7</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>45000</WorkToMake>
+            <Mass>4.8</Mass>
+            <AccuracyTouch>0.55</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.85</AccuracyMedium>
+            <AccuracyLong>0.90</AccuracyLong>
+            <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Scoped_Hunting_Rifle</li>
+            <li>FCP_Sniper_Rifle</li>
+        </weaponTags>
+        <costList>
+            <Steel>75</Steel>
+            <ComponentIndustrial>7</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_308mm</defaultProjectile>
+                <warmupTime>1.8</warmupTime>
+                <range>40</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_308mm_Hunting_Rifle</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>10</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!--__________ Ballistic Weapons __________-->
+
+    <!--_____ Heavy Weapons _____-->
+
+    <!-- Minigun (Fallout 3/ FNV) -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Minigun</defName>
+        <label>Minigun</label>
+        <description>The Minigun is a multi-barrel, rotary machine gun capable of firing 5mm rounds at an extremely high rate. Its devastating firepower makes it a favorite for heavy support roles, but its weight and bulk limit mobility.</description>
+        <graphicData>
+            <texPath>Weapons/Heavy_Weapons/FCP_Minigun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>10</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>90000</WorkToMake>
+            <Mass>12.0</Mass>
+            <AccuracyTouch>0.50</AccuracyTouch>
+            <AccuracyShort>0.45</AccuracyShort>
+            <AccuracyMedium>0.30</AccuracyMedium>
+            <AccuracyLong>0.10</AccuracyLong>
+            <RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Minigun_FO3</li>
+            <li>FCP_Power_Armor_Required</li>
+        </weaponTags>
+        <costList>
+            <Steel>180</Steel>
+            <ComponentIndustrial>14</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_5mm</defaultProjectile>
+                <warmupTime>2.5</warmupTime>
+                <range>28</range>
+                <burstShotCount>25</burstShotCount>
+                <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Minigun</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>16</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>12</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="WeaponRequirement.CompProperties_WeaponRequirement">
+                <requiredApparels>
+                    <li>FCP_Apparel_Power_Armor_Frame</li>
+                </requiredApparels>
+            </li>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Light Machine Gun -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Light_Machine_Gun</defName>
+        <label>Light Machine Gun</label>
+        <description>The Light Machine Gun is a pre-war, fully automatic support weapon chambered for 5.56mm rounds. Designed for sustained suppressive fire, it features a high-capacity magazine and a high rate of fire, making it ideal for pinning down enemies and providing covering fire in open combat.</description>
+        <graphicData>
+            <texPath>Weapons/Heavy_Weapons/FCP_Light_Machine_Gun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>60000</WorkToMake>
+            <Mass>8.5</Mass>
+            <AccuracyTouch>0.55</AccuracyTouch>
+            <AccuracyShort>0.60</AccuracyShort>
+            <AccuracyMedium>0.55</AccuracyMedium>
+            <AccuracyLong>0.40</AccuracyLong>
+            <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Light_Machine_Gun</li>
+            <li>FCP_Heavy_Weapon</li>
+        </weaponTags>
+        <costList>
+            <Steel>120</Steel>
+            <ComponentIndustrial>10</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_556mm</defaultProjectile>
+                <warmupTime>1.8</warmupTime>
+                <range>32</range>
+                <burstShotCount>12</burstShotCount>
+                <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_LMG</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>13</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>
