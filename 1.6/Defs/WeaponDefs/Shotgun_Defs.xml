@@ -91,7 +91,7 @@
 
     <!-- Hunting Shotgun -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="BaseHumanMakeableGun"> 
         <defName>FCP_Gun_Hunting_Shotgun</defName>
         <label>Hunting Shotgun</label>
         <description>A pump-action shotgun designed for hunting game. Favored for its rugged construction, high capacity, and reliability in the harshest wasteland conditions.</description>
