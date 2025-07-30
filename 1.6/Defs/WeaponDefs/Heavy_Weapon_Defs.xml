@@ -165,4 +165,169 @@
         </comps>
     </ThingDef>
 
+    <!-- Chunky Boi -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_ChunkyBoi</defName>
+        <label>Chunky Boi</label>
+        <description>A massive, custom heavy weapon designed for maximum firepower and intimidation.</description>
+        <graphicData>
+            <texPath>Weapons/Heavy_Weapons/FCP_Chunky_Boi</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <WorkToMake>100000</WorkToMake>
+            <Mass>15.0</Mass>
+            <AccuracyTouch>0.45</AccuracyTouch>
+            <AccuracyShort>0.40</AccuracyShort>
+            <AccuracyMedium>0.25</AccuracyMedium>
+            <AccuracyLong>0.10</AccuracyLong>
+            <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>200</Steel>
+            <ComponentIndustrial>16</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_556mm</defaultProjectile>
+                <warmupTime>3.0</warmupTime>
+                <range>26</range>
+                <burstShotCount>8</burstShotCount>
+                <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Chunky_Boi</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>18</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>15</power>
+                <cooldownTime>2.5</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- MkI Avenger -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_MkI_Avenger</defName>
+        <label>MkI Avenger</label>
+        <description>An early model Avenger heavy weapon, known for its high rate of fire and reliability.</description>
+        <graphicData>
+            <texPath>Weapons/Heavy_Weapons/FCP_MkI_Avenger</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <WorkToMake>85000</WorkToMake>
+            <Mass>10.0</Mass>
+            <AccuracyTouch>0.55</AccuracyTouch>
+            <AccuracyShort>0.50</AccuracyShort>
+            <AccuracyMedium>0.35</AccuracyMedium>
+            <AccuracyLong>0.15</AccuracyLong>
+            <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>160</Steel>
+            <ComponentIndustrial>12</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_5mm</defaultProjectile>
+                <warmupTime>2.0</warmupTime>
+                <range>28</range>
+                <burstShotCount>20</burstShotCount>
+                <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Minigun</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>15</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>13</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Vindicator -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Vindicator</defName>
+        <label>Vindicator</label>
+        <description>A powerful heavy weapon, designed for maximum suppression and area denial.</description>
+        <graphicData>
+            <texPath>Weapons/Heavy_Weapons/FCP_Vindicator</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <WorkToMake>95000</WorkToMake>
+            <Mass>13.0</Mass>
+            <AccuracyTouch>0.50</AccuracyTouch>
+            <AccuracyShort>0.55</AccuracyShort>
+            <AccuracyMedium>0.40</AccuracyMedium>
+            <AccuracyLong>0.20</AccuracyLong>
+            <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
+        </statBases>
+        <costList>
+            <Steel>180</Steel>
+            <ComponentIndustrial>15</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_5mm</defaultProjectile>
+                <warmupTime>2.2</warmupTime>
+                <range>30</range>
+                <burstShotCount>18</burstShotCount>
+                <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Minigun</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>17</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>14</power>
+                <cooldownTime>2.2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
 </Defs>

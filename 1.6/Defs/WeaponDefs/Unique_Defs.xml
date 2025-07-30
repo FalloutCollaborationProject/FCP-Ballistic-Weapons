@@ -158,7 +158,7 @@
                 <warmupTime>0.2</warmupTime>
                 <range>18</range>
                 <burstShotCount>1</burstShotCount>
-                <soundCast>FCP_Sound_Shot_BB_Gun</soundCast>
+                <soundCast>FCP_Sound_Shot_BB</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>1.5</muzzleFlashScale>
             </li>
@@ -242,7 +242,7 @@
                 <warmupTime>0.4</warmupTime>
                 <range>18</range>
                 <burstShotCount>2</burstShotCount>
-                <soundCast>FCP_Sound_Shot_DoubleBarrel_Shotgun</soundCast>
+                <soundCast>FCP_Sound_Shot_Caravan_Shotgun</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>4</muzzleFlashScale>
             </li>
@@ -326,7 +326,7 @@
                 <warmupTime>0.2</warmupTime>
                 <range>16</range>
                 <burstShotCount>1</burstShotCount>
-                <soundCast>FCP_Sound_Shot_Nailgun</soundCast>
+                <soundCast>FCP_Sound_Shot_BB</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>2</muzzleFlashScale>
             </li>
@@ -346,7 +346,7 @@
     <ThingDef ParentName="BaseGun">
         <defName>FCP_Gun_LilDevil</defName>
         <label>Lil' Devil</label>
-        <description>A unique .22 pistol, small but surprisingly deadly.</description>
+    <description>Lil' Devil is a unique, compact 12.7mm pistol with a polished chrome finish and distinctive red grips. This weapon is renowned for its high critical hit chance and rapid rate of fire, making it one of the most deadly sidearms in the Mojave. Favored by those who value speed and precision, Lil' Devil stands out as a rare and coveted piece among New Vegas's arsenal of unique weapons.</description>
         <graphicData>
             <texPath>Weapons/Unique/FCP_Lil_Devil</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -364,11 +364,11 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_22LR</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_127mm</defaultProjectile>
                 <warmupTime>0.2</warmupTime>
                 <range>14</range>
                 <burstShotCount>1</burstShotCount>
-                <soundCast>FCP_Sound_Shot_22_Pistol</soundCast>
+                <soundCast>FCP_Sound_Shot_127mm_Pistol</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>1.5</muzzleFlashScale>
             </li>
@@ -410,7 +410,7 @@
                 <warmupTime>0.7</warmupTime>
                 <range>28</range>
                 <burstShotCount>1</burstShotCount>
-                <soundCast>FCP_Sound_Shot_LeverAction_Rifle</soundCast>
+                <soundCast>FCP_Sound_Shot_Cowboy_Repeater</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>4.5</muzzleFlashScale>
             </li>
@@ -453,7 +453,7 @@
                 <range>20</range>
                 <burstShotCount>5</burstShotCount>
                 <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
-                <soundCast>FCP_Sound_Shot_Avenger</soundCast>
+                <soundCast>FCP_Sound_Shot_Minigun</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>3.5</muzzleFlashScale>
             </li>
@@ -469,7 +469,7 @@
     </ThingDef>
 
     <!-- Vances 9mm SMG -->
-    
+
     <ThingDef ParentName="BaseGun">
         <defName>FCP_Gun_Vances9mmSMG</defName>
         <label>Vance's 9mm SMG</label>
