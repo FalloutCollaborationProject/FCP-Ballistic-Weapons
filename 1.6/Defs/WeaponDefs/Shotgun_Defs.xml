@@ -165,6 +165,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
         <modExtensions>
             <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
         </modExtensions>
@@ -245,6 +250,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
         <modExtensions>
             <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
         </modExtensions>
@@ -324,6 +334,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
         <modExtensions>
             <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
         </modExtensions>
@@ -404,6 +419,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
         <modExtensions>
             <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
         </modExtensions>
@@ -483,6 +503,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
         <modExtensions>
             <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
         </modExtensions>
@@ -563,6 +588,266 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Citykiller Shotgun -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Citykiller</defName>
+        <label>Citykiller Shotgun</label>
+        <description>The Citykiller is a high-capacity, semi-automatic shotgun designed for urban combat. Its rapid fire and large magazine make it devastating in close quarters.</description>
+        <graphicData>
+            <texPath>Weapons/Shotguns/FCP_Citykiller</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Shotgun</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>40000</WorkToMake>
+            <Mass>4.5</Mass>
+            <AccuracyTouch>0.92</AccuracyTouch>
+            <AccuracyShort>0.68</AccuracyShort>
+            <AccuracyMedium>0.30</AccuracyMedium>
+            <AccuracyLong>0.09</AccuracyLong>
+            <RangedWeapon_Cooldown>0.5</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Citykiller</li>
+            <li>FCP_Shotgun</li>
+        </weaponTags>
+        <costList>
+            <Steel>70</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
+                <warmupTime>0.4</warmupTime>
+                <range>16</range>
+                <burstShotCount>8</burstShotCount>
+                <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Citykiller</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>5.5</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Combat Shotgun MkII -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Combat_Shotgun_MkII</defName>
+        <label>Combat Shotgun MkII</label>
+        <description>An advanced version of the Combat Shotgun, featuring improved reliability, accuracy, and rate of fire. Favored by elite military units and wasteland enforcers.</description>
+        <graphicData>
+            <texPath>Weapons/Shotguns/FCP_Combat_Shotgun_MkII</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Shotgun</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>9</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>45000</WorkToMake>
+            <Mass>4.7</Mass>
+            <AccuracyTouch>0.94</AccuracyTouch>
+            <AccuracyShort>0.70</AccuracyShort>
+            <AccuracyMedium>0.32</AccuracyMedium>
+            <AccuracyLong>0.10</AccuracyLong>
+            <RangedWeapon_Cooldown>0.45</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Combat_Shotgun_MkII</li>
+            <li>FCP_Shotgun</li>
+        </weaponTags>
+        <costList>
+            <Steel>80</Steel>
+            <ComponentIndustrial>7</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
+                <warmupTime>0.35</warmupTime>
+                <range>17</range>
+                <burstShotCount>10</burstShotCount>
+                <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Combat_Shotgun_MkII</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>6</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Jackhammer Shotgun -->
+
+    <ThingDef ParentName="BaseHumanMakeableGun">
+        <defName>FCP_Gun_Jackhammer</defName>
+        <label>Jackhammer Shotgun</label>
+        <description>The Jackhammer is a fully automatic, drum-fed shotgun capable of unleashing a torrent of shells in seconds. Rare and highly prized, it is a force to be reckoned with in any firefight.</description>
+        <graphicData>
+            <texPath>Weapons/Shotguns/FCP_Jackhammer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Shotgun</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>10</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <WorkToMake>60000</WorkToMake>
+            <Mass>5.2</Mass>
+            <AccuracyTouch>0.96</AccuracyTouch>
+            <AccuracyShort>0.72</AccuracyShort>
+            <AccuracyMedium>0.34</AccuracyMedium>
+            <AccuracyLong>0.11</AccuracyLong>
+            <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Jackhammer</li>
+            <li>FCP_Shotgun</li>
+        </weaponTags>
+        <costList>
+            <Steel>100</Steel>
+            <ComponentIndustrial>10</ComponentIndustrial>
+        </costList>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
+                <warmupTime>0.2</warmupTime>
+                <range>15</range>
+                <burstShotCount>20</burstShotCount>
+                <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Jackhammer</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>7</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
         <modExtensions>
             <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
         </modExtensions>
