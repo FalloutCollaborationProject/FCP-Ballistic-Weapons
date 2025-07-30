@@ -656,7 +656,7 @@
         </tools>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Uncommon</rarity>
+                <rarity>Rare</rarity>
             </li>
         </comps>
     </ThingDef>
@@ -820,7 +820,7 @@
         </tools>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Uncommon</rarity>
+                <rarity>Rare</rarity>
             </li>
         </comps>
     </ThingDef>
@@ -908,7 +908,7 @@
     </ThingDef>
 
     <!-- Deagle -->
-    
+
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>FCP_Gun_Deagle</defName>
         <label>Deagle</label>
