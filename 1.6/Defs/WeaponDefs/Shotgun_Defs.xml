@@ -84,6 +84,9 @@
                 <rarity>Common</rarity>
             </li>
         </comps>
+        <modExtensions>
+            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+        </modExtensions>
     </ThingDef>
 
     <!-- Hunting Shotgun -->
@@ -162,6 +165,9 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <modExtensions>
+            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+        </modExtensions>
     </ThingDef>
 
     <!-- Combat Shotgun -->
@@ -239,6 +245,9 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <modExtensions>
+            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+        </modExtensions>
     </ThingDef>
 
     <!-- Riot Shotgun -->
@@ -315,6 +324,9 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <modExtensions>
+            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+        </modExtensions>
     </ThingDef>
 
     <!-- Sawn-Off Shotgun -->
@@ -332,7 +344,7 @@
             <researchPrerequisites>
                 <li>FCP_Research_Gunsmithing</li>
             </researchPrerequisites>
-         <skillRequirements>
+            <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
             <recipeUsers>
@@ -392,6 +404,9 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <modExtensions>
+            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+        </modExtensions>
     </ThingDef>
 
     <!-- Lever-Action Shotgun -->
@@ -468,6 +483,9 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <modExtensions>
+            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+        </modExtensions>
     </ThingDef>
 
     <!-- Single Shotgun -->
@@ -545,6 +563,9 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <modExtensions>
+            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+        </modExtensions>
     </ThingDef>
 
 </Defs>
