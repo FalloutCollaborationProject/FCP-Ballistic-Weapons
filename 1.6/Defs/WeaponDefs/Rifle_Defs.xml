@@ -1017,7 +1017,7 @@
 
     <!-- Battle Rifle -->
 
-    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>FCP_Gun_Battle_Rifle</defName>
         <label>Battle Rifle</label>
         <description>The Battle Rifle is a powerful, semi-automatic rifle chambered for .308 rounds. Favored for its high stopping power and range, it is a reliable choice for marksmen and soldiers in the wasteland.</description>
@@ -1095,7 +1095,7 @@
                 <rarity>Rare</rarity>
             </li>
         </comps>
-    </ThingDef> -->
+    </ThingDef>
 
     <!-- FCP .223 Rifle -->
 
