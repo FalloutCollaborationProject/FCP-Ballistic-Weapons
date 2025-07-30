@@ -505,7 +505,7 @@
     <!-- AK-112 Assault Rifle -->
 
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>FCP_Gun_AK_112</defName>
+        <defName>FCP_Gun_AK_112_AR</defName>
         <label>AK-112 Assault Rifle</label>
         <description>The AK-112 is a robust, pre-war assault rifle chambered for 5.56mm rounds. Known for its reliability and ease of maintenance, it remains a popular choice among wasteland survivors.</description>
         <graphicData>
@@ -587,7 +587,7 @@
     <!-- G11 Assault Rifle -->
 
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>FCP_Gun_G11</defName>
+        <defName>FCP_Gun_G11_AR</defName>
         <label>G11 Assault Rifle</label>
         <description>The G11 is a revolutionary German assault rifle using caseless ammunition. Its high rate of fire and advanced design make it a rare but highly sought-after weapon in the wasteland.</description>
         <graphicData>
@@ -630,7 +630,7 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_456mm_Caseless</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_556mm</defaultProjectile>
                 <warmupTime>0.9</warmupTime>
                 <range>31</range>
                 <burstShotCount>15</burstShotCount>

@@ -331,7 +331,7 @@
                 <range>30</range>
                 <burstShotCount>1</burstShotCount>
                 <soundCast>FCP_Sound_Shot_Varmint_Rifle</soundCast>
-                <soundCastTail>GunTail_Silenced</soundCastTail>
+                <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>2.5</muzzleFlashScale>
             </li>
         </verbs>
