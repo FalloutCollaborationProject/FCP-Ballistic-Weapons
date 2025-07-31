@@ -368,7 +368,7 @@
                 <warmupTime>0.2</warmupTime>
                 <range>14</range>
                 <burstShotCount>1</burstShotCount>
-                <soundCast>FCP_Sound_Shot_127mm_Pistol</soundCast>
+                <soundCast>FCP_Sound_Shot_127mm_SMG</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>1.5</muzzleFlashScale>
             </li>
