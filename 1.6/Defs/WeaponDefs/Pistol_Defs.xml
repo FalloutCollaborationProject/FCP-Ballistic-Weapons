@@ -958,7 +958,7 @@
                 <range>16</range>
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
-                <soundCast>FCP_Sound_Shot_Deagle</soundCast>
+                <soundCast>FCP_Sound_Shot_127mm_SMG</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>4.2</muzzleFlashScale>
             </li>
