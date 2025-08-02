@@ -224,7 +224,7 @@
                 <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
                 <warmupTime>0.6</warmupTime>
                 <range>17</range>
-                <burstShotCount>6</burstShotCount>
+                <burstShotCount>2</burstShotCount>
                 <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Combat_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
