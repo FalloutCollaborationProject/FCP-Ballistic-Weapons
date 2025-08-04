@@ -177,13 +177,13 @@
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
-            <WorkToMake>100000</WorkToMake>
-            <Mass>15.0</Mass>
-            <AccuracyTouch>0.45</AccuracyTouch>
-            <AccuracyShort>0.40</AccuracyShort>
-            <AccuracyMedium>0.25</AccuracyMedium>
-            <AccuracyLong>0.10</AccuracyLong>
-            <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+            <WorkToMake>80000</WorkToMake>
+            <Mass>11.0</Mass>
+            <AccuracyTouch>0.42</AccuracyTouch>
+            <AccuracyShort>0.38</AccuracyShort>
+            <AccuracyMedium>0.22</AccuracyMedium>
+            <AccuracyLong>0.09</AccuracyLong>
+            <RangedWeapon_Cooldown>3.7</RangedWeapon_Cooldown>
         </statBases>
         <costList>
             <Steel>200</Steel>
@@ -209,8 +209,8 @@
                 <capacities>
                     <li>Blunt</li>
                 </capacities>
-                <power>15</power>
-                <cooldownTime>2.5</cooldownTime>
+                <power>10</power>
+                <cooldownTime>2.7</cooldownTime>
             </li>
         </tools>
         <comps>
