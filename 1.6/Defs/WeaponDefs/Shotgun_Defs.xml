@@ -53,8 +53,8 @@
                 <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
                 <warmupTime>0.7</warmupTime>
                 <range>16</range>
-                <burstShotCount>2</burstShotCount>
-                <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Caravan_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>4</muzzleFlashScale>
@@ -140,7 +140,7 @@
                 <warmupTime>0.8</warmupTime>
                 <range>18</range>
                 <burstShotCount>1</burstShotCount>
-                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Hunting_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>5</muzzleFlashScale>
@@ -224,8 +224,8 @@
                 <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
                 <warmupTime>0.6</warmupTime>
                 <range>17</range>
-                <burstShotCount>2</burstShotCount>
-                <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Combat_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>5</muzzleFlashScale>
@@ -308,8 +308,8 @@
                 <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
                 <warmupTime>0.5</warmupTime>
                 <range>15</range>
-                <burstShotCount>7</burstShotCount>
-                <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Riot_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>5</muzzleFlashScale>
@@ -393,8 +393,8 @@
                 <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
                 <warmupTime>0.5</warmupTime>
                 <range>10</range>
-                <burstShotCount>2</burstShotCount>
-                <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_SawnOff_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>3.5</muzzleFlashScale>
@@ -478,7 +478,7 @@
                 <warmupTime>0.7</warmupTime>
                 <range>17</range>
                 <burstShotCount>1</burstShotCount>
-                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_LeverAction_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>5</muzzleFlashScale>
@@ -563,7 +563,7 @@
                 <warmupTime>0.6</warmupTime>
                 <range>13</range>
                 <burstShotCount>1</burstShotCount>
-                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Single_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>3.5</muzzleFlashScale>
@@ -647,8 +647,8 @@
                 <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
                 <warmupTime>0.4</warmupTime>
                 <range>16</range>
-                <burstShotCount>8</burstShotCount>
-                <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Combat_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>5.5</muzzleFlashScale>
@@ -732,8 +732,8 @@
                 <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
                 <warmupTime>0.35</warmupTime>
                 <range>17</range>
-                <burstShotCount>10</burstShotCount>
-                <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Combat_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>6</muzzleFlashScale>
@@ -817,8 +817,8 @@
                 <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
                 <warmupTime>0.2</warmupTime>
                 <range>15</range>
-                <burstShotCount>20</burstShotCount>
-                <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Combat_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>7</muzzleFlashScale>
