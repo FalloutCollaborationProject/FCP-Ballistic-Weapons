@@ -828,7 +828,7 @@
     <!-- Colt 6520 -->
 
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>FCP_Gun_Colt_6520</defName>
+        <defName>FCP_Gun_Colt_6520_Pistol</defName>
         <label>Colt 6520</label>
         <description>The Colt 6520 is a classic pre-war sidearm, renowned for its reliability and ease of use. Chambered for .45 rounds, it remains a favorite among wasteland survivors.</description>
         <graphicData>

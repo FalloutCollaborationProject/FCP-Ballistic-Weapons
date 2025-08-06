@@ -90,7 +90,7 @@
     <!-- HK-10 SMG -->
 
     <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>FCP_Gun_HK_10</defName>
+        <defName>FCP_Gun_HK_10_SMG</defName>
         <label>HK-10 SMG</label>
         <description>The HK-10 is a modern, compact submachine gun known for its reliability and high rate of fire. Favored by security forces and elite units for urban operations.</description>
         <graphicData>

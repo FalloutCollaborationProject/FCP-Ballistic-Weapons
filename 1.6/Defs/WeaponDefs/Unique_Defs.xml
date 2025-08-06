@@ -254,6 +254,7 @@
         </comps>
         <modExtensions>
             <li Class="FCP.Core.UniqueThingExtension"></li>
+            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
         </modExtensions>
     </ThingDef>
 

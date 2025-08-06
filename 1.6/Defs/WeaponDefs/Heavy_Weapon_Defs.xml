@@ -198,7 +198,7 @@
                 <range>26</range>
                 <burstShotCount>8</burstShotCount>
                 <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-                <soundCast>FCP_Sound_Shot_Chunky_Boi</soundCast>
+                <soundCast>FCP_Sound_Shot_LMG</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>18</muzzleFlashScale>
             </li>
