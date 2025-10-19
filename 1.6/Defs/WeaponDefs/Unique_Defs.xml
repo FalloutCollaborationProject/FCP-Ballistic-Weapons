@@ -732,7 +732,7 @@
     <ThingDef ParentName="BaseGun">
         <defName>FCP_Gun_Wanda</defName>
         <label>Wanda</label>
-        <description>Wanda is a unique, custom combat shotgun from the Capital Wasteland. Distinguished by its red finish and reliability, it features a faster firing rate and lighter weight compared to standard combat shotguns. Favored by those who value speed and dependability in close-quarters combat.</description>
+        <description>Wanda is a unique, custom combat shotgun from the Capital Wasteland. Distinguished by its green finish and reliability, it features a faster firing rate and lighter weight compared to standard combat shotguns. Favored by those who value speed and dependability in close-quarters combat.</description>
         <graphicData>
             <texPath>Weapons/Unique/FCP_Wanda</texPath>
             <graphicClass>Graphic_Single</graphicClass>
