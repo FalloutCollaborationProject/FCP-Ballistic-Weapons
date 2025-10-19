@@ -344,7 +344,7 @@
 
     <!-- Lil Devil -->
 
-    <ThingDef ParentName="BaseGun">
+    <!-- <ThingDef ParentName="BaseGun">
         <defName>FCP_Gun_LilDevil</defName>
         <label>Lil' Devil</label>
         <description>Lil' Devil is a unique, compact 12.7mm pistol with a polished chrome finish and distinctive red grips. This weapon is renowned for its high critical hit chance and rapid rate of fire, making it one of the most deadly sidearms in the Mojave. Favored by those who value speed and precision, Lil' Devil stands out as a rare and coveted piece among New Vegas's arsenal of unique weapons.</description>
@@ -382,7 +382,7 @@
         <modExtensions>
             <li Class="FCP.Core.UniqueThingExtension" />
         </modExtensions>
-    </ThingDef>
+    </ThingDef> -->
 
     <!-- Lincolns Repeater -->
 
@@ -554,7 +554,7 @@
         </modExtensions>
     </ThingDef>
 
-    <!-- Medicine Stick -->
+    <!-- Medicine Stick
 
     <ThingDef ParentName="BaseGun">
         <defName>FCP_Gun_MedicineStick</defName>
@@ -594,11 +594,11 @@
         <modExtensions>
             <li Class="FCP.Core.UniqueThingExtension" />
         </modExtensions>
-    </ThingDef>
+    </ThingDef> -->
 
     <!-- Bozar -->
 
-    <ThingDef ParentName="BaseGun">
+    <!-- <ThingDef ParentName="BaseGun">
         <defName>FCP_Gun_Bozar</defName>
         <label>Bozar</label>
         <description>Bozar is a legendary automatic marksman rifle chambered in .308, renowned for its fusion of sniper precision and machine gun firepower. Its advanced design delivers exceptional accuracy at long range while unleashing rapid bursts, making it a rare and highly coveted weapon among elite marksmen.</description>
@@ -638,7 +638,7 @@
         <modExtensions>
             <li Class="FCP.Core.UniqueThingExtension" />
         </modExtensions>
-    </ThingDef>
+    </ThingDef> -->
 
     <!-- Dinner Bell -->
 
