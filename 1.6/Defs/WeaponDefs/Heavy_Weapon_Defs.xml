@@ -74,7 +74,7 @@
         <comps>
             <li Class="WeaponRequirement.CompProperties_WeaponRequirement">
                 <requiredApparels>
-                    <li>FCP_Apparel_Power_Armor_Frame</li>
+                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
                 </requiredApparels>
             </li>
             <li Class="FCP.Core.CompProperties_LabelColored">
@@ -269,6 +269,11 @@
             </li>
         </tools>
         <comps>
+            <li Class="WeaponRequirement.CompProperties_WeaponRequirement">
+                <requiredApparels>
+                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+                </requiredApparels>
+            </li>
             <li Class="FCP.Core.CompProperties_LabelColored">
                 <rarity>Rare</rarity>
             </li>
@@ -324,6 +329,11 @@
             </li>
         </tools>
         <comps>
+            <li Class="WeaponRequirement.CompProperties_WeaponRequirement">
+                <requiredApparels>
+                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+                </requiredApparels>
+            </li>
             <li Class="FCP.Core.CompProperties_LabelColored">
                 <rarity>Rare</rarity>
             </li>

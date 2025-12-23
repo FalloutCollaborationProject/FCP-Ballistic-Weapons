@@ -83,93 +83,11 @@
         <comps>
             <li Class="WeaponRequirement.CompProperties_WeaponRequirement">
                 <requiredApparels>
-                    <li>FCP_Apparel_Power_Armor_Frame</li>
+                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
                 </requiredApparels>
             </li>
             <li Class="FCP.Core.CompProperties_LabelColored">
                 <rarity>Rare</rarity>
-            </li>
-        </comps>
-    </ThingDef>
-
-    <!-- Service Rifle -->
-
-    <ThingDef ParentName="BaseHumanMakeableGun">
-        <defName>FCP_Gun_Service_Rifle</defName>
-        <label>Service Rifle</label>
-        <description>The Service Rifle is a semi-automatic rifle chambered for 5.56mm rounds. Originally issued to NCR troopers, it is a reliable and versatile weapon designed for medium-range combat.</description>
-        <graphicData>
-            <texPath>Weapons/Assault_Rifles/FCP_Service_Rifle</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-        </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>6</Crafting>
-            </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
-        </recipeMaker>
-        <thingSetMakerTags>
-            <li>RewardStandardQualitySuper</li>
-        </thingSetMakerTags>
-        <statBases>
-            <WorkToMake>38000</WorkToMake>
-            <Mass>3.7</Mass>
-            <AccuracyTouch>0.60</AccuracyTouch>
-            <AccuracyShort>0.70</AccuracyShort>
-            <AccuracyMedium>0.75</AccuracyMedium>
-            <AccuracyLong>0.65</AccuracyLong>
-            <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
-        </statBases>
-        <weaponTags>
-            <li>FCP_Service_Rifle</li>
-            <li>FCP_Assault_Rifle</li>
-        </weaponTags>
-        <costList>
-            <Steel>65</Steel>
-            <ComponentIndustrial>6</ComponentIndustrial>
-        </costList>
-        <verbs>
-            <li>
-                <verbClass>Verb_Shoot</verbClass>
-                <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_556mm</defaultProjectile>
-                <warmupTime>1.0</warmupTime>
-                <range>30</range>
-                <burstShotCount>1</burstShotCount>
-                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
-                <soundCast>FCP_Sound_Shot_Marksman_Carbine</soundCast>
-                <soundCastTail>GunTail_Medium</soundCastTail>
-                <muzzleFlashScale>7</muzzleFlashScale>
-            </li>
-        </verbs>
-        <tools>
-            <li>
-                <label>stock</label>
-                <capacities>
-                    <li>Blunt</li>
-                </capacities>
-                <power>8</power>
-                <cooldownTime>2</cooldownTime>
-            </li>
-            <li>
-                <label>barrel</label>
-                <capacities>
-                    <li>Blunt</li>
-                    <li>Poke</li>
-                </capacities>
-                <power>8</power>
-                <cooldownTime>2</cooldownTime>
-            </li>
-        </tools>
-        <comps>
-            <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Common</rarity>
             </li>
         </comps>
     </ThingDef>
