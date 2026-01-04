@@ -24,7 +24,7 @@
                 <Crafting>8</Crafting>
             </skillRequirements>
             <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
             </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
@@ -111,7 +111,7 @@
                 <Crafting>6</Crafting>
             </skillRequirements>
             <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
             </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
@@ -193,7 +193,7 @@
                 <Crafting>7</Crafting>
             </skillRequirements>
             <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
             </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
@@ -275,7 +275,7 @@
                 <Crafting>7</Crafting>
             </skillRequirements>
             <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
             </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
@@ -357,7 +357,7 @@
                 <Crafting>6</Crafting>
             </skillRequirements>
             <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
             </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
@@ -439,7 +439,7 @@
                 <Crafting>6</Crafting>
             </skillRequirements>
             <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
             </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
@@ -521,7 +521,7 @@
                 <Crafting>9</Crafting>
             </skillRequirements>
             <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
             </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>

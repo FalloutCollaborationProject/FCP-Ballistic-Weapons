@@ -24,7 +24,7 @@
                 <Crafting>10</Crafting>
             </skillRequirements>
             <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
             </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
@@ -102,7 +102,7 @@
                 <Crafting>8</Crafting>
             </skillRequirements>
             <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
             </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
@@ -176,6 +176,17 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
         <statBases>
             <WorkToMake>80000</WorkToMake>
             <Mass>11.0</Mass>
@@ -231,6 +242,17 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker>
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+            </recipeUsers>
+        </recipeMaker>
         <statBases>
             <WorkToMake>85000</WorkToMake>
             <Mass>10.0</Mass>
