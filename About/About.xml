@@ -19,6 +19,7 @@
     </modDependencies>
     <loadAfter>
         <li>Rick.FCP.Core.Tools</li>
+        <li>Rick.FCP.PowerArmor</li>
     </loadAfter>
 
     
