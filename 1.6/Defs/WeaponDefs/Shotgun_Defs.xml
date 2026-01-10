@@ -48,17 +48,18 @@
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
         <verbs>
-            <li>
-                <verbClass>Verb_Shoot</verbClass>
+            <li Class="Shotgunz.Verb_Properties_Shotgunz">
+                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
-                <warmupTime>0.7</warmupTime>
+                <defaultProjectile>FCP_Bullet_12Gauge_Pellet</defaultProjectile>
+                <warmupTime>0.9</warmupTime>
                 <range>16</range>
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Caravan_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>4</muzzleFlashScale>
+                <pellets>7</pellets>
             </li>
         </verbs>
         <tools>
@@ -92,7 +93,7 @@
 
     <!-- Hunting Shotgun -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun"> 
+    <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>FCP_Gun_Hunting_Shotgun</defName>
         <label>Hunting Shotgun</label>
         <description>A pump-action shotgun designed for hunting game. Favored for its rugged construction, high capacity, and reliability in the harshest wasteland conditions.</description>
@@ -133,17 +134,18 @@
             <ComponentIndustrial>3</ComponentIndustrial>
         </costList>
         <verbs>
-            <li>
-                <verbClass>Verb_Shoot</verbClass>
+            <li Class="Shotgunz.Verb_Properties_Shotgunz">
+                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_12Gauge_Pellet</defaultProjectile>
                 <warmupTime>0.8</warmupTime>
                 <range>18</range>
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Hunting_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
-                <muzzleFlashScale>5</muzzleFlashScale>
+                <muzzleFlashScale>4</muzzleFlashScale>
+                <pellets>7</pellets>
             </li>
         </verbs>
         <tools>
@@ -218,10 +220,10 @@
             <ComponentIndustrial>5</ComponentIndustrial>
         </costList>
         <verbs>
-            <li>
-                <verbClass>Verb_Shoot</verbClass>
+            <li Class="Shotgunz.Verb_Properties_Shotgunz">
+                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_12Gauge_Pellet</defaultProjectile>
                 <warmupTime>0.6</warmupTime>
                 <range>17</range>
                 <burstShotCount>1</burstShotCount>
@@ -229,6 +231,7 @@
                 <soundCast>FCP_Sound_Shot_Combat_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>5</muzzleFlashScale>
+                <pellets>7</pellets>
             </li>
         </verbs>
         <tools>
@@ -303,17 +306,18 @@
             <ComponentIndustrial>5</ComponentIndustrial>
         </costList>
         <verbs>
-            <li>
-                <verbClass>Verb_Shoot</verbClass>
+            <li Class="Shotgunz.Verb_Properties_Shotgunz">
+                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
-                <warmupTime>0.5</warmupTime>
+                <defaultProjectile>FCP_Bullet_12Gauge_Pellet</defaultProjectile>
+                <warmupTime>0.6</warmupTime>
                 <range>15</range>
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Riot_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>5</muzzleFlashScale>
+                <pellets>7</pellets>
             </li>
         </verbs>
         <tools>
@@ -388,17 +392,18 @@
             <ComponentIndustrial>1</ComponentIndustrial>
         </costList>
         <verbs>
-            <li>
-                <verbClass>Verb_Shoot</verbClass>
+            <li Class="Shotgunz.Verb_Properties_Shotgunz">
+                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
-                <warmupTime>0.5</warmupTime>
+                <defaultProjectile>FCP_Bullet_12Gauge_Pellet</defaultProjectile>
+                <warmupTime>0.6</warmupTime>
                 <range>10</range>
                 <burstShotCount>1</burstShotCount>
-                <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+                <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_SawnOff_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
-                <muzzleFlashScale>3.5</muzzleFlashScale>
+                <muzzleFlashScale>5</muzzleFlashScale>
+                <pellets>7</pellets>
             </li>
         </verbs>
         <tools>
@@ -473,17 +478,18 @@
             <ComponentIndustrial>3</ComponentIndustrial>
         </costList>
         <verbs>
-            <li>
-                <verbClass>Verb_Shoot</verbClass>
+            <li Class="Shotgunz.Verb_Properties_Shotgunz">
+                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_20Gauge_Shell</defaultProjectile>
-                <warmupTime>0.7</warmupTime>
+                <defaultProjectile>FCP_Bullet_20Gauge_Pellet</defaultProjectile>
+                <warmupTime>0.6</warmupTime>
                 <range>17</range>
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_LeverAction_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>5</muzzleFlashScale>
+                <pellets>7</pellets>
             </li>
         </verbs>
         <tools>
@@ -558,17 +564,18 @@
             <ComponentIndustrial>1</ComponentIndustrial>
         </costList>
         <verbs>
-            <li>
-                <verbClass>Verb_Shoot</verbClass>
+            <li Class="Shotgunz.Verb_Properties_Shotgunz">
+                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_20Gauge_Shell</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_20Gauge_Pellet</defaultProjectile>
                 <warmupTime>0.6</warmupTime>
                 <range>13</range>
                 <burstShotCount>1</burstShotCount>
-                <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+                <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Single_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
-                <muzzleFlashScale>3.5</muzzleFlashScale>
+                <muzzleFlashScale>5</muzzleFlashScale>
+                <pellets>7</pellets>
             </li>
         </verbs>
         <tools>
@@ -643,17 +650,18 @@
             <ComponentIndustrial>6</ComponentIndustrial>
         </costList>
         <verbs>
-            <li>
-                <verbClass>Verb_Shoot</verbClass>
+            <li Class="Shotgunz.Verb_Properties_Shotgunz">
+                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
-                <warmupTime>0.4</warmupTime>
+                <defaultProjectile>FCP_Bullet_12Gauge_Pellet</defaultProjectile>
+                <warmupTime>0.6</warmupTime>
                 <range>16</range>
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Combat_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
-                <muzzleFlashScale>5.5</muzzleFlashScale>
+                <muzzleFlashScale>5</muzzleFlashScale>
+                <pellets>7</pellets>
             </li>
         </verbs>
         <tools>
@@ -728,17 +736,18 @@
             <ComponentIndustrial>7</ComponentIndustrial>
         </costList>
         <verbs>
-            <li>
-                <verbClass>Verb_Shoot</verbClass>
+            <li Class="Shotgunz.Verb_Properties_Shotgunz">
+                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
-                <warmupTime>0.35</warmupTime>
+                <defaultProjectile>FCP_Bullet_12Gauge_Pellet</defaultProjectile>
+                <warmupTime>0.6</warmupTime>
                 <range>17</range>
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Combat_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
-                <muzzleFlashScale>6</muzzleFlashScale>
+                <muzzleFlashScale>5</muzzleFlashScale>
+                <pellets>7</pellets>
             </li>
         </verbs>
         <tools>
@@ -813,17 +822,18 @@
             <ComponentIndustrial>10</ComponentIndustrial>
         </costList>
         <verbs>
-            <li>
-                <verbClass>Verb_Shoot</verbClass>
+            <li Class="Shotgunz.Verb_Properties_Shotgunz">
+                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
+                <defaultProjectile>FCP_Bullet_12Gauge_Pellet</defaultProjectile>
                 <warmupTime>0.2</warmupTime>
                 <range>15</range>
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Combat_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
-                <muzzleFlashScale>7</muzzleFlashScale>
+                <muzzleFlashScale>5</muzzleFlashScale>
+                <pellets>7</pellets>
             </li>
         </verbs>
         <tools>

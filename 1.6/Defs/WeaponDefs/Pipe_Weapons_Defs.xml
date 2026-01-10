@@ -371,17 +371,18 @@
             <WoodLog>8</WoodLog>
         </costList>
         <verbs>
-            <li>
-                <verbClass>Verb_Shoot</verbClass>
+            <li Class="Shotgunz.Verb_Properties_Shotgunz">
+                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>FCP_Bullet_12Gauge_Shell</defaultProjectile>
-                <warmupTime>0.7</warmupTime>
+                <defaultProjectile>FCP_Bullet_12Gauge_Pellet</defaultProjectile>
+                <warmupTime>0.9</warmupTime>
                 <range>12</range>
                 <burstShotCount>1</burstShotCount>
-                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_Caravan_Shotgun</soundCast>
                 <soundCastTail>GunTail_Light</soundCastTail>
                 <muzzleFlashScale>4</muzzleFlashScale>
+                <pellets>7</pellets>
             </li>
         </verbs>
         <tools>
