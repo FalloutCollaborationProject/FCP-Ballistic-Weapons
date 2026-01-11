@@ -11,6 +11,7 @@
         <defName>FCP_Gun_Power_Armor_Assault_Rifle</defName>
         <label>Power Armor Assault Rifle</label>
         <description>The Assault Rifle is a pre-war, fully automatic rifle chambered for 5.56mm rounds. Its distinctive drum magazine and robust construction make it a favorite for sustained fire in the wasteland, though it is heavy and unwieldy compared to more modern designs requiring the use of power armor.</description>
+		<equippedAngleOffset>45</equippedAngleOffset>
         <graphicData>
             <texPath>Weapons/Assault_Rifles/FCP_FO4_Assault_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
