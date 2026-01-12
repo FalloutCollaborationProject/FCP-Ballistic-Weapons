@@ -113,6 +113,7 @@
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
+            <MarketValue>520</MarketValue>
             <WorkToMake>45000</WorkToMake>
             <Mass>4.8</Mass>
             <AccuracyTouch>0.55</AccuracyTouch>

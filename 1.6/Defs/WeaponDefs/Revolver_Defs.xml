@@ -113,6 +113,7 @@
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
+            <MarketValue>380</MarketValue>
             <WorkToMake>14000</WorkToMake>
             <Mass>1.4</Mass>
             <AccuracyTouch>0.87</AccuracyTouch>
@@ -190,6 +191,7 @@
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
+            <MarketValue>520</MarketValue>
             <WorkToMake>17000</WorkToMake>
             <Mass>1.7</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
@@ -267,6 +269,7 @@
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
+            <MarketValue>650</MarketValue>
             <WorkToMake>22000</WorkToMake>
             <Mass>2.4</Mass>
             <AccuracyTouch>0.82</AccuracyTouch>

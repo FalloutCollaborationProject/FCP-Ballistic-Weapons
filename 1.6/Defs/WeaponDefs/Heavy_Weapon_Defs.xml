@@ -31,6 +31,7 @@
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
+            <MarketValue>850</MarketValue>
             <WorkToMake>90000</WorkToMake>
             <Mass>12.0</Mass>
             <AccuracyTouch>0.50</AccuracyTouch>
@@ -109,6 +110,7 @@
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
+            <MarketValue>820</MarketValue>
             <WorkToMake>60000</WorkToMake>
             <Mass>8.5</Mass>
             <AccuracyTouch>0.55</AccuracyTouch>
@@ -188,6 +190,7 @@
             </recipeUsers>
         </recipeMaker>
         <statBases>
+            <MarketValue>3500</MarketValue>
             <WorkToMake>80000</WorkToMake>
             <Mass>11.0</Mass>
             <AccuracyTouch>0.42</AccuracyTouch>
@@ -254,6 +257,7 @@
             </recipeUsers>
         </recipeMaker>
         <statBases>
+            <MarketValue>1200</MarketValue>
             <WorkToMake>85000</WorkToMake>
             <Mass>10.0</Mass>
             <AccuracyTouch>0.55</AccuracyTouch>
@@ -314,6 +318,7 @@
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
+            <MarketValue>950</MarketValue>
             <WorkToMake>95000</WorkToMake>
             <Mass>13.0</Mass>
             <AccuracyTouch>0.50</AccuracyTouch>
