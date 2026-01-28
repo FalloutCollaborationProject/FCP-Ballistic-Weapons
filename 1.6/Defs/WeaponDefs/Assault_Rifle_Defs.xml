@@ -83,15 +83,31 @@
             </li>
         </tools>
         <comps>
-            <li Class="WeaponRequirement.CompProperties_WeaponRequirement">
-                <requiredApparels>
-                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
-                </requiredApparels>
-            </li>
             <li Class="FCP.Core.CompProperties_LabelColored">
                 <rarity>Rare</rarity>
             </li>
         </comps>
+        <modExtensions>
+            <!-- Require they be a super mutant or wear a power armor frame -->
+            <li Class="FCP.WeaponRequirement.WeaponRequirementExtension">
+                <requirements>
+                    <li Class="FCP.WeaponRequirement.WeaponRequirement_AnyInner">
+                        <requirements>
+                            <li Class="FCP.WeaponRequirement.WeaponRequirement_AnyApparel">
+                                <requiredApparel>
+                                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+                                </requiredApparel>
+                            </li>
+                            <!-- For future super muties
+                            <li Class="FCP.WeaponRequirement.WeaponRequirement_Xenotype">
+                                <allowedXenotypes><li></li></allowedXenotypes>
+                                <bannedXenotypes><li></li></bannedXenotypes>
+                            </li> -->
+                        </requirements>
+                    </li>
+                </requirements>
+            </li>
+        </modExtensions>
     </ThingDef>
 
     <!-- R-91 Assault Rifle -->
