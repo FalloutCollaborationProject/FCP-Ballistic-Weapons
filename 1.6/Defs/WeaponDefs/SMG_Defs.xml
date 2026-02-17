@@ -7,7 +7,7 @@
 
     <!-- 10mm SMG -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_10mm_SMG</defName>
         <label>10mm SMG</label>
         <description>The 10mm SMG is a compact, fully automatic submachine gun chambered for 10mm rounds. Known for its high rate of fire and ease of use, it is ideal for close-quarters combat but sacrifices accuracy at longer ranges.</description>
@@ -23,9 +23,6 @@
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -90,7 +87,7 @@
 
     <!-- HK-10 SMG -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_HK_10_SMG</defName>
         <label>HK-10 SMG</label>
         <description>The HK-10 is a modern, compact submachine gun known for its reliability and high rate of fire. Favored by security forces and elite units for urban operations.</description>
@@ -106,9 +103,6 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -173,7 +167,7 @@
 
     <!-- 9mm SMG -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_9mm_SMG</defName>
         <label>9mm SMG</label>
         <description>The 9mm SMG is a lightweight, fully automatic submachine gun chambered for 9mm rounds. Known for its ease of use and high rate of fire, it is effective in close-quarters combat but lacks stopping power and accuracy at longer ranges.</description>
@@ -189,9 +183,6 @@
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -256,7 +247,7 @@
 
     <!-- 12.7mm SMG -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_127mm_SMG</defName>
         <label>12.7mm SMG</label>
         <description>The 12.7mm SMG is a powerful, fully automatic submachine gun chambered for 12.7mm rounds. Known for its high damage output and rapid rate of fire, it is devastating in close-quarters combat but suffers from heavy recoil and limited accuracy at range.</description>
@@ -272,9 +263,6 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -339,7 +327,7 @@
 
     <!-- .45 SMG -->
 
-    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
+    <!-- <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Submachine_Gun</defName>
         <label>Submachine Gun</label>
         <description>The classic submachine gun chambered for .45 ACP rounds. Known for its stopping power and reliability, it is favored for close-quarters combat despite its heavy recoil.</description>
@@ -355,9 +343,6 @@
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -421,7 +406,7 @@
 
     <!-- Silenced .22 SMG -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Silenced_22_SMG</defName>
         <label>Silenced .22 SMG</label>
         <description>A lightweight, fully automatic submachine gun chambered for .22 LR rounds and equipped with an integral suppressor. Extremely quiet and easy to control, but lacks stopping power compared to larger calibers.</description>
@@ -437,9 +422,6 @@
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>

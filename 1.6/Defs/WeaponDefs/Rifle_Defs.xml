@@ -7,7 +7,7 @@
 
     <!-- Combat Rifle Short -->
 
-    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
+    <!-- <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Combat_Rifle_Short</defName>
         <label>Combat Rifle Short</label>
         <description>A heavily modified combat rifle with the shortest available stock and barrel. Compact and easy to handle, it sacrifices range and accuracy for improved mobility and faster aiming.</description>
@@ -23,9 +23,6 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -83,7 +80,7 @@
 
     <!-- Combat Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Combat_Rifle_Standard</defName>
         <label>Combat Rifle</label>
         <description>The standard combat rifle is a rugged, semi-automatic rifle chambered for .45 ACP rounds. Reliable and versatile, it is a favorite among wastelanders for its balance of firepower, accuracy, and durability.</description>
@@ -99,9 +96,6 @@
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -166,7 +160,7 @@
 
     <!-- Combat Rifle Scoped -->
 
-    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
+    <!-- <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Combat_Rifle_Scoped</defName>
         <label>Scoped Combat Rifle</label>
         <description>A standard combat rifle fitted with a long-range scope. This configuration is favored by marksmen who need to engage targets at greater distances, offering improved accuracy and target acquisition.</description>
@@ -182,9 +176,6 @@
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -242,7 +233,7 @@
 
     <!-- Combat Rifle Marksman -->
 
-    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
+    <!-- <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Combat_Rifle_Marksman</defName>
         <label>Marksman Combat Rifle</label>
         <description>A highly customized combat rifle equipped with the best marksman stock, long barrel, and a medium-range scope. This variant is optimized for accuracy and stability, making it ideal for sharpshooters and long-range engagements.</description>
@@ -258,9 +249,6 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -318,7 +306,7 @@
 
     <!-- BB Gun -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_BB_Gun</defName>
         <label>BB Gun</label>
         <description>A simple air-powered BB gun. While not lethal, it can sting and is often used for training or pest control. Not recommended for serious combat.</description>
@@ -334,9 +322,6 @@
             <skillRequirements>
                 <Crafting>2</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -401,7 +386,7 @@
 
     <!-- Brush Gun -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Brush_Gun</defName>
         <label>Brush Gun</label>
         <description>The Brush Gun is a lever-action rifle chambered for .45-70 Government rounds. Favored for its high stopping power and reliability, it is a popular choice among wasteland hunters and marksmen for taking down large game and armored targets.</description>
@@ -417,9 +402,6 @@
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -484,7 +466,7 @@
 
     <!-- Cowboy Repeater -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Cowboy_Repeater</defName>
         <label>Cowboy Repeater</label>
         <description>A classic lever-action rifle chambered for .357 rounds. The Cowboy Repeater is lightweight, reliable, and favored by marksmen and wanderers alike for its fast cycling and respectable accuracy.</description>
@@ -500,9 +482,6 @@
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -562,7 +541,7 @@
 
     <!-- Trail Carbine -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Trail_Carbine</defName>
         <label>Trail Carbine</label>
         <description>The Trail Carbine is a lever-action rifle chambered for .44 Magnum rounds. Renowned for its ruggedness and accuracy, it is a favorite among wasteland scouts and hunters for its fast cycling and reliable stopping power.</description>
@@ -578,9 +557,6 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -640,7 +616,7 @@
 
     <!-- .32 Hunting Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_32_Hunting_Rifle</defName>
         <label>.32 Hunting Rifle</label>
         <description>The .32 Hunting Rifle is a pre-war bolt-action rifle chambered for .32 caliber rounds. Known for its simplicity and reliability, it is a common weapon among wastelanders, offering decent accuracy and stopping power for medium-range engagements.</description>
@@ -656,9 +632,6 @@
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -718,7 +691,7 @@
 
     <!-- Varmint Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Varmint_Rifle</defName>
         <label>Varmint Rifle</label>
         <description>The Varmint Rifle is a lightweight, bolt-action rifle chambered for .223 rounds. Originally designed for pest control and small game hunting, it is accurate and easy to handle, but lacks the stopping power of larger rifles.</description>
@@ -734,9 +707,6 @@
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -795,7 +765,7 @@
 
     <!-- 9mm Hunting Rifle -->
 
-    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
+    <!-- <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_9mm_Hunting_Rifle</defName>
         <label>9mm Hunting Rifle</label>
         <description>A bolt-action hunting rifle chambered for 9mm rounds. While less powerful than larger-caliber rifles, its low recoil and plentiful ammunition make it a practical choice for hunting small game and for novice marksmen in the wasteland.</description>
@@ -811,9 +781,6 @@
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -871,7 +838,7 @@
 
     <!-- .223 Rangemaster Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_223_Rangemaster</defName>
         <label>.223 Rangemaster Rifle</label>
         <description>The .223 Rangemaster is a precision bolt-action rifle chambered for .223 rounds. Favored by marksmen for its high accuracy and range, it is a reliable choice for hunting and long-range engagements in the wasteland.</description>
@@ -887,9 +854,6 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -948,7 +912,7 @@
 
     <!-- FCP .223 Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_223_Rifle</defName>
         <label>.223 Rifle</label>
         <description>The .223 Rifle is a lightweight, semi-automatic rifle chambered for .223 rounds. Known for its accuracy and low recoil, it is a popular choice for both hunting and combat in the wasteland.</description>
@@ -964,9 +928,6 @@
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>

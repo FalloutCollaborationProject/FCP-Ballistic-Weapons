@@ -7,7 +7,7 @@
 
     <!-- DKS-501 Sniper Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_DKS_501_Sniper_Rifle</defName>
         <label>DKS-501 Sniper Rifle</label>
         <description>The DKS-501 is a pre-war bolt-action sniper rifle chambered for .308 rounds. Known for its exceptional accuracy and stopping power, it is a favorite among marksmen for long-range engagements.</description>
@@ -23,9 +23,6 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -89,7 +86,7 @@
 
     <!-- Scoped Hunting Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_Scoped_Hunting_Rifle</defName>
         <label>Scoped Hunting Rifle</label>
         <description>The Scoped Hunting Rifle is a pre-war bolt-action rifle chambered for .308 rounds. Equipped with a scope, it is highly accurate and effective for medium to long-range engagements, making it a reliable choice for hunters and marksmen alike.</description>
@@ -105,9 +102,6 @@
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>

@@ -7,7 +7,7 @@
 
     <!-- Caravan Shotgun -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Caravan_Shotgun</defName>
         <label>Caravan Shotgun</label>
         <description>A double-barreled, break-action shotgun popular with caravan guards and traders. Its simple design makes it easy to repair and maintain, but it suffers from a slow reload and limited range</description>
@@ -23,9 +23,6 @@
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -94,7 +91,7 @@
 
     <!-- Hunting Shotgun -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Hunting_Shotgun</defName>
         <label>Hunting Shotgun</label>
         <description>A pump-action shotgun designed for hunting game. Favored for its rugged construction, high capacity, and reliability in the harshest wasteland conditions.</description>
@@ -110,9 +107,6 @@
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -181,7 +175,7 @@
 
     <!-- Combat Shotgun -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Combat_Shotgun</defName>
         <label>Combat Shotgun</label>
         <description>The Combat Shotgun is a semi-automatic, magazine-fed shotgun chambered for 12 gauge shells. Designed for military and law enforcement, it offers a high rate of fire and reliability in close-quarters combat, making it a favorite among wasteland enforcers.</description>
@@ -197,9 +191,6 @@
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -268,7 +259,7 @@
 
     <!-- Riot Shotgun -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Riot_Shotgun</defName>
         <label>Riot Shotgun</label>
         <description>This pre-War, semi-automatic combat shotgun was designed for law enforcement and military use. Its high rate of fire and large magazine make it devastating in close-quarters combat.</description>
@@ -284,9 +275,6 @@
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -355,7 +343,7 @@
 
     <!-- Sawn-Off Shotgun -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_SawnOff_Shotgun</defName>
         <label>Sawn-Off Shotgun</label>
         <description>A double-barreled shotgun with the barrels and stock cut down for easier concealment. Extremely deadly at point-blank range, but wildly inaccurate and short-ranged.</description>
@@ -371,9 +359,6 @@
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -442,7 +427,7 @@
 
     <!-- Lever-Action Shotgun -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_LeverAction_Shotgun</defName>
         <label>Lever-Action Shotgun</label>
         <description>A classic lever-action shotgun, prized for its fast cycling and reliability. Popular among ranchers and lawmen, it delivers solid stopping power and can be fired rapidly in skilled hands.</description>
@@ -458,9 +443,6 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -529,7 +511,7 @@
 
     <!-- Single Shotgun -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Single_Shotgun</defName>
         <label>Single Shotgun</label>
         <description>A simple, single-barrel break-action shotgun. Cheap to produce and easy to maintain, but slow to reload and limited to one shot at a time.</description>
@@ -545,9 +527,6 @@
             <skillRequirements>
                 <Crafting>2</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -616,7 +595,7 @@
 
     <!-- Citykiller Shotgun -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Citykiller</defName>
         <label>Citykiller Shotgun</label>
         <description>The Citykiller is a high-capacity, semi-automatic shotgun designed for urban combat. Its rapid fire and large magazine make it devastating in close quarters.</description>
@@ -632,9 +611,6 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -703,7 +679,7 @@
 
     <!-- Combat Shotgun MkII -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Combat_Shotgun_MkII</defName>
         <label>Combat Shotgun MkII</label>
         <description>An advanced version of the Combat Shotgun, featuring improved reliability, accuracy, and rate of fire. Favored by elite military units and wasteland enforcers.</description>
@@ -719,9 +695,6 @@
             <skillRequirements>
                 <Crafting>9</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -790,7 +763,7 @@
 
     <!-- Jackhammer Shotgun -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Jackhammer</defName>
         <label>Jackhammer Shotgun</label>
         <description>The Jackhammer is a fully automatic, drum-fed shotgun capable of unleashing a torrent of shells in seconds. Rare and highly prized, it is a force to be reckoned with in any firefight.</description>
@@ -806,9 +779,6 @@
             <skillRequirements>
                 <Crafting>10</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
