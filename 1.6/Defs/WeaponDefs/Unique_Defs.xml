@@ -196,7 +196,6 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-
             <MarketValue>1180</MarketValue>
             <Mass>3.5</Mass>
             <AccuracyTouch>0.70</AccuracyTouch>
@@ -243,7 +242,6 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-
             <MarketValue>920</MarketValue>
             <Mass>3.0</Mass>
             <AccuracyTouch>0.80</AccuracyTouch>
@@ -293,7 +291,6 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-
             <MarketValue>880</MarketValue>
             <Mass>0.8</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
@@ -340,7 +337,6 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-
             <MarketValue>560</MarketValue>
             <Mass>2.2</Mass>
             <AccuracyTouch>0.65</AccuracyTouch>
@@ -386,7 +382,6 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-
             <MarketValue>1680</MarketValue>
             <Mass>0.6</Mass>
             <AccuracyTouch>0.80</AccuracyTouch>
@@ -430,7 +425,6 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-
             <MarketValue>1350</MarketValue>
             <Mass>3.2</Mass>
             <AccuracyTouch>0.70</AccuracyTouch>
@@ -477,7 +471,6 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-
             <MarketValue>1550</MarketValue>
             <Mass>4.0</Mass>
             <AccuracyTouch>0.65</AccuracyTouch>
@@ -525,7 +518,6 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-
             <MarketValue>950</MarketValue>
             <Mass>3.0</Mass>
             <AccuracyTouch>0.70</AccuracyTouch>
@@ -573,7 +565,6 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-
             <MarketValue>1450</MarketValue>
             <Mass>4.0</Mass>
             <AccuracyTouch>0.60</AccuracyTouch>
@@ -621,7 +612,6 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-
             <MarketValue>1450</MarketValue>
             <Mass>3.8</Mass>
             <AccuracyTouch>0.65</AccuracyTouch>
@@ -665,7 +655,6 @@
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
-
             <MarketValue>1720</MarketValue>
             <Mass>7.5</Mass>
             <AccuracyTouch>0.60</AccuracyTouch>
@@ -711,7 +700,6 @@
         </graphicData>
         <soundInteract>Interact_Shotgun</soundInteract>
         <statBases>
-
             <MarketValue>1120</MarketValue>
             <Mass>3.2</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
@@ -762,7 +750,6 @@
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
-
             <MarketValue>820</MarketValue>
             <Mass>2.8</Mass>
             <AccuracyTouch>0.80</AccuracyTouch>
@@ -809,7 +796,6 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-
             <MarketValue>1900</MarketValue>
             <Mass>3.0</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
@@ -859,7 +845,6 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-
             <MarketValue>1450</MarketValue>
             <Mass>2.8</Mass>
             <AccuracyTouch>0.75</AccuracyTouch>
@@ -906,7 +891,6 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <statBases>
-
             <MarketValue>1450</MarketValue>
             <Mass>4.2</Mass>
             <AccuracyTouch>0.65</AccuracyTouch>

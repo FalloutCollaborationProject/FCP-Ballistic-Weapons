@@ -7,7 +7,7 @@
 
     <!-- Power Armor Assault Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_Power_Armor_Assault_Rifle</defName>
         <label>Power Armor Assault Rifle</label>
         <description>The Assault Rifle is a pre-war, fully automatic rifle chambered for 5.56mm rounds. Its distinctive drum magazine and robust construction make it a favorite for sustained fire in the wasteland, though it is heavy and unwieldy compared to more modern designs requiring the use of power armor.</description>
@@ -24,9 +24,6 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -112,7 +109,7 @@
 
     <!-- R-91 Assault Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_R91_Rifle</defName>
         <label>R-91 Assault Rifle</label>
         <description>The R-91 is a pre-war, fully automatic assault rifle chambered for 5.56mm rounds. It was the standard-issue rifle for the U.S. Armed Forces before the Great War, known for its reliability and versatility in combat.</description>
@@ -128,9 +125,6 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -195,7 +189,7 @@
 
     <!-- Chinese Assault Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_Chinese_Assault_Rifle</defName>
         <label>Chinese Assault Rifle</label>
         <description>A rugged and powerful assault rifle of Chinese origin. It was widely used by Chinese forces during the Sino-American War, known for its high damage output and reliability in harsh conditions.</description>
@@ -211,9 +205,6 @@
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -278,7 +269,7 @@
 
     <!-- Marksman Carbine -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_Marksman_Carbine</defName>
         <label>Marksman Carbine</label>
         <description>A lightweight, semi-automatic carbine chambered for 5.56mm rounds. Designed for precision and medium-range engagements, it was favored by NCR marksmen for its accuracy and reliability.</description>
@@ -294,9 +285,6 @@
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -361,7 +349,7 @@
 
     <!-- Assault Carbine -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_Assault_Carbine</defName>
         <label>Assault Carbine</label>
         <description>A compact, fully automatic carbine chambered for 5mm rounds. Designed for military use, it offers a high rate of fire and excellent handling, making it ideal for close-quarters combat and suppressive fire.</description>
@@ -377,9 +365,6 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -444,7 +429,7 @@
 
     <!-- AK-112 Assault Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_AK_112_AR</defName>
         <label>AK-112 Assault Rifle</label>
         <description>The AK-112 is a robust, pre-war assault rifle chambered for 5.56mm rounds. Known for its reliability and ease of maintenance, it remains a popular choice among wasteland survivors.</description>
@@ -460,9 +445,6 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -527,7 +509,7 @@
 
     <!-- G11 Assault Rifle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_G11_AR</defName>
         <label>G11 Assault Rifle</label>
         <description>The G11 is a revolutionary German assault rifle using caseless ammunition. Its high rate of fire and advanced design make it a rare but highly sought-after weapon in the wasteland.</description>
@@ -543,9 +525,6 @@
             <skillRequirements>
                 <Crafting>9</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>

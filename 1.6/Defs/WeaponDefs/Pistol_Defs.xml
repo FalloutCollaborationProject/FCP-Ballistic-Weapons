@@ -7,7 +7,7 @@
 
     <!-- 10mm Pistol -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_10mm_Pistol</defName>
         <label>10mm Pistol</label>
         <description>The 10mm Pistol is a semi-automatic sidearm chambered for 10mm rounds. Favored for its reliability and stopping power, it is a common sight among wastelanders and pre-war security forces alike.</description>
@@ -23,9 +23,6 @@
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -90,7 +87,7 @@
 
     <!-- Silenced 10mm Pistol -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Silenced_10mm_Pistol</defName>
         <label>Silenced 10mm Pistol</label>
         <description>The Silenced 10mm Pistol is a semi-automatic sidearm chambered for 10mm rounds and fitted with an integral suppressor. Favored by assassins and covert operatives, it offers a balance of stopping power and stealth.</description>
@@ -106,9 +103,6 @@
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -173,7 +167,7 @@
 
     <!-- Chinese Pistol -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Chinese_Pistol</defName>
         <label>Chinese Pistol</label>
         <description>The Chinese Pistol is a compact, semi-automatic sidearm chambered for 9mm rounds. Manufactured before the Great War, it is lightweight and easy to conceal, but suffers from low stopping power and questionable reliability.</description>
@@ -189,9 +183,6 @@
             <skillRequirements>
                 <Crafting>2</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -256,7 +247,7 @@
 
     <!-- 9mm Pistol -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_9mm_Pistol</defName>
         <label>9mm Pistol</label>
         <description>The 9mm Pistol is a lightweight, semi-automatic sidearm chambered for 9mm rounds. Its low recoil and plentiful ammunition make it a popular choice for both civilians and wastelanders, though it lacks the stopping power of larger calibers.</description>
@@ -272,9 +263,6 @@
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -339,7 +327,7 @@
 
     <!-- 5.56mm Pistol -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_556_Pistol</defName>
         <label>5.56mm Pistol</label>
         <description>The 5.56mm Pistol is a rare, high-powered sidearm chambered for 5.56mm rifle rounds. Its unique design offers superior penetration and range compared to typical pistols, but with increased recoil and wear.</description>
@@ -355,9 +343,6 @@
             <skillRequirements>
                 <Crafting>6</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -422,7 +407,7 @@
 
     <!-- 12.7mm Pistol -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_127mm_Pistol</defName>
         <label>12.7mm Pistol</label>
         <description>The 12.7mm Pistol is a heavy, semi-automatic sidearm chambered for 12.7mm rounds. Its immense stopping power and armor penetration make it a favorite among wasteland enforcers, but its weight and recoil require a strong hand.</description>
@@ -438,9 +423,6 @@
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -505,7 +487,7 @@
 
     <!-- Silenced .22 Pistol -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Silenced_22_Pistol</defName>
         <label>Silenced .22 Pistol</label>
         <description>The Silenced .22 Pistol is a lightweight, semi-automatic sidearm chambered for .22 LR rounds and equipped with an integral suppressor. Extremely quiet and easy to control, it is favored for stealth operations but lacks stopping power.</description>
@@ -521,9 +503,6 @@
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -588,7 +567,7 @@
 
     <!-- 10mm Pistol MkII -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_10mm_Pistol_MkII</defName>
         <label>10mm Pistol MkII</label>
         <description>An improved version of the classic 10mm Pistol, featuring enhanced reliability and accuracy. Favored by elite wastelanders and pre-war security forces.</description>
@@ -604,9 +583,6 @@
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -671,7 +647,7 @@
 
     <!-- 14mm Pistol -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_14mm_Pistol</defName>
         <label>14mm Pistol</label>
         <description>The 14mm Pistol is a powerful sidearm chambered for 14mm rounds, offering exceptional stopping power and penetration. Rare and highly sought after in the wasteland.</description>
@@ -687,9 +663,6 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -754,7 +727,7 @@
 
     <!-- .223 Pistol -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_223_Pistol</defName>
         <label>.223 Pistol</label>
         <description>The .223 Pistol is a unique sidearm chambered for .223 rifle rounds, offering high velocity and accuracy. Its design is favored by marksmen and collectors.</description>
@@ -770,9 +743,6 @@
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -837,7 +807,7 @@
 
     <!-- Colt 6520 -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Colt_6520_Pistol</defName>
         <label>Colt 6520</label>
         <description>The Colt 6520 is a classic pre-war sidearm, renowned for its reliability and ease of use. Chambered for .45 rounds, it remains a favorite among wasteland survivors.</description>
@@ -853,9 +823,6 @@
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -920,7 +887,7 @@
 
     <!-- Deagle -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Deagle</defName>
         <label>Deagle</label>
         <description>The Deagle is a massive, semi-automatic pistol chambered for .50 AE rounds. Its intimidating size and firepower make it a symbol of status and strength in the wasteland.</description>
@@ -936,9 +903,6 @@
             <skillRequirements>
                 <Crafting>9</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>

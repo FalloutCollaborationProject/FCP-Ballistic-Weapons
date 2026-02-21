@@ -7,7 +7,7 @@
 
     <!-- .32 Pistol -->
 
-    <!-- <ThingDef ParentName="BaseHumanMakeableGun">
+    <!-- <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_32_Pistol</defName>
         <label>.32 Pistol</label>
         <description>The .32 Pistol is a simple, six-shot revolver chambered for .32 caliber rounds. Commonly found throughout the wasteland, it is easy to maintain and use, but lacks the stopping power of larger handguns.</description>
@@ -23,9 +23,6 @@
             <skillRequirements>
                 <Crafting>2</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -89,7 +86,7 @@
 
     <!-- .357 Revolver -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_357_Revolver</defName>
         <label>.357 Revolver</label>
         <description>The .357 Revolver is a classic, six-shot sidearm chambered for .357 Magnum rounds. Renowned for its reliability and stopping power, it is a favored weapon among lawmen and gunslingers in the wasteland.</description>
@@ -105,9 +102,6 @@
             <skillRequirements>
                 <Crafting>4</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -167,7 +161,7 @@
 
     <!-- .44 Magnum Revolver -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_44Magnum_Revolver</defName>
         <label>.44 Magnum Revolver</label>
         <description>The .44 Magnum Revolver is a powerful, six-shot sidearm chambered for .44 Magnum rounds. Renowned for its high stopping power and intimidating presence, it is a prized weapon among wasteland hunters and enforcers.</description>
@@ -183,9 +177,6 @@
             <skillRequirements>
                 <Crafting>5</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -245,7 +236,7 @@
 
     <!-- Hunting Revolver -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
         <defName>FCP_Gun_Hunting_Revolver</defName>
         <label>Hunting Revolver</label>
         <description>The Hunting Revolver is a large, single-action revolver chambered for .45-70 Government rounds. Designed for hunting big game, it delivers devastating power and accuracy, but its heavy frame and slow rate of fire make it unwieldy in close combat.</description>
@@ -261,9 +252,6 @@
             <skillRequirements>
                 <Crafting>7</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Simple_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>

@@ -7,7 +7,7 @@
 
     <!-- Minigun (Fallout 3/ FNV) -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_Minigun</defName>
         <label>Minigun</label>
         <description>The Minigun is a multi-barrel, rotary machine gun capable of firing 5mm rounds at an extremely high rate. Its devastating firepower makes it a favorite for heavy support roles, but its weight and bulk limit mobility.</description>
@@ -23,9 +23,6 @@
             <skillRequirements>
                 <Crafting>10</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -96,7 +93,7 @@
 
     <!-- Light Machine Gun -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_Light_Machine_Gun</defName>
         <label>Light Machine Gun</label>
         <description>The Light Machine Gun is a pre-war, fully automatic support weapon chambered for 5.56mm rounds. Designed for sustained suppressive fire, it features a high-capacity magazine and a high rate of fire, making it ideal for pinning down enemies and providing covering fire in open combat.</description>
@@ -112,9 +109,6 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -179,7 +173,7 @@
 
     <!-- Chunky Boi -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_ChunkyBoi</defName>
         <label>Chunky Boi</label>
         <description>A massive, custom heavy weapon designed for maximum firepower and intimidation.</description>
@@ -195,9 +189,6 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <statBases>
             <MarketValue>3500</MarketValue>
@@ -246,7 +237,7 @@
 
     <!-- MkI Avenger -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
         <defName>FCP_Gun_MkI_Avenger</defName>
         <label>MkI Avenger</label>
         <description>An early model Avenger heavy weapon, known for its high rate of fire and reliability.</description>
@@ -262,9 +253,6 @@
             <skillRequirements>
                 <Crafting>8</Crafting>
             </skillRequirements>
-            <recipeUsers>
-                <li>FCP_Production_Complex_Weapons_Workbench</li>
-            </recipeUsers>
         </recipeMaker>
         <statBases>
             <MarketValue>1200</MarketValue>
@@ -328,7 +316,7 @@
 
     <!-- Vindicator -->
 
-    <ThingDef ParentName="BaseHumanMakeableGun">
+    <ThingDef ParentName="FCP_BaseGun">
         <defName>FCP_Gun_Vindicator</defName>
         <label>Vindicator</label>
         <description>A powerful heavy weapon, designed for maximum suppression and area denial.</description>
