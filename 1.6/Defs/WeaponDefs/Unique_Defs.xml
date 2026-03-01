@@ -465,7 +465,7 @@
         <defName>FCP_Gun_MkIIAvenger</defName>
         <useHitPoints>false</useHitPoints>
         <label>MkII Avenger</label>
-        <description>The MkII Avenger is a legendary, high-capacity 9mm submachine gun renowned for its blistering rate of fire and rugged reliability. Favored by elite operatives, its advanced design and custom modifications make it one of the most formidable automatic weapons in the wasteland.</description>
+        <description>The MkII Avenger is a legendary minigun chambered in 5mm, renowned for its devastating rate of fire and rugged reliability. Favored by elite operatives, its advanced design and custom modifications make it one of the most formidable automatic weapons in the wasteland.</description>
         <graphicData>
             <texPath>Weapons/Unique/FCP_MkII_Avenger</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -499,6 +499,14 @@
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
                 <rarity>Unique</rarity>
+            </li>
+            <li Class="FCP.Core.Backpacks.CompProperties_WeaponBackpack">
+                <backpackTexPath>Things/Pawn/Backpacks/Ammo_Backpack/FCP_Ammo_Backpack</backpackTexPath>
+                <backpackScale>1.0</backpackScale>
+                <drawBackOnlyWhenDrafted>false</drawBackOnlyWhenDrafted>
+                <northOffset>(0, 0.04, -0.10)</northOffset>
+                <southOffset>(0, -0.04, -0.10)</southOffset>
+                <eastOffset>(-0.3, 0.04, -0.10)</eastOffset>
             </li>
         </comps>
         <modExtensions>
