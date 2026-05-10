@@ -46,8 +46,8 @@
             <ComponentIndustrial>2</ComponentIndustrial>
         </costList>
         <verbs>
-            <li Class="Shotgunz.Verb_Properties_Shotgunz">
-                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
+            <li Class="FCP.Core.Verb_Properties_Shotgunz">
+                <verbClass>FCP.Core.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>FCP_Bullet_12Gauge_Pellet</defaultProjectile>
                 <warmupTime>0.9</warmupTime>
@@ -85,7 +85,7 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+            <li Class="FCP.Core.Ignore_ForcedMissRadius" />
         </modExtensions>
     </ThingDef>
 
@@ -130,8 +130,8 @@
             <ComponentIndustrial>3</ComponentIndustrial>
         </costList>
         <verbs>
-            <li Class="Shotgunz.Verb_Properties_Shotgunz">
-                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
+            <li Class="FCP.Core.Verb_Properties_Shotgunz">
+                <verbClass>FCP.Core.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>FCP_Bullet_12Gauge_Pellet</defaultProjectile>
                 <warmupTime>0.8</warmupTime>
@@ -169,7 +169,7 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+            <li Class="FCP.Core.Ignore_ForcedMissRadius" />
         </modExtensions>
     </ThingDef>
 
@@ -214,8 +214,8 @@
             <ComponentIndustrial>5</ComponentIndustrial>
         </costList>
         <verbs>
-            <li Class="Shotgunz.Verb_Properties_Shotgunz">
-                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
+            <li Class="FCP.Core.Verb_Properties_Shotgunz">
+                <verbClass>FCP.Core.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>FCP_Bullet_12Gauge_Pellet</defaultProjectile>
                 <warmupTime>0.6</warmupTime>
@@ -253,7 +253,7 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+            <li Class="FCP.Core.Ignore_ForcedMissRadius" />
         </modExtensions>
     </ThingDef>
 
@@ -298,8 +298,8 @@
             <ComponentIndustrial>5</ComponentIndustrial>
         </costList>
         <verbs>
-            <li Class="Shotgunz.Verb_Properties_Shotgunz">
-                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
+            <li Class="FCP.Core.Verb_Properties_Shotgunz">
+                <verbClass>FCP.Core.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>FCP_Bullet_12Gauge_Pellet</defaultProjectile>
                 <warmupTime>0.6</warmupTime>
@@ -337,7 +337,7 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+            <li Class="FCP.Core.Ignore_ForcedMissRadius" />
         </modExtensions>
     </ThingDef>
 
@@ -382,8 +382,8 @@
             <ComponentIndustrial>1</ComponentIndustrial>
         </costList>
         <verbs>
-            <li Class="Shotgunz.Verb_Properties_Shotgunz">
-                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
+            <li Class="FCP.Core.Verb_Properties_Shotgunz">
+                <verbClass>FCP.Core.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>FCP_Bullet_12Gauge_Pellet</defaultProjectile>
                 <warmupTime>0.6</warmupTime>
@@ -421,7 +421,7 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+            <li Class="FCP.Core.Ignore_ForcedMissRadius" />
         </modExtensions>
     </ThingDef>
 
@@ -466,8 +466,8 @@
             <ComponentIndustrial>3</ComponentIndustrial>
         </costList>
         <verbs>
-            <li Class="Shotgunz.Verb_Properties_Shotgunz">
-                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
+            <li Class="FCP.Core.Verb_Properties_Shotgunz">
+                <verbClass>FCP.Core.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>FCP_Bullet_20Gauge_Pellet</defaultProjectile>
                 <warmupTime>0.6</warmupTime>
@@ -505,7 +505,7 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+            <li Class="FCP.Core.Ignore_ForcedMissRadius" />
         </modExtensions>
     </ThingDef>
 
@@ -550,8 +550,8 @@
             <ComponentIndustrial>1</ComponentIndustrial>
         </costList>
         <verbs>
-            <li Class="Shotgunz.Verb_Properties_Shotgunz">
-                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
+            <li Class="FCP.Core.Verb_Properties_Shotgunz">
+                <verbClass>FCP.Core.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>FCP_Bullet_20Gauge_Pellet</defaultProjectile>
                 <warmupTime>0.6</warmupTime>
@@ -589,7 +589,7 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+            <li Class="FCP.Core.Ignore_ForcedMissRadius" />
         </modExtensions>
     </ThingDef>
 
@@ -634,8 +634,8 @@
             <ComponentIndustrial>6</ComponentIndustrial>
         </costList>
         <verbs>
-            <li Class="Shotgunz.Verb_Properties_Shotgunz">
-                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
+            <li Class="FCP.Core.Verb_Properties_Shotgunz">
+                <verbClass>FCP.Core.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>FCP_Bullet_12Gauge_Pellet</defaultProjectile>
                 <warmupTime>0.6</warmupTime>
@@ -673,7 +673,7 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+            <li Class="FCP.Core.Ignore_ForcedMissRadius" />
         </modExtensions>
     </ThingDef>
 
@@ -718,8 +718,8 @@
             <ComponentIndustrial>7</ComponentIndustrial>
         </costList>
         <verbs>
-            <li Class="Shotgunz.Verb_Properties_Shotgunz">
-                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
+            <li Class="FCP.Core.Verb_Properties_Shotgunz">
+                <verbClass>FCP.Core.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>FCP_Bullet_12Gauge_Pellet</defaultProjectile>
                 <warmupTime>0.6</warmupTime>
@@ -757,7 +757,7 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+            <li Class="FCP.Core.Ignore_ForcedMissRadius" />
         </modExtensions>
     </ThingDef>
 
@@ -802,8 +802,8 @@
             <ComponentIndustrial>10</ComponentIndustrial>
         </costList>
         <verbs>
-            <li Class="Shotgunz.Verb_Properties_Shotgunz">
-                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
+            <li Class="FCP.Core.Verb_Properties_Shotgunz">
+                <verbClass>FCP.Core.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>FCP_Bullet_12Gauge_Pellet</defaultProjectile>
                 <warmupTime>0.2</warmupTime>
@@ -841,7 +841,7 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+            <li Class="FCP.Core.Ignore_ForcedMissRadius" />
         </modExtensions>
     </ThingDef>
 

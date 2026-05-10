@@ -358,8 +358,8 @@
             <WoodLog>8</WoodLog>
         </costList>
         <verbs>
-            <li Class="Shotgunz.Verb_Properties_Shotgunz">
-                <verbClass>Shotgunz.Verb_Shoot_Shotgunz</verbClass>
+            <li Class="FCP.Core.Verb_Properties_Shotgunz">
+                <verbClass>FCP.Core.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>FCP_Bullet_12Gauge_Pellet</defaultProjectile>
                 <warmupTime>0.9</warmupTime>
@@ -397,7 +397,7 @@
             </li>
         </comps>
         <modExtensions>
-            <li Class="IgnoreConfigErrors.Ignore_ForcedMissRadius" />
+            <li Class="FCP.Core.Ignore_ForcedMissRadius" />
         </modExtensions>
     </ThingDef>
 
