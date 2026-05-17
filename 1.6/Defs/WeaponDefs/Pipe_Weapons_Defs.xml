@@ -16,19 +16,24 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Autopistol</soundInteract>
+        <smeltable>false</smeltable>
         <recipeMaker>
             <researchPrerequisites>
                 <li>FCP_Research_Makeshift_Weapons</li>
             </researchPrerequisites>
             <skillRequirements>
-                <Crafting>2</Crafting>
+                <Crafting>3</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
-            <WorkToMake>4000</WorkToMake>
+            <MarketValue>120</MarketValue>
+            <WorkToMake>8000</WorkToMake>
             <Mass>1.0</Mass>
             <AccuracyTouch>0.55</AccuracyTouch>
             <AccuracyShort>0.45</AccuracyShort>
@@ -40,8 +45,7 @@
             <li>FCP_Pipe_Weapons</li>
         </weaponTags>
         <costList>
-            <Steel>8</Steel>
-            <WoodLog>4</WoodLog>
+            <Steel>40</Steel>
         </costList>
         <verbs>
             <li>
@@ -94,19 +98,24 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Revolver</soundInteract>
+        <smeltable>false</smeltable>
         <recipeMaker>
             <researchPrerequisites>
                 <li>FCP_Research_Makeshift_Weapons</li>
             </researchPrerequisites>
             <skillRequirements>
-                <Crafting>2</Crafting>
+                <Crafting>3</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
-            <WorkToMake>5000</WorkToMake>
+            <MarketValue>150</MarketValue>
+            <WorkToMake>10000</WorkToMake>
             <Mass>1.2</Mass>
             <AccuracyTouch>0.60</AccuracyTouch>
             <AccuracyShort>0.55</AccuracyShort>
@@ -118,8 +127,7 @@
             <li>FCP_Pipe_Weapons</li>
         </weaponTags>
         <costList>
-            <Steel>10</Steel>
-            <WoodLog>6</WoodLog>
+            <Steel>40</Steel>
         </costList>
         <verbs>
             <li>
@@ -172,6 +180,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
+        <smeltable>false</smeltable>
         <recipeMaker>
             <researchPrerequisites>
                 <li>FCP_Research_Makeshift_Weapons</li>
@@ -179,12 +188,16 @@
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
-            <WorkToMake>7000</WorkToMake>
+            <MarketValue>150</MarketValue>
+            <WorkToMake>10000</WorkToMake>
             <Mass>2.4</Mass>
             <AccuracyTouch>0.50</AccuracyTouch>
             <AccuracyShort>0.55</AccuracyShort>
@@ -196,8 +209,7 @@
             <li>FCP_Pipe_Weapons</li>
         </weaponTags>
         <costList>
-            <Steel>14</Steel>
-            <WoodLog>10</WoodLog>
+            <Steel>40</Steel>
         </costList>
         <verbs>
             <li>
@@ -250,6 +262,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
+        <smeltable>false</smeltable>
         <recipeMaker>
             <researchPrerequisites>
                 <li>FCP_Research_Makeshift_Weapons</li>
@@ -257,13 +270,16 @@
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>85</MarketValue>
-            <WorkToMake>6000</WorkToMake>
+            <WorkToMake>12000</WorkToMake>
             <Mass>2.6</Mass>
             <AccuracyTouch>0.45</AccuracyTouch>
             <AccuracyShort>0.58</AccuracyShort>
@@ -275,8 +291,7 @@
             <li>FCP_Pipe_Weapons</li>
         </weaponTags>
         <costList>
-            <Steel>12</Steel>
-            <WoodLog>10</WoodLog>
+            <Steel>40</Steel>
         </costList>
         <verbs>
             <li>
@@ -288,7 +303,7 @@
                 <burstShotCount>1</burstShotCount>
                 <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
                 <soundCast>FCP_Sound_Shot_308mm_Hunting_Rifle</soundCast>
-                <soundCastTail>GunTail_Light</soundCastTail>
+                <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>3.5</muzzleFlashScale>
             </li>
         </verbs>
@@ -329,6 +344,7 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Shotgun</soundInteract>
+        <smeltable>false</smeltable>
         <recipeMaker>
             <researchPrerequisites>
                 <li>FCP_Research_Makeshift_Weapons</li>
@@ -336,13 +352,16 @@
             <skillRequirements>
                 <Crafting>3</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>75</MarketValue>
-            <WorkToMake>5500</WorkToMake>
+            <WorkToMake>10000</WorkToMake>
             <Mass>2.8</Mass>
             <AccuracyTouch>0.75</AccuracyTouch>
             <AccuracyShort>0.50</AccuracyShort>
@@ -354,8 +373,7 @@
             <li>FCP_Pipe_Weapons</li>
         </weaponTags>
         <costList>
-            <Steel>12</Steel>
-            <WoodLog>8</WoodLog>
+            <Steel>40</Steel>
         </costList>
         <verbs>
             <li Class="FCP.Core.Verb_Properties_Shotgunz">
@@ -413,20 +431,24 @@
         </graphicData>
         <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Rifle</soundInteract>
+        <smeltable>false</smeltable>
         <recipeMaker>
             <researchPrerequisites>
                 <li>FCP_Research_Makeshift_Weapons</li>
             </researchPrerequisites>
             <skillRequirements>
-                <Crafting>4</Crafting>
+                <Crafting>3</Crafting>
             </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+            </recipeUsers>
         </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>120</MarketValue>
-            <WorkToMake>8000</WorkToMake>
+            <WorkToMake>13000</WorkToMake>
             <Mass>3.2</Mass>
             <AccuracyTouch>0.35</AccuracyTouch>
             <AccuracyShort>0.50</AccuracyShort>
@@ -438,9 +460,7 @@
             <li>FCP_Pipe_Weapons</li>
         </weaponTags>
         <costList>
-            <Steel>18</Steel>
-            <ComponentIndustrial>1</ComponentIndustrial>
-            <WoodLog>12</WoodLog>
+            <Steel>40</Steel>
         </costList>
         <verbs>
             <li>

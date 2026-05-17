@@ -15,21 +15,10 @@
             <texPath>Weapons/Rifles/FCP_Combat_Rifle_Short</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>6</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Rifle</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
-        <statBases>
-            <WorkToMake>32000</WorkToMake>
-            <Mass>3.2</Mass>
+        <statBases>            <Mass>3.2</Mass>
             <AccuracyTouch>0.70</AccuracyTouch>
             <AccuracyShort>0.65</AccuracyShort>
             <AccuracyMedium>0.45</AccuracyMedium>
@@ -38,12 +27,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_Combat_Rifle_Short</li>
-        </weaponTags>
-        <costList>
-            <Steel>55</Steel>
-            <ComponentIndustrial>5</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -84,25 +68,16 @@
         <defName>FCP_Gun_Combat_Rifle_Standard</defName>
         <label>Combat Rifle</label>
         <description>The standard combat rifle is a rugged, semi-automatic rifle chambered for .45 ACP rounds. Reliable and versatile, it is a favorite among wastelanders for its balance of firepower, accuracy, and durability.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Rifles/FCP_Combat_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>7</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Rifle</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>450</MarketValue>
-            <WorkToMake>37000</WorkToMake>
             <Mass>3.8</Mass>
             <AccuracyTouch>0.68</AccuracyTouch>
             <AccuracyShort>0.72</AccuracyShort>
@@ -113,12 +88,7 @@
         <weaponTags>
             <li>FCP_Combat_Rifle</li>
             <li>FCP_Rifle</li>
-        </weaponTags>
-        <costList>
-            <Steel>65</Steel>
-            <ComponentIndustrial>6</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -168,21 +138,10 @@
             <texPath>Weapons/Rifles/FCP_Combat_Rifle_Scoped</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>7</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Rifle</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
-        <statBases>
-            <WorkToMake>39000</WorkToMake>
-            <Mass>4.0</Mass>
+        <statBases>            <Mass>4.0</Mass>
             <AccuracyTouch>0.65</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
             <AccuracyMedium>0.72</AccuracyMedium>
@@ -191,12 +150,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_Combat_Rifle_Scoped</li>
-        </weaponTags>
-        <costList>
-            <Steel>70</Steel>
-            <ComponentIndustrial>7</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -241,21 +195,10 @@
             <texPath>Weapons/Rifles/FCP_Combat_Rifle_Marksman</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Rifle</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
-        <statBases>
-            <WorkToMake>42000</WorkToMake>
-            <Mass>4.3</Mass>
+        <statBases>            <Mass>4.3</Mass>
             <AccuracyTouch>0.62</AccuracyTouch>
             <AccuracyShort>0.78</AccuracyShort>
             <AccuracyMedium>0.82</AccuracyMedium>
@@ -264,12 +207,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_Combat_Rifle_Marksman</li>
-        </weaponTags>
-        <costList>
-            <Steel>80</Steel>
-            <ComponentIndustrial>8</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -310,25 +248,16 @@
         <defName>FCP_Gun_BB_Gun</defName>
         <label>BB Gun</label>
         <description>A simple air-powered BB gun. While not lethal, it can sting and is often used for training or pest control. Not recommended for serious combat.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Rifles/FCP_BB_Gun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_SMG</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>2</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_SMG</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>50</MarketValue>
-            <WorkToMake>4000</WorkToMake>
             <Mass>1.2</Mass>
             <AccuracyTouch>0.90</AccuracyTouch>
             <AccuracyShort>0.80</AccuracyShort>
@@ -339,12 +268,7 @@
         <weaponTags>
             <li>FCP_BB_Gun</li>
             <li>FCP_Rifle</li>
-        </weaponTags>
-        <costList>
-            <Steel>10</Steel>
-            <ComponentIndustrial>1</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -390,25 +314,16 @@
         <defName>FCP_Gun_Brush_Gun</defName>
         <label>Brush Gun</label>
         <description>The Brush Gun is a lever-action rifle chambered for .45-70 Government rounds. Favored for its high stopping power and reliability, it is a popular choice among wasteland hunters and marksmen for taking down large game and armored targets.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Rifles/FCP_Brush_Gun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>7</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Rifle</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>650</MarketValue>
-            <WorkToMake>42000</WorkToMake>
             <Mass>4.2</Mass>
             <AccuracyTouch>0.60</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
@@ -419,12 +334,7 @@
         <weaponTags>
             <li>FCP_Brush_Gun</li>
             <li>FCP_Rifle</li>
-        </weaponTags>
-        <costList>
-            <Steel>65</Steel>
-            <ComponentIndustrial>6</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -470,25 +380,16 @@
         <defName>FCP_Gun_Cowboy_Repeater</defName>
         <label>Cowboy Repeater</label>
         <description>A classic lever-action rifle chambered for .357 rounds. The Cowboy Repeater is lightweight, reliable, and favored by marksmen and wanderers alike for its fast cycling and respectable accuracy.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Rifles/FCP_Cowboy_Repeater</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>5</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Rifle</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>380</MarketValue>
-            <WorkToMake>22000</WorkToMake>
             <Mass>3.1</Mass>
             <AccuracyTouch>0.65</AccuracyTouch>
             <AccuracyShort>0.72</AccuracyShort>
@@ -499,12 +400,7 @@
         <weaponTags>
             <li>FCP_Cowboy_Repeater</li>
             <li>FCP_Rifle</li>
-        </weaponTags>
-        <costList>
-            <Steel>40</Steel>
-            <ComponentIndustrial>3</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -545,25 +441,16 @@
         <defName>FCP_Gun_Trail_Carbine</defName>
         <label>Trail Carbine</label>
         <description>The Trail Carbine is a lever-action rifle chambered for .44 Magnum rounds. Renowned for its ruggedness and accuracy, it is a favorite among wasteland scouts and hunters for its fast cycling and reliable stopping power.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Rifles/FCP_Trail_Carbine</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>6</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Rifle</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>450</MarketValue>
-            <WorkToMake>32000</WorkToMake>
             <Mass>3.6</Mass>
             <AccuracyTouch>0.68</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
@@ -574,12 +461,7 @@
         <weaponTags>
             <li>FCP_Trail_Carbine</li>
             <li>FCP_Rifle</li>
-        </weaponTags>
-        <costList>
-            <Steel>55</Steel>
-            <ComponentIndustrial>5</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -620,25 +502,16 @@
         <defName>FCP_Gun_32_Hunting_Rifle</defName>
         <label>.32 Hunting Rifle</label>
         <description>The .32 Hunting Rifle is a pre-war bolt-action rifle chambered for .32 caliber rounds. Known for its simplicity and reliability, it is a common weapon among wastelanders, offering decent accuracy and stopping power for medium-range engagements.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Rifles/FCP_32_Hunting_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>5</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Rifle</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>280</MarketValue>
-            <WorkToMake>30000</WorkToMake>
             <Mass>4.5</Mass>
             <AccuracyTouch>0.55</AccuracyTouch>
             <AccuracyShort>0.65</AccuracyShort>
@@ -649,12 +522,7 @@
         <weaponTags>
             <li>FCP_32_Hunting_Rifle</li>
             <li>FCP_Rifle</li>
-        </weaponTags>
-        <costList>
-            <Steel>50</Steel>
-            <ComponentIndustrial>5</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -695,25 +563,16 @@
         <defName>FCP_Gun_Varmint_Rifle</defName>
         <label>Varmint Rifle</label>
         <description>The Varmint Rifle is a lightweight, bolt-action rifle chambered for .223 rounds. Originally designed for pest control and small game hunting, it is accurate and easy to handle, but lacks the stopping power of larger rifles.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Rifles/FCP_Varmint_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>3</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Rifle</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>220</MarketValue>
-            <WorkToMake>12000</WorkToMake>
             <Mass>3.0</Mass>
             <AccuracyTouch>0.70</AccuracyTouch>
             <AccuracyShort>0.78</AccuracyShort>
@@ -723,12 +582,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_Varmint_Rifle</li>
-        </weaponTags>
-        <costList>
-            <Steel>28</Steel>
-            <ComponentIndustrial>2</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -773,21 +627,10 @@
             <texPath>Weapons/Rifles/FCP_9mm_Hunting_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>3</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Rifle</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
-        <statBases>
-            <WorkToMake>11000</WorkToMake>
-            <Mass>3.2</Mass>
+        <statBases>            <Mass>3.2</Mass>
             <AccuracyTouch>0.70</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
             <AccuracyMedium>0.78</AccuracyMedium>
@@ -796,12 +639,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_9mm_Hunting_Rifle</li>
-        </weaponTags>
-        <costList>
-            <Steel>24</Steel>
-            <ComponentIndustrial>2</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -842,25 +680,16 @@
         <defName>FCP_Gun_223_Rangemaster</defName>
         <label>.223 Rangemaster Rifle</label>
         <description>The .223 Rangemaster is a precision bolt-action rifle chambered for .223 rounds. Favored by marksmen for its high accuracy and range, it is a reliable choice for hunting and long-range engagements in the wasteland.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Rifles/FCP_223_Rangemaster</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>6</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Rifle</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>480</MarketValue>
-            <WorkToMake>32000</WorkToMake>
             <Mass>4.0</Mass>
             <AccuracyTouch>0.60</AccuracyTouch>
             <AccuracyShort>0.80</AccuracyShort>
@@ -870,12 +699,7 @@
         </statBases>
         <weaponTags>
             <li>FCP_223_RangeMaster</li>
-        </weaponTags>
-        <costList>
-            <Steel>55</Steel>
-            <ComponentIndustrial>5</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -916,25 +740,16 @@
         <defName>FCP_Gun_223_Rifle</defName>
         <label>.223 Rifle</label>
         <description>The .223 Rifle is a lightweight, semi-automatic rifle chambered for .223 rounds. Known for its accuracy and low recoil, it is a popular choice for both hunting and combat in the wasteland.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Rifles/FCP_223_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>5</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Rifle</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>450</MarketValue>
-            <WorkToMake>22000</WorkToMake>
             <Mass>3.2</Mass>
             <AccuracyTouch>0.65</AccuracyTouch>
             <AccuracyShort>0.72</AccuracyShort>
@@ -945,12 +760,7 @@
         <weaponTags>
             <li>FCP_223_Rifle</li>
             <li>FCP_Rifle</li>
-        </weaponTags>
-        <costList>
-            <Steel>40</Steel>
-            <ComponentIndustrial>3</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -983,6 +793,74 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+    </ThingDef>
+
+    <!-- Battle Rifle -->
+
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
+        <defName>FCP_Gun_Battle_Rifle</defName>
+        <label>Battle Rifle</label>
+        <description>The Battle Rifle is a semi-automatic rifle chambered for powerful 7.62mm rounds. Designed as a mainline infantry weapon, it delivers excellent accuracy and stopping power at medium to long range, though its weight and recoil make it challenging to control in rapid fire.</description>
+        <smeltable>false</smeltable>
+        <graphicData>
+            <texPath>Weapons/Rifles/FCP_Battle_Rifle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <MarketValue>620</MarketValue>
+            <Mass>4.5</Mass>
+            <AccuracyTouch>0.55</AccuracyTouch>
+            <AccuracyShort>0.70</AccuracyShort>
+            <AccuracyMedium>0.82</AccuracyMedium>
+            <AccuracyLong>0.88</AccuracyLong>
+            <RangedWeapon_Cooldown>1.9</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Battle_Rifle</li>
+            <li>FCP_Rifle</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_762mm</defaultProjectile>
+                <warmupTime>1.0</warmupTime>
+                <range>36</range>
+                <burstShotCount>2</burstShotCount>
+                <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Assault_Rifle</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
 </Defs>

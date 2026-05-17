@@ -11,26 +11,18 @@
         <defName>FCP_Gun_Power_Armor_Assault_Rifle</defName>
         <label>Power Armor Assault Rifle</label>
         <description>The Assault Rifle is a pre-war, fully automatic rifle chambered for 5.56mm rounds. Its distinctive drum magazine and robust construction make it a favorite for sustained fire in the wasteland, though it is heavy and unwieldy compared to more modern designs requiring the use of power armor.</description>
+        <smeltable>false</smeltable>
 		<equippedAngleOffset>45</equippedAngleOffset>
         <graphicData>
             <texPath>Weapons/Assault_Rifles/FCP_FO4_Assault_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-        </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>750</MarketValue>
-            <WorkToMake>48000</WorkToMake>
             <Mass>6.2</Mass>
             <AccuracyTouch>0.55</AccuracyTouch>
             <AccuracyShort>0.68</AccuracyShort>
@@ -42,10 +34,6 @@
             <li>FCP_FO4_Assault_Rifle</li>
             <li>FCP_Power_Armor_Required</li>
         </weaponTags>
-        <costList>
-            <Steel>85</Steel>
-            <ComponentIndustrial>8</ComponentIndustrial>
-        </costList>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -85,7 +73,6 @@
             </li>
         </comps>
         <modExtensions>
-            <!-- Require they be a super mutant or wear a power armor frame -->
             <li Class="FCP.Core.WeaponRequirementExtension">
                 <requirements>
                     <li Class="FCP.Core.WeaponRequirement_AnyInner">
@@ -113,25 +100,18 @@
         <defName>FCP_Gun_R91_Rifle</defName>
         <label>R-91 Assault Rifle</label>
         <description>The R-91 is a pre-war, fully automatic assault rifle chambered for 5.56mm rounds. It was the standard-issue rifle for the U.S. Armed Forces before the Great War, known for its reliability and versatility in combat.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Assault_Rifles/FCP_R91_Assault_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+		<equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>6</Crafting>
-            </skillRequirements>
-        </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>520</MarketValue>
-            <WorkToMake>40000</WorkToMake>
             <Mass>3.5</Mass>
             <AccuracyTouch>0.60</AccuracyTouch>
             <AccuracyShort>0.70</AccuracyShort>
@@ -143,10 +123,6 @@
             <li>FCP_R91_Rifle</li>
             <li>FCP_Assault_Rifle</li>
         </weaponTags>
-        <costList>
-            <Steel>65</Steel>
-            <ComponentIndustrial>6</ComponentIndustrial>
-        </costList>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -193,25 +169,17 @@
         <defName>FCP_Gun_Chinese_Assault_Rifle</defName>
         <label>Chinese Assault Rifle</label>
         <description>A rugged and powerful assault rifle of Chinese origin. It was widely used by Chinese forces during the Sino-American War, known for its high damage output and reliability in harsh conditions.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Assault_Rifles/FCP_Chinese_Assault_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>7</Crafting>
-            </skillRequirements>
-        </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>480</MarketValue>
-            <WorkToMake>45000</WorkToMake>
             <Mass>4.0</Mass>
             <AccuracyTouch>0.50</AccuracyTouch>
             <AccuracyShort>0.60</AccuracyShort>
@@ -223,10 +191,6 @@
             <li>FCP_Chinese_Assault_Rifle</li>
             <li>FCP_Assault_Rifle</li>
         </weaponTags>
-        <costList>
-            <Steel>70</Steel>
-            <ComponentIndustrial>7</ComponentIndustrial>
-        </costList>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -273,25 +237,17 @@
         <defName>FCP_Gun_Marksman_Carbine</defName>
         <label>Marksman Carbine</label>
         <description>A lightweight, semi-automatic carbine chambered for 5.56mm rounds. Designed for precision and medium-range engagements, it was favored by NCR marksmen for its accuracy and reliability.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Assault_Rifles/FCP_Marksman_Carbine</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>7</Crafting>
-            </skillRequirements>
-        </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>580</MarketValue>
-            <WorkToMake>42000</WorkToMake>
             <Mass>3.8</Mass>
             <AccuracyTouch>0.65</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
@@ -303,10 +259,6 @@
             <li>FCP_Marksman_Carbine</li>
             <li>FCP_Assault_Rifle</li>
         </weaponTags>
-        <costList>
-            <Steel>70</Steel>
-            <ComponentIndustrial>7</ComponentIndustrial>
-        </costList>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -353,25 +305,17 @@
         <defName>FCP_Gun_Assault_Carbine</defName>
         <label>Assault Carbine</label>
         <description>A compact, fully automatic carbine chambered for 5mm rounds. Designed for military use, it offers a high rate of fire and excellent handling, making it ideal for close-quarters combat and suppressive fire.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Assault_Rifles/FCP_Assault_Carbine</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>6</Crafting>
-            </skillRequirements>
-        </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>680</MarketValue>
-            <WorkToMake>40000</WorkToMake>
             <Mass>3.5</Mass>
             <AccuracyTouch>0.65</AccuracyTouch>
             <AccuracyShort>0.70</AccuracyShort>
@@ -383,10 +327,6 @@
             <li>FCP_Assault_Carbine</li>
             <li>FCP_Assault_Rifle</li>
         </weaponTags>
-        <costList>
-            <Steel>65</Steel>
-            <ComponentIndustrial>6</ComponentIndustrial>
-        </costList>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -433,25 +373,17 @@
         <defName>FCP_Gun_AK_112_AR</defName>
         <label>AK-112 Assault Rifle</label>
         <description>The AK-112 is a robust, pre-war assault rifle chambered for 5.56mm rounds. Known for its reliability and ease of maintenance, it remains a popular choice among wasteland survivors.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Assault_Rifles/FCP_AK_112</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>6</Crafting>
-            </skillRequirements>
-        </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>550</MarketValue>
-            <WorkToMake>39000</WorkToMake>
             <Mass>3.6</Mass>
             <AccuracyTouch>0.60</AccuracyTouch>
             <AccuracyShort>0.68</AccuracyShort>
@@ -463,10 +395,6 @@
             <li>FCP_AK_112</li>
             <li>FCP_Assault_Rifle</li>
         </weaponTags>
-        <costList>
-            <Steel>65</Steel>
-            <ComponentIndustrial>6</ComponentIndustrial>
-        </costList>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -476,7 +404,7 @@
                 <range>29</range>
                 <burstShotCount>6</burstShotCount>
                 <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-                <soundCast>FCP_Sound_Shot_Chinese_Assault_Rifle</soundCast>
+                <soundCast>FCP_Sound_Shot_Assault_Rifle</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>8</muzzleFlashScale>
             </li>
@@ -513,25 +441,17 @@
         <defName>FCP_Gun_G11_AR</defName>
         <label>G11 Assault Rifle</label>
         <description>The G11 is a revolutionary German assault rifle using caseless ammunition. Its high rate of fire and advanced design make it a rare but highly sought-after weapon in the wasteland.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Assault_Rifles/FCP_G11</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>9</Crafting>
-            </skillRequirements>
-        </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>720</MarketValue>
-            <WorkToMake>60000</WorkToMake>
             <Mass>4.2</Mass>
             <AccuracyTouch>0.60</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
@@ -543,10 +463,6 @@
             <li>FCP_G11</li>
             <li>FCP_Assault_Rifle</li>
         </weaponTags>
-        <costList>
-            <Steel>90</Steel>
-            <ComponentIndustrial>10</ComponentIndustrial>
-        </costList>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -587,4 +503,141 @@
         </comps>
     </ThingDef>
 
+    <!-- Infiltrator -->
+
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
+        <defName>FCP_Gun_Infiltrator</defName>
+        <label>Infiltrator</label>
+        <description>The Infiltrator is a suppressed, fully automatic rifle chambered for 5.56mm rounds. Designed for covert operations, it combines stealth with reliable firepower, making it ideal for silent takedowns and infiltration missions.</description>
+        <smeltable>false</smeltable>
+        <graphicData>
+            <texPath>Weapons/Assault_Rifles/FCP_Infiltrator</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <MarketValue>640</MarketValue>
+            <Mass>4.0</Mass>
+            <AccuracyTouch>0.65</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.78</AccuracyMedium>
+            <AccuracyLong>0.62</AccuracyLong>
+            <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Infiltrator</li>
+            <li>FCP_Assault_Rifle</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_556mm</defaultProjectile>
+                <warmupTime>0.8</warmupTime>
+                <range>28</range>
+                <burstShotCount>6</burstShotCount>
+                <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Assault_Rifle</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>4</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>7</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>7</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Automatic Rifle -->
+
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
+        <defName>FCP_Gun_Automatic_Rifle</defName>
+        <label>Automatic Rifle</label>
+        <description>The Automatic Rifle is a compact, fully automatic rifle chambered for 5.56mm rounds. Its lightweight design and high rate of fire make it effective in close to medium range combat, though it sacrifices some accuracy compared to larger battle rifles.</description>
+        <smeltable>false</smeltable>
+        <graphicData>
+            <texPath>Weapons/Assault_Rifles/FCP_Automatic_Rifle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <MarketValue>540</MarketValue>
+            <Mass>3.8</Mass>
+            <AccuracyTouch>0.62</AccuracyTouch>
+            <AccuracyShort>0.70</AccuracyShort>
+            <AccuracyMedium>0.72</AccuracyMedium>
+            <AccuracyLong>0.60</AccuracyLong>
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Automatic_Rifle</li>
+            <li>FCP_Assault_Rifle</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_556mm</defaultProjectile>
+                <warmupTime>0.85</warmupTime>
+                <range>29</range>
+                <burstShotCount>8</burstShotCount>
+                <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Assault_Rifle</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>8</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>7</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>7</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
 </Defs>
+

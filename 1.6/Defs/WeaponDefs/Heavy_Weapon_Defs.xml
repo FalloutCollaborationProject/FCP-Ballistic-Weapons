@@ -11,25 +11,16 @@
         <defName>FCP_Gun_Minigun</defName>
         <label>Minigun</label>
         <description>The Minigun is a multi-barrel, rotary machine gun capable of firing 5mm rounds at an extremely high rate. Its devastating firepower makes it a favorite for heavy support roles, but its weight and bulk limit mobility.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Heavy_Weapons/FCP_Minigun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>10</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Rifle</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>850</MarketValue>
-            <WorkToMake>90000</WorkToMake>
             <Mass>12.0</Mass>
             <AccuracyTouch>0.50</AccuracyTouch>
             <AccuracyShort>0.45</AccuracyShort>
@@ -40,12 +31,7 @@
         <weaponTags>
             <li>FCP_Minigun_FO3</li>
             <li>FCP_Power_Armor_Required</li>
-        </weaponTags>
-        <costList>
-            <Steel>180</Steel>
-            <ComponentIndustrial>14</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -105,25 +91,16 @@
         <defName>FCP_Gun_Light_Machine_Gun</defName>
         <label>Light Machine Gun</label>
         <description>The Light Machine Gun is a pre-war, fully automatic support weapon chambered for 5.56mm rounds. Designed for sustained suppressive fire, it features a high-capacity magazine and a high rate of fire, making it ideal for pinning down enemies and providing covering fire in open combat.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Heavy_Weapons/FCP_Light_Machine_Gun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Rifle</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>820</MarketValue>
-            <WorkToMake>60000</WorkToMake>
             <Mass>8.5</Mass>
             <AccuracyTouch>0.55</AccuracyTouch>
             <AccuracyShort>0.60</AccuracyShort>
@@ -134,12 +111,7 @@
         <weaponTags>
             <li>FCP_Light_Machine_Gun</li>
             <li>FCP_Heavy_Weapon</li>
-        </weaponTags>
-        <costList>
-            <Steel>120</Steel>
-            <ComponentIndustrial>10</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -190,29 +162,16 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-        </recipeMaker>
+        <smeltable>false</smeltable>
         <statBases>
             <MarketValue>3500</MarketValue>
-            <WorkToMake>80000</WorkToMake>
             <Mass>11.0</Mass>
             <AccuracyTouch>0.42</AccuracyTouch>
             <AccuracyShort>0.38</AccuracyShort>
             <AccuracyMedium>0.22</AccuracyMedium>
             <AccuracyLong>0.09</AccuracyLong>
             <RangedWeapon_Cooldown>3.7</RangedWeapon_Cooldown>
-        </statBases>
-        <costList>
-            <Steel>200</Steel>
-            <ComponentIndustrial>16</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </statBases>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -221,7 +180,7 @@
                 <range>26</range>
                 <burstShotCount>8</burstShotCount>
                 <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-                <soundCast>FCP_Sound_Shot_LMG</soundCast>
+                <soundCast>FCP_Sound_Shot_Minigun</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>18</muzzleFlashScale>
             </li>
@@ -254,29 +213,16 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-        </recipeMaker>
+        <smeltable>false</smeltable>
         <statBases>
             <MarketValue>1200</MarketValue>
-            <WorkToMake>85000</WorkToMake>
             <Mass>10.0</Mass>
             <AccuracyTouch>0.55</AccuracyTouch>
             <AccuracyShort>0.50</AccuracyShort>
             <AccuracyMedium>0.35</AccuracyMedium>
             <AccuracyLong>0.15</AccuracyLong>
             <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
-        </statBases>
-        <costList>
-            <Steel>160</Steel>
-            <ComponentIndustrial>12</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </statBases>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -341,21 +287,16 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
+        <smeltable>false</smeltable>
         <statBases>
             <MarketValue>950</MarketValue>
-            <WorkToMake>95000</WorkToMake>
             <Mass>13.0</Mass>
             <AccuracyTouch>0.50</AccuracyTouch>
             <AccuracyShort>0.55</AccuracyShort>
             <AccuracyMedium>0.40</AccuracyMedium>
             <AccuracyLong>0.20</AccuracyLong>
             <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
-        </statBases>
-        <costList>
-            <Steel>180</Steel>
-            <ComponentIndustrial>15</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </statBases>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -399,6 +340,383 @@
                 </requirements>
             </li>
         </modExtensions>
+    </ThingDef>
+
+    <!-- 50 Cal MG -->
+
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
+        <defName>FCP_Gun_50_Cal_MG</defName>
+        <label>.50 Cal Machine Gun</label>
+        <description>The .50 Caliber Machine Gun is a heavy, belt-fed weapon designed for maximum firepower. Chambered for the devastating .50 BMG round, it excels at long-range suppression and can tear through armor with ease, but its extreme weight demands a power armor frame to wield effectively.</description>
+        <graphicData>
+            <texPath>Weapons/Heavy_Weapons/FCP_50_Cal_MG</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+		<equippedAngleOffset>45</equippedAngleOffset>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <smeltable>false</smeltable>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <MarketValue>1200</MarketValue>
+            <Mass>15.0</Mass>
+            <AccuracyTouch>0.45</AccuracyTouch>
+            <AccuracyShort>0.50</AccuracyShort>
+            <AccuracyMedium>0.60</AccuracyMedium>
+            <AccuracyLong>0.70</AccuracyLong>
+            <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_50_Cal_MG</li>
+            <li>FCP_Power_Armor_Required</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_50Cal</defaultProjectile>
+                <warmupTime>2.8</warmupTime>
+                <range>48</range>
+                <burstShotCount>10</burstShotCount>
+                <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_LMG</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>18</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>14</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+            <li Class="FCP.Core.Backpacks.CompProperties_WeaponBackpack">
+                <backpackTexPath>Things/Pawn/Backpacks/Ammo_Backpack/FCP_Ammo_Backpack</backpackTexPath>
+                <backpackScale>1.0</backpackScale>
+                <drawBackOnlyWhenDrafted>false</drawBackOnlyWhenDrafted>
+                <northOffset>(0, 0.04, -0.10)</northOffset>
+                <southOffset>(0, -0.04, -0.10)</southOffset>
+                <eastOffset>(-0.3, 0.04, -0.10)</eastOffset>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.WeaponRequirementExtension">
+                <requirements>
+                    <li Class="FCP.Core.WeaponRequirement_AnyInner">
+                        <requirements>
+                            <li Class="FCP.Core.WeaponRequirement_AnyApparel">
+                                <requiredApparel>
+                                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+                                </requiredApparel>
+                            </li>
+                        </requirements>
+                    </li>
+                </requirements>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Auto Cannon -->
+
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
+        <defName>FCP_Gun_Auto_Cannon</defName>
+        <label>Auto Cannon</label>
+        <description>The Auto Cannon is a powerful, belt-fed heavy weapon firing large-caliber explosive rounds. Originally designed for vehicle mounting, it has been adapted for power armor use. Its devastating firepower can shred infantry and light vehicles alike, though its weight and recoil make it impossible to use without mechanical assistance.</description>
+        <graphicData>
+            <texPath>Weapons/Heavy_Weapons/FCP_Auto_Cannon</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <smeltable>false</smeltable>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <MarketValue>1400</MarketValue>
+            <Mass>18.0</Mass>
+            <AccuracyTouch>0.40</AccuracyTouch>
+            <AccuracyShort>0.45</AccuracyShort>
+            <AccuracyMedium>0.55</AccuracyMedium>
+            <AccuracyLong>0.60</AccuracyLong>
+            <RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Auto_Cannon</li>
+            <li>FCP_Power_Armor_Required</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_Autocannon</defaultProjectile>
+                <warmupTime>3.0</warmupTime>
+                <range>42</range>
+                <burstShotCount>6</burstShotCount>
+                <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_LMG</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>20</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>16</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.WeaponRequirementExtension">
+                <requirements>
+                    <li Class="FCP.Core.WeaponRequirement_AnyInner">
+                        <requirements>
+                            <li Class="FCP.Core.WeaponRequirement_AnyApparel">
+                                <requiredApparel>
+                                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+                                </requiredApparel>
+                            </li>
+                        </requirements>
+                    </li>
+                </requirements>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- K9000 Cyberdog Gun -->
+
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
+        <defName>FCP_Gun_K900_Cyberdog_Gun</defName>
+        <label>K9000 Cyberdog Gun</label>
+        <description>The K9000 Cyberdog Gun is an experimental weapon that combines advanced robotics with ballistics. Chambered for .357 rounds and equipped with a targeting computer that barks when locked on, it offers excellent accuracy and a high rate of fire, making it as unsettling as it is effective.</description>
+        <graphicData>
+            <texPath>Weapons/Heavy_Weapons/FCP_K900_Cyberdog_Gun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <smeltable>false</smeltable>
+        <smeltable>false</smeltable>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <MarketValue>920</MarketValue>
+            <Mass>7.5</Mass>
+            <AccuracyTouch>0.60</AccuracyTouch>
+            <AccuracyShort>0.70</AccuracyShort>
+            <AccuracyMedium>0.75</AccuracyMedium>
+            <AccuracyLong>0.60</AccuracyLong>
+            <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_K900_Cyberdog_Gun</li>
+            <li>FCP_Heavy_Weapon</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_357mm</defaultProjectile>
+                <warmupTime>1.2</warmupTime>
+                <range>32</range>
+                <burstShotCount>12</burstShotCount>
+                <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Assault_Rifle</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>10</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+            <li Class="FCP.Core.Backpacks.CompProperties_WeaponBackpack">
+                <backpackTexPath>Things/Pawn/Backpacks/Ammo_Backpack/FCP_Ammo_Backpack</backpackTexPath>
+                <backpackScale>1.0</backpackScale>
+                <drawBackOnlyWhenDrafted>false</drawBackOnlyWhenDrafted>
+                <northOffset>(0, 0.04, -0.10)</northOffset>
+                <southOffset>(0, -0.04, -0.10)</southOffset>
+                <eastOffset>(-0.3, 0.04, -0.10)</eastOffset>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- Rockwell CZ53 Minigun -->
+
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
+        <defName>FCP_Gun_Rockwell_CZ54_Minigun</defName>
+        <label>Rockwell CZ53 Personal Minigun</label>
+        <description>The Rockwell CZ53 Personal Minigun is a pre-war rotary machine gun chambered for 5mm rounds. Lighter than standard miniguns, it trades some firepower for improved mobility, though it still requires significant strength or power armor to wield effectively in sustained combat.</description>
+        <graphicData>
+            <texPath>Weapons/Heavy_Weapons/FCP_Rockwell_CZ54_Minigun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <smeltable>false</smeltable>
+        <smeltable>false</smeltable>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <MarketValue>780</MarketValue>
+            <Mass>10.5</Mass>
+            <AccuracyTouch>0.52</AccuracyTouch>
+            <AccuracyShort>0.48</AccuracyShort>
+            <AccuracyMedium>0.35</AccuracyMedium>
+            <AccuracyLong>0.15</AccuracyLong>
+            <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Rockwell_CZ54_Minigun</li>
+            <li>FCP_Power_Armor_Required</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_5mm</defaultProjectile>
+                <warmupTime>2.3</warmupTime>
+                <range>27</range>
+                <burstShotCount>20</burstShotCount>
+                <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Minigun</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>15</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>11</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+            <li Class="FCP.Core.Backpacks.CompProperties_WeaponBackpack">
+                <backpackTexPath>Things/Pawn/Backpacks/Ammo_Backpack/FCP_Ammo_Backpack</backpackTexPath>
+                <backpackScale>1.0</backpackScale>
+                <drawBackOnlyWhenDrafted>false</drawBackOnlyWhenDrafted>
+                <northOffset>(0, 0.04, -0.10)</northOffset>
+                <southOffset>(0, -0.04, -0.10)</southOffset>
+                <eastOffset>(-0.3, 0.04, -0.10)</eastOffset>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.WeaponRequirementExtension">
+                <requirements>
+                    <li Class="FCP.Core.WeaponRequirement_AnyInner">
+                        <requirements>
+                            <li Class="FCP.Core.WeaponRequirement_AnyApparel">
+                                <requiredApparel>
+                                    <li MayRequire="Rick.FCP.PowerArmor">FCP_Apparel_Power_Armor_Frame</li>
+                                </requiredApparel>
+                            </li>
+                        </requirements>
+                    </li>
+                </requirements>
+            </li>
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Shoulder Mounted Machine Gun -->
+
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
+        <defName>FCP_Gun_Shoulder_Mounted_MG</defName>
+        <label>Shoulder Mounted Machine Gun</label>
+        <description>The Shoulder Mounted Machine Gun is a heavy support weapon chambered for 7.62mm rounds. Designed to be braced against the shoulder for stability, it provides sustained suppressive fire with excellent control, though its weight makes it cumbersome for mobile combat.</description>
+        <graphicData>
+            <texPath>Weapons/Heavy_Weapons/FCP_Shoulder_Mounted_MG</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+		<equippedAngleOffset>45</equippedAngleOffset>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <smeltable>false</smeltable>
+        <smeltable>false</smeltable>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <MarketValue>900</MarketValue>
+            <Mass>9.5</Mass>
+            <AccuracyTouch>0.52</AccuracyTouch>
+            <AccuracyShort>0.62</AccuracyShort>
+            <AccuracyMedium>0.68</AccuracyMedium>
+            <AccuracyLong>0.55</AccuracyLong>
+            <RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Shoulder_Mounted_MG</li>
+            <li>FCP_Heavy_Weapon</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_762mm</defaultProjectile>
+                <warmupTime>1.9</warmupTime>
+                <range>35</range>
+                <burstShotCount>14</burstShotCount>
+                <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_LMG</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>12</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
 </Defs>

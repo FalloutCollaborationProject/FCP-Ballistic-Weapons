@@ -11,25 +11,16 @@
         <defName>FCP_Gun_10mm_SMG</defName>
         <label>10mm SMG</label>
         <description>The 10mm SMG is a compact, fully automatic submachine gun chambered for 10mm rounds. Known for its high rate of fire and ease of use, it is ideal for close-quarters combat but sacrifices accuracy at longer ranges.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Submachine_Guns/FCP_10mm_SMG</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_SMG</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>5</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_SMG</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>420</MarketValue>
-            <WorkToMake>25000</WorkToMake>
             <Mass>3.2</Mass>
             <AccuracyTouch>0.70</AccuracyTouch>
             <AccuracyShort>0.60</AccuracyShort>
@@ -40,12 +31,7 @@
         <weaponTags>
             <li>FCP_10mm_SMG</li>
             <li>FCP_SMG</li>
-        </weaponTags>
-        <costList>
-            <Steel>45</Steel>
-            <ComponentIndustrial>4</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -91,25 +77,16 @@
         <defName>FCP_Gun_HK_10_SMG</defName>
         <label>HK-10 SMG</label>
         <description>The HK-10 is a modern, compact submachine gun known for its reliability and high rate of fire. Favored by security forces and elite units for urban operations.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Submachine_Guns/FCP_HK_10</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_SMG</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>6</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_SMG</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>450</MarketValue>
-            <WorkToMake>28000</WorkToMake>
             <Mass>3.0</Mass>
             <AccuracyTouch>0.78</AccuracyTouch>
             <AccuracyShort>0.68</AccuracyShort>
@@ -120,12 +97,7 @@
         <weaponTags>
             <li>FCP_HK_10</li>
             <li>FCP_SMG</li>
-        </weaponTags>
-        <costList>
-            <Steel>48</Steel>
-            <ComponentIndustrial>4</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -171,25 +143,16 @@
         <defName>FCP_Gun_9mm_SMG</defName>
         <label>9mm SMG</label>
         <description>The 9mm SMG is a lightweight, fully automatic submachine gun chambered for 9mm rounds. Known for its ease of use and high rate of fire, it is effective in close-quarters combat but lacks stopping power and accuracy at longer ranges.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Submachine_Guns/FCP_9mm_SMG</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_SMG</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_SMG</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>350</MarketValue>
-            <WorkToMake>20000</WorkToMake>
             <Mass>2.8</Mass>
             <AccuracyTouch>0.75</AccuracyTouch>
             <AccuracyShort>0.65</AccuracyShort>
@@ -200,12 +163,7 @@
         <weaponTags>
             <li>FCP_9mm_SMG</li>
             <li>FCP_SMG</li>
-        </weaponTags>
-        <costList>
-            <Steel>40</Steel>
-            <ComponentIndustrial>3</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -251,25 +209,16 @@
         <defName>FCP_Gun_127mm_SMG</defName>
         <label>12.7mm SMG</label>
         <description>The 12.7mm SMG is a powerful, fully automatic submachine gun chambered for 12.7mm rounds. Known for its high damage output and rapid rate of fire, it is devastating in close-quarters combat but suffers from heavy recoil and limited accuracy at range.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Submachine_Guns/FCP_127mm_SMG</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_SMG</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>6</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_SMG</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>880</MarketValue>
-            <WorkToMake>30000</WorkToMake>
             <Mass>4.0</Mass>
             <AccuracyTouch>0.70</AccuracyTouch>
             <AccuracyShort>0.55</AccuracyShort>
@@ -280,12 +229,7 @@
         <weaponTags>
             <li>FCP_127mm_SMG</li>
             <li>FCP_SMG</li>
-        </weaponTags>
-        <costList>
-            <Steel>60</Steel>
-            <ComponentIndustrial>5</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -335,21 +279,10 @@
             <texPath>Weapons/Submachine_Guns/FCP_FO4_Submachine_Gun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_SMG</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>5</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_SMG</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
-        <statBases>
-            <WorkToMake>26000</WorkToMake>
-            <Mass>3.4</Mass>
+        <statBases>            <Mass>3.4</Mass>
             <AccuracyTouch>0.72</AccuracyTouch>
             <AccuracyShort>0.60</AccuracyShort>
             <AccuracyMedium>0.40</AccuracyMedium>
@@ -359,12 +292,7 @@
         <weaponTags>
             <li>FCP_45_SMG</li>
             <li>FCP_SMG</li>
-        </weaponTags>
-        <costList>
-            <Steel>50</Steel>
-            <ComponentIndustrial>4</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -410,25 +338,16 @@
         <defName>FCP_Gun_Silenced_22_SMG</defName>
         <label>Silenced .22 SMG</label>
         <description>A lightweight, fully automatic submachine gun chambered for .22 LR rounds and equipped with an integral suppressor. Extremely quiet and easy to control, but lacks stopping power compared to larger calibers.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Submachine_Guns/FCP_Silenced_22_SMG</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_SMG</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>5</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_SMG</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>280</MarketValue>
-            <WorkToMake>20000</WorkToMake>
             <Mass>2.5</Mass>
             <AccuracyTouch>0.82</AccuracyTouch>
             <AccuracyShort>0.70</AccuracyShort>
@@ -439,12 +358,7 @@
         <weaponTags>
             <li>FCP_Silenced_22_SMG</li>
             <li>FCP_SMG</li>
-        </weaponTags>
-        <costList>
-            <Steel>38</Steel>
-            <ComponentIndustrial>3</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -480,6 +394,74 @@
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
                 <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- .45 Auto SMG -->
+
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
+        <defName>FCP_Gun_45_Auto_SMG</defName>
+        <label>.45 Auto Submachine Gun</label>
+        <description>The .45 Auto Submachine Gun is a pre-war, fully automatic weapon chambered for .45 ACP rounds. Based on the classic Thompson design, it delivers excellent stopping power in close quarters. Its drum magazine and solid construction make it a favorite among raiders and hardened wastelanders.</description>
+        <smeltable>false</smeltable>
+        <graphicData>
+            <texPath>Weapons/Submachine_Guns/FCP_45_Auto_SMG</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_SMG</soundInteract>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <MarketValue>520</MarketValue>
+            <Mass>4.2</Mass>
+            <AccuracyTouch>0.72</AccuracyTouch>
+            <AccuracyShort>0.62</AccuracyShort>
+            <AccuracyMedium>0.42</AccuracyMedium>
+            <AccuracyLong>0.24</AccuracyLong>
+            <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_45_Auto_SMG</li>
+            <li>FCP_SMG</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_45ACP</defaultProjectile>
+                <warmupTime>0.7</warmupTime>
+                <range>20</range>
+                <burstShotCount>5</burstShotCount>
+                <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_10mm_SMG</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>5</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>7</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>7</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
             </li>
         </comps>
     </ThingDef>

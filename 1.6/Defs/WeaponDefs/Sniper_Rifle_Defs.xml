@@ -11,25 +11,15 @@
         <defName>FCP_Gun_DKS_501_Sniper_Rifle</defName>
         <label>DKS-501 Sniper Rifle</label>
         <description>The DKS-501 is a pre-war bolt-action sniper rifle chambered for .308 rounds. Known for its exceptional accuracy and stopping power, it is a favorite among marksmen for long-range engagements.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Sniper_Rifles/FCP_DKS_501_Sniper_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Rifle</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
-        <statBases>
-            <WorkToMake>50000</WorkToMake>
-            <Mass>5.5</Mass>
+        <statBases>            <Mass>5.5</Mass>
             <AccuracyTouch>0.50</AccuracyTouch>
             <AccuracyShort>0.70</AccuracyShort>
             <AccuracyMedium>0.85</AccuracyMedium>
@@ -39,12 +29,7 @@
         <weaponTags>
             <li>FCP_DKS_501_Sniper_Rifle</li>
             <li>FCP_Sniper_Rifle</li>
-        </weaponTags>
-        <costList>
-            <Steel>80</Steel>
-            <ComponentIndustrial>8</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -90,25 +75,16 @@
         <defName>FCP_Gun_Scoped_Hunting_Rifle</defName>
         <label>Scoped Hunting Rifle</label>
         <description>The Scoped Hunting Rifle is a pre-war bolt-action rifle chambered for .308 rounds. Equipped with a scope, it is highly accurate and effective for medium to long-range engagements, making it a reliable choice for hunters and marksmen alike.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Sniper_Rifles/FCP_Scoped_Hunting_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>7</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Rifle</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>520</MarketValue>
-            <WorkToMake>45000</WorkToMake>
             <Mass>4.8</Mass>
             <AccuracyTouch>0.55</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
@@ -119,12 +95,7 @@
         <weaponTags>
             <li>FCP_Scoped_Hunting_Rifle</li>
             <li>FCP_Sniper_Rifle</li>
-        </weaponTags>
-        <costList>
-            <Steel>75</Steel>
-            <ComponentIndustrial>7</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -164,4 +135,141 @@
         </comps>
     </ThingDef>
 
+    <!-- Anti-Materiel Rifle -->
+
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
+        <defName>FCP_Gun_Anti_Material_Rifle</defName>
+        <label>Anti-Materiel Rifle</label>
+        <description>The Anti-Materiel Rifle is a pre-war bolt-action rifle chambered for .50 BMG rounds. Originally designed to destroy light vehicles and equipment, it delivers devastating power at extreme range. Its massive recoil and weight make it difficult to use, but in the right hands it can eliminate targets from distances most would consider impossible.</description>
+        <smeltable>false</smeltable>
+        <graphicData>
+            <texPath>Weapons/Sniper_Rifles/FCP_Anti_Material_Rifle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <MarketValue>1100</MarketValue>
+            <Mass>7.5</Mass>
+            <AccuracyTouch>0.30</AccuracyTouch>
+            <AccuracyShort>0.55</AccuracyShort>
+            <AccuracyMedium>0.88</AccuracyMedium>
+            <AccuracyLong>0.98</AccuracyLong>
+            <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Anti_Material_Rifle</li>
+            <li>FCP_Sniper_Rifle</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_50Cal</defaultProjectile>
+                <warmupTime>2.8</warmupTime>
+                <range>55</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Anti_Material_Rifle</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>16</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>11</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>11</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- DKS-500 Sniper Rifle -->
+
+    <ThingDef ParentName="FCP_Complex_Gun_Base">
+        <defName>FCP_Gun_DKS_500_Sniper_Rifle</defName>
+        <label>DKS-500 Sniper Rifle</label>
+        <description>The DKS-500 is a pre-war bolt-action sniper rifle chambered for .308 rounds. An earlier version of the DKS-501, it shares the same reputation for accuracy and reliability, though with slightly less refined mechanics. Still highly valued by wasteland marksmen.</description>
+        <smeltable>false</smeltable>
+        <graphicData>
+            <texPath>Weapons/Sniper_Rifles/FCP_DKS_500_Sniper_Rifle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <MarketValue>680</MarketValue>
+            <Mass>5.2</Mass>
+            <AccuracyTouch>0.50</AccuracyTouch>
+            <AccuracyShort>0.68</AccuracyShort>
+            <AccuracyMedium>0.82</AccuracyMedium>
+            <AccuracyLong>0.92</AccuracyLong>
+            <RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_DKS_500_Sniper_Rifle</li>
+            <li>FCP_Sniper_Rifle</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_308mm</defaultProjectile>
+                <warmupTime>1.9</warmupTime>
+                <range>44</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_DKS_501_Sniper_Rifle</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>11</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
 </Defs>
+

@@ -11,25 +11,16 @@
         <defName>FCP_Gun_10mm_Pistol</defName>
         <label>10mm Pistol</label>
         <description>The 10mm Pistol is a semi-automatic sidearm chambered for 10mm rounds. Favored for its reliability and stopping power, it is a common sight among wastelanders and pre-war security forces alike.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Pistols/FCP_10mm_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>280</MarketValue>
-            <WorkToMake>12000</WorkToMake>
             <Mass>1.5</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
             <AccuracyShort>0.70</AccuracyShort>
@@ -40,12 +31,7 @@
         <weaponTags>
             <li>FCP_10mm_Pistol</li>
             <li>FCP_Pistol</li>
-        </weaponTags>
-        <costList>
-            <Steel>28</Steel>
-            <ComponentIndustrial>2</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -91,25 +77,16 @@
         <defName>FCP_Gun_Silenced_10mm_Pistol</defName>
         <label>Silenced 10mm Pistol</label>
         <description>The Silenced 10mm Pistol is a semi-automatic sidearm chambered for 10mm rounds and fitted with an integral suppressor. Favored by assassins and covert operatives, it offers a balance of stopping power and stealth.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Pistols/FCP_Silenced_10mm_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>330</MarketValue>
-            <WorkToMake>13000</WorkToMake>
             <Mass>1.6</Mass>
             <AccuracyTouch>0.87</AccuracyTouch>
             <AccuracyShort>0.72</AccuracyShort>
@@ -120,12 +97,7 @@
         <weaponTags>
             <li>FCP_Silenced_10mm_Pistol</li>
             <li>FCP_Pistol</li>
-        </weaponTags>
-        <costList>
-            <Steel>30</Steel>
-            <ComponentIndustrial>2</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -171,25 +143,16 @@
         <defName>FCP_Gun_Chinese_Pistol</defName>
         <label>Chinese Pistol</label>
         <description>The Chinese Pistol is a compact, semi-automatic sidearm chambered for 9mm rounds. Manufactured before the Great War, it is lightweight and easy to conceal, but suffers from low stopping power and questionable reliability.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Pistols/FCP_Chinese_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>2</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>160</MarketValue>
-            <WorkToMake>7000</WorkToMake>
             <Mass>0.9</Mass>
             <AccuracyTouch>0.80</AccuracyTouch>
             <AccuracyShort>0.65</AccuracyShort>
@@ -200,12 +163,7 @@
         <weaponTags>
             <li>FCP_Chinese_Pistol</li>
             <li>FCP_Pistol</li>
-        </weaponTags>
-        <costList>
-            <Steel>16</Steel>
-            <ComponentIndustrial>1</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -251,25 +209,16 @@
         <defName>FCP_Gun_9mm_Pistol</defName>
         <label>9mm Pistol</label>
         <description>The 9mm Pistol is a lightweight, semi-automatic sidearm chambered for 9mm rounds. Its low recoil and plentiful ammunition make it a popular choice for both civilians and wastelanders, though it lacks the stopping power of larger calibers.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Pistols/FCP_9mm_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>3</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>200</MarketValue>
-            <WorkToMake>9000</WorkToMake>
             <Mass>1.1</Mass>
             <AccuracyTouch>0.88</AccuracyTouch>
             <AccuracyShort>0.72</AccuracyShort>
@@ -280,12 +229,7 @@
         <weaponTags>
             <li>FCP_9mm_Pistol</li>
             <li>FCP_Pistol</li>
-        </weaponTags>
-        <costList>
-            <Steel>22</Steel>
-            <ComponentIndustrial>2</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -331,25 +275,16 @@
         <defName>FCP_Gun_556_Pistol</defName>
         <label>5.56mm Pistol</label>
         <description>The 5.56mm Pistol is a rare, high-powered sidearm chambered for 5.56mm rifle rounds. Its unique design offers superior penetration and range compared to typical pistols, but with increased recoil and wear.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Pistols/FCP_556_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>6</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>420</MarketValue>
-            <WorkToMake>16000</WorkToMake>
             <Mass>1.7</Mass>
             <AccuracyTouch>0.82</AccuracyTouch>
             <AccuracyShort>0.74</AccuracyShort>
@@ -360,12 +295,7 @@
         <weaponTags>
             <li>FCP_556_Pistol</li>
             <li>FCP_Pistol</li>
-        </weaponTags>
-        <costList>
-            <Steel>32</Steel>
-            <ComponentIndustrial>3</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -411,25 +341,16 @@
         <defName>FCP_Gun_127mm_Pistol</defName>
         <label>12.7mm Pistol</label>
         <description>The 12.7mm Pistol is a heavy, semi-automatic sidearm chambered for 12.7mm rounds. Its immense stopping power and armor penetration make it a favorite among wasteland enforcers, but its weight and recoil require a strong hand.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Pistols/FCP_127mm_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>7</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>980</MarketValue>
-            <WorkToMake>20000</WorkToMake>
             <Mass>2.2</Mass>
             <AccuracyTouch>0.80</AccuracyTouch>
             <AccuracyShort>0.68</AccuracyShort>
@@ -440,12 +361,7 @@
         <weaponTags>
             <li>FCP_127mm_Pistol</li>
             <li>FCP_Pistol</li>
-        </weaponTags>
-        <costList>
-            <Steel>38</Steel>
-            <ComponentIndustrial>4</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -491,25 +407,16 @@
         <defName>FCP_Gun_Silenced_22_Pistol</defName>
         <label>Silenced .22 Pistol</label>
         <description>The Silenced .22 Pistol is a lightweight, semi-automatic sidearm chambered for .22 LR rounds and equipped with an integral suppressor. Extremely quiet and easy to control, it is favored for stealth operations but lacks stopping power.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Pistols/FCP_Silenced_22_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>3</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>170</MarketValue>
-            <WorkToMake>8000</WorkToMake>
             <Mass>0.9</Mass>
             <AccuracyTouch>0.92</AccuracyTouch>
             <AccuracyShort>0.80</AccuracyShort>
@@ -520,12 +427,7 @@
         <weaponTags>
             <li>FCP_Silenced_22_Pistol</li>
             <li>FCP_Pistol</li>
-        </weaponTags>
-        <costList>
-            <Steel>16</Steel>
-            <ComponentIndustrial>1</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -571,25 +473,16 @@
         <defName>FCP_Gun_10mm_Pistol_MkII</defName>
         <label>10mm Pistol MkII</label>
         <description>An improved version of the classic 10mm Pistol, featuring enhanced reliability and accuracy. Favored by elite wastelanders and pre-war security forces.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Pistols/FCP_10mm_Pistol_MkII</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>5</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>350</MarketValue>
-            <WorkToMake>14000</WorkToMake>
             <Mass>1.6</Mass>
             <AccuracyTouch>0.88</AccuracyTouch>
             <AccuracyShort>0.75</AccuracyShort>
@@ -600,12 +493,7 @@
         <weaponTags>
             <li>FCP_10mm_Pistol_MkII</li>
             <li>FCP_Pistol</li>
-        </weaponTags>
-        <costList>
-            <Steel>32</Steel>
-            <ComponentIndustrial>3</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -651,25 +539,16 @@
         <defName>FCP_Gun_14mm_Pistol</defName>
         <label>14mm Pistol</label>
         <description>The 14mm Pistol is a powerful sidearm chambered for 14mm rounds, offering exceptional stopping power and penetration. Rare and highly sought after in the wasteland.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Pistols/FCP_14mm_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>1100</MarketValue>
-            <WorkToMake>22000</WorkToMake>
             <Mass>2.4</Mass>
             <AccuracyTouch>0.78</AccuracyTouch>
             <AccuracyShort>0.65</AccuracyShort>
@@ -680,12 +559,7 @@
         <weaponTags>
             <li>FCP_14mm_Pistol</li>
             <li>FCP_Pistol</li>
-        </weaponTags>
-        <costList>
-            <Steel>40</Steel>
-            <ComponentIndustrial>5</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -731,25 +605,16 @@
         <defName>FCP_Gun_223_Pistol</defName>
         <label>.223 Pistol</label>
         <description>The .223 Pistol is a unique sidearm chambered for .223 rifle rounds, offering high velocity and accuracy. Its design is favored by marksmen and collectors.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Pistols/FCP_223_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>7</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>450</MarketValue>
-            <WorkToMake>18000</WorkToMake>
             <Mass>1.9</Mass>
             <AccuracyTouch>0.83</AccuracyTouch>
             <AccuracyShort>0.76</AccuracyShort>
@@ -760,12 +625,7 @@
         <weaponTags>
             <li>FCP_223_Pistol</li>
             <li>FCP_Pistol</li>
-        </weaponTags>
-        <costList>
-            <Steel>34</Steel>
-            <ComponentIndustrial>3</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -811,25 +671,16 @@
         <defName>FCP_Gun_Colt_6520_Pistol</defName>
         <label>Colt 6520</label>
         <description>The Colt 6520 is a classic pre-war sidearm, renowned for its reliability and ease of use. Chambered for .45 rounds, it remains a favorite among wasteland survivors.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Pistols/FCP_Colt_6520</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>320</MarketValue>
-            <WorkToMake>11000</WorkToMake>
             <Mass>1.3</Mass>
             <AccuracyTouch>0.86</AccuracyTouch>
             <AccuracyShort>0.73</AccuracyShort>
@@ -840,12 +691,7 @@
         <weaponTags>
             <li>FCP_Colt_6520</li>
             <li>FCP_Pistol</li>
-        </weaponTags>
-        <costList>
-            <Steel>26</Steel>
-            <ComponentIndustrial>2</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -891,25 +737,16 @@
         <defName>FCP_Gun_Deagle</defName>
         <label>Deagle</label>
         <description>The Deagle is a massive, semi-automatic pistol chambered for .50 AE rounds. Its intimidating size and firepower make it a symbol of status and strength in the wasteland.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Pistols/FCP_Deagle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>9</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>1200</MarketValue>
-            <WorkToMake>25000</WorkToMake>
             <Mass>2.8</Mass>
             <AccuracyTouch>0.75</AccuracyTouch>
             <AccuracyShort>0.60</AccuracyShort>
@@ -920,12 +757,7 @@
         <weaponTags>
             <li>FCP_Deagle</li>
             <li>FCP_Pistol</li>
-        </weaponTags>
-        <costList>
-            <Steel>48</Steel>
-            <ComponentIndustrial>6</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -955,6 +787,74 @@
                     <li>Poke</li>
                 </capacities>
                 <power>8</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Rare</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- .45 Auto Pistol -->
+
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
+        <defName>FCP_Gun_45_Auto_Pistol</defName>
+        <label>.45 Auto Pistol</label>
+        <description>The .45 Auto Pistol is a semi-automatic sidearm chambered for .45 ACP rounds. Known for its stopping power and solid construction, it is a reliable choice for wastelanders who need a dependable backup weapon with serious punch.</description>
+        <smeltable>false</smeltable>
+        <graphicData>
+            <texPath>Weapons/Pistols/FCP_45_Auto_Pistol</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Autopistol</soundInteract>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <MarketValue>320</MarketValue>
+            <Mass>1.7</Mass>
+            <AccuracyTouch>0.84</AccuracyTouch>
+            <AccuracyShort>0.72</AccuracyShort>
+            <AccuracyMedium>0.48</AccuracyMedium>
+            <AccuracyLong>0.22</AccuracyLong>
+            <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_45_Auto_Pistol</li>
+            <li>FCP_Pistol</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_45ACP</defaultProjectile>
+                <warmupTime>0.42</warmupTime>
+                <range>21</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_10mm_Pistol</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>3</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>grip</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>5</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>5</power>
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>

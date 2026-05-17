@@ -11,25 +11,16 @@
         <defName>FCP_Gun_Caravan_Shotgun</defName>
         <label>Caravan Shotgun</label>
         <description>A double-barreled, break-action shotgun popular with caravan guards and traders. Its simple design makes it easy to repair and maintain, but it suffers from a slow reload and limited range</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Shotguns/FCP_Caravan_Shotgun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Shotgun</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Shotgun</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>280</MarketValue>
-            <WorkToMake>18000</WorkToMake>
             <Mass>3.2</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
             <AccuracyShort>0.60</AccuracyShort>
@@ -40,12 +31,7 @@
         <weaponTags>
             <li>FCP_Shotgun</li>
             <li>FCP_Caravan_Shotgun</li>
-        </weaponTags>
-        <costList>
-            <Steel>35</Steel>
-            <ComponentIndustrial>2</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li Class="FCP.Core.Verb_Properties_Shotgunz">
                 <verbClass>FCP.Core.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -95,25 +81,16 @@
         <defName>FCP_Gun_Hunting_Shotgun</defName>
         <label>Hunting Shotgun</label>
         <description>A pump-action shotgun designed for hunting game. Favored for its rugged construction, high capacity, and reliability in the harshest wasteland conditions.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Shotguns/FCP_Hunting_Shotgun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Shotgun</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>4</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Shotgun</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>320</MarketValue>
-            <WorkToMake>22000</WorkToMake>
             <Mass>3.8</Mass>
             <AccuracyTouch>0.80</AccuracyTouch>
             <AccuracyShort>0.65</AccuracyShort>
@@ -124,12 +101,7 @@
         <weaponTags>
             <li>FCP_Shotgun</li>
             <li>FCP_Hunting_Shotgun</li>
-        </weaponTags>
-        <costList>
-            <Steel>40</Steel>
-            <ComponentIndustrial>3</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li Class="FCP.Core.Verb_Properties_Shotgunz">
                 <verbClass>FCP.Core.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -179,25 +151,16 @@
         <defName>FCP_Gun_Combat_Shotgun</defName>
         <label>Combat Shotgun</label>
         <description>The Combat Shotgun is a semi-automatic, magazine-fed shotgun chambered for 12 gauge shells. Designed for military and law enforcement, it offers a high rate of fire and reliability in close-quarters combat, making it a favorite among wasteland enforcers.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Shotguns/FCP_Combat_Shotgun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Shotgun</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>7</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Shotgun</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>420</MarketValue>
-            <WorkToMake>35000</WorkToMake>
             <Mass>4.0</Mass>
             <AccuracyTouch>0.90</AccuracyTouch>
             <AccuracyShort>0.65</AccuracyShort>
@@ -208,12 +171,7 @@
         <weaponTags>
             <li>FCP_Shotgun</li>
             <li>FCP_Combat_Shotgun</li>
-        </weaponTags>
-        <costList>
-            <Steel>60</Steel>
-            <ComponentIndustrial>5</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li Class="FCP.Core.Verb_Properties_Shotgunz">
                 <verbClass>FCP.Core.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -263,25 +221,16 @@
         <defName>FCP_Gun_Riot_Shotgun</defName>
         <label>Riot Shotgun</label>
         <description>This pre-War, semi-automatic combat shotgun was designed for law enforcement and military use. Its high rate of fire and large magazine make it devastating in close-quarters combat.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Shotguns/FCP_Riot_Shotgun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Shotgun</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>7</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Shotgun</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>520</MarketValue>
-            <WorkToMake>32000</WorkToMake>
             <Mass>4.2</Mass>
             <AccuracyTouch>0.88</AccuracyTouch>
             <AccuracyShort>0.62</AccuracyShort>
@@ -292,12 +241,7 @@
         <weaponTags>
             <li>FCP_Shotgun</li>
             <li>FCP_Riot_Shotgun</li>
-        </weaponTags>
-        <costList>
-            <Steel>55</Steel>
-            <ComponentIndustrial>5</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li Class="FCP.Core.Verb_Properties_Shotgunz">
                 <verbClass>FCP.Core.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -347,25 +291,16 @@
         <defName>FCP_Gun_SawnOff_Shotgun</defName>
         <label>Sawn-Off Shotgun</label>
         <description>A double-barreled shotgun with the barrels and stock cut down for easier concealment. Extremely deadly at point-blank range, but wildly inaccurate and short-ranged.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Shotguns/FCP_SawnOff_Shotgun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Shotgun</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>3</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Shotgun</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>220</MarketValue>
-            <WorkToMake>12000</WorkToMake>
             <Mass>2.4</Mass>
             <AccuracyTouch>0.90</AccuracyTouch>
             <AccuracyShort>0.40</AccuracyShort>
@@ -376,12 +311,7 @@
         <weaponTags>
             <li>FCP_Shotgun</li>
             <li>FCP_SawnOff_Shotgun</li>
-        </weaponTags>
-        <costList>
-            <Steel>22</Steel>
-            <ComponentIndustrial>1</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li Class="FCP.Core.Verb_Properties_Shotgunz">
                 <verbClass>FCP.Core.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -431,25 +361,16 @@
         <defName>FCP_Gun_LeverAction_Shotgun</defName>
         <label>Lever-Action Shotgun</label>
         <description>A classic lever-action shotgun, prized for its fast cycling and reliability. Popular among ranchers and lawmen, it delivers solid stopping power and can be fired rapidly in skilled hands.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Shotguns/FCP_LeverAction_Shotgun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Shotgun</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>6</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Shotgun</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>380</MarketValue>
-            <WorkToMake>26000</WorkToMake>
             <Mass>3.9</Mass>
             <AccuracyTouch>0.82</AccuracyTouch>
             <AccuracyShort>0.68</AccuracyShort>
@@ -460,12 +381,7 @@
         <weaponTags>
             <li>FCP_Shotgun</li>
             <li>FCP_LeverAction_Shotgun</li>
-        </weaponTags>
-        <costList>
-            <Steel>45</Steel>
-            <ComponentIndustrial>3</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li Class="FCP.Core.Verb_Properties_Shotgunz">
                 <verbClass>FCP.Core.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -515,25 +431,16 @@
         <defName>FCP_Gun_Single_Shotgun</defName>
         <label>Single Shotgun</label>
         <description>A simple, single-barrel break-action shotgun. Cheap to produce and easy to maintain, but slow to reload and limited to one shot at a time.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Shotguns/FCP_Single_Shotgun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Shotgun</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>2</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Shotgun</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>250</MarketValue>
-            <WorkToMake>8000</WorkToMake>
             <Mass>2.0</Mass>
             <AccuracyTouch>0.85</AccuracyTouch>
             <AccuracyShort>0.45</AccuracyShort>
@@ -544,12 +451,7 @@
         <weaponTags>
             <li>FCP_Single_Shotgun</li>
             <li>FCP_Shotgun</li>
-        </weaponTags>
-        <costList>
-            <Steel>16</Steel>
-            <ComponentIndustrial>1</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li Class="FCP.Core.Verb_Properties_Shotgunz">
                 <verbClass>FCP.Core.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -599,25 +501,16 @@
         <defName>FCP_Gun_Citykiller</defName>
         <label>Citykiller Shotgun</label>
         <description>The Citykiller is a high-capacity, semi-automatic shotgun designed for urban combat. Its rapid fire and large magazine make it devastating in close quarters.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Shotguns/FCP_Citykiller</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Shotgun</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>8</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Shotgun</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>780</MarketValue>
-            <WorkToMake>40000</WorkToMake>
             <Mass>4.5</Mass>
             <AccuracyTouch>0.92</AccuracyTouch>
             <AccuracyShort>0.68</AccuracyShort>
@@ -628,12 +521,7 @@
         <weaponTags>
             <li>FCP_Citykiller</li>
             <li>FCP_Shotgun</li>
-        </weaponTags>
-        <costList>
-            <Steel>70</Steel>
-            <ComponentIndustrial>6</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li Class="FCP.Core.Verb_Properties_Shotgunz">
                 <verbClass>FCP.Core.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -683,25 +571,16 @@
         <defName>FCP_Gun_Combat_Shotgun_MkII</defName>
         <label>Combat Shotgun MkII</label>
         <description>An advanced version of the Combat Shotgun, featuring improved reliability, accuracy, and rate of fire. Favored by elite military units and wasteland enforcers.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Shotguns/FCP_Combat_Shotgun_MkII</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Shotgun</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>9</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Shotgun</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>520</MarketValue>
-            <WorkToMake>45000</WorkToMake>
             <Mass>4.7</Mass>
             <AccuracyTouch>0.94</AccuracyTouch>
             <AccuracyShort>0.70</AccuracyShort>
@@ -712,12 +591,7 @@
         <weaponTags>
             <li>FCP_Combat_Shotgun_MkII</li>
             <li>FCP_Shotgun</li>
-        </weaponTags>
-        <costList>
-            <Steel>80</Steel>
-            <ComponentIndustrial>7</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li Class="FCP.Core.Verb_Properties_Shotgunz">
                 <verbClass>FCP.Core.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -767,25 +641,16 @@
         <defName>FCP_Gun_Jackhammer</defName>
         <label>Jackhammer Shotgun</label>
         <description>The Jackhammer is a fully automatic, drum-fed shotgun capable of unleashing a torrent of shells in seconds. Rare and highly prized, it is a force to be reckoned with in any firefight.</description>
+        <smeltable>false</smeltable>
         <graphicData>
             <texPath>Weapons/Shotguns/FCP_Jackhammer</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Shotgun</soundInteract>
-        <recipeMaker>
-            <researchPrerequisites>
-                <li>FCP_Research_Gunsmithing</li>
-            </researchPrerequisites>
-            <skillRequirements>
-                <Crafting>10</Crafting>
-            </skillRequirements>
-        </recipeMaker>
-        <thingSetMakerTags>
+        <soundInteract>Interact_Shotgun</soundInteract>        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
             <MarketValue>680</MarketValue>
-            <WorkToMake>60000</WorkToMake>
             <Mass>5.2</Mass>
             <AccuracyTouch>0.96</AccuracyTouch>
             <AccuracyShort>0.72</AccuracyShort>
@@ -796,12 +661,7 @@
         <weaponTags>
             <li>FCP_Jackhammer</li>
             <li>FCP_Shotgun</li>
-        </weaponTags>
-        <costList>
-            <Steel>100</Steel>
-            <ComponentIndustrial>10</ComponentIndustrial>
-        </costList>
-        <verbs>
+        </weaponTags>        <verbs>
             <li Class="FCP.Core.Verb_Properties_Shotgunz">
                 <verbClass>FCP.Core.Verb_Shoot_Shotgunz</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>

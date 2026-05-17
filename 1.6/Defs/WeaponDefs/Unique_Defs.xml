@@ -373,8 +373,9 @@
 
     <!-- Lil Devil -->
 
-    <!-- <ThingDef ParentName="BaseGun">
+    <ThingDef ParentName="BaseGun">
         <defName>FCP_Gun_LilDevil</defName>
+        <useHitPoints>false</useHitPoints>
         <label>Lil' Devil</label>
         <description>Lil' Devil is a unique, compact 12.7mm pistol with a polished chrome finish and distinctive red grips. This weapon is renowned for its high critical hit chance and rapid rate of fire, making it one of the most deadly sidearms in the Mojave. Favored by those who value speed and precision, Lil' Devil stands out as a rare and coveted piece among New Vegas's arsenal of unique weapons.</description>
         <graphicData>
@@ -389,7 +390,10 @@
             <AccuracyMedium>0.60</AccuracyMedium>
             <AccuracyLong>0.40</AccuracyLong>
             <RangedWeapon_Cooldown>0.4</RangedWeapon_Cooldown>
-        </statBases>        <smeltable>false</smeltable>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
+        </statBases>
+        <smeltable>false</smeltable>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -411,7 +415,7 @@
         <modExtensions>
             <li Class="FCP.Core.UniqueThingExtension" />
         </modExtensions>
-    </ThingDef> -->
+    </ThingDef>
 
     <!-- Lincolns Repeater -->
 
@@ -607,8 +611,7 @@
         </modExtensions>
     </ThingDef>
 
-    <!-- Medicine Stick
-
+    <!-- Medicine Stick -->
 
     <ThingDef ParentName="BaseGun">
         <defName>FCP_Gun_MedicineStick</defName>
@@ -627,7 +630,10 @@
             <AccuracyMedium>0.90</AccuracyMedium>
             <AccuracyLong>0.95</AccuracyLong>
             <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
-        </statBases>        <smeltable>false</smeltable>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
+        </statBases>
+        <smeltable>false</smeltable>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -649,12 +655,13 @@
         <modExtensions>
             <li Class="FCP.Core.UniqueThingExtension" />
         </modExtensions>
-    </ThingDef> -->
+    </ThingDef>
 
     <!-- Bozar -->
 
-    <!-- <ThingDef ParentName="BaseGun">
+    <ThingDef ParentName="BaseGun">
         <defName>FCP_Gun_Bozar</defName>
+        <useHitPoints>false</useHitPoints>
         <label>Bozar</label>
         <description>Bozar is a legendary automatic marksman rifle chambered in .308, renowned for its fusion of sniper precision and machine gun firepower. Its advanced design delivers exceptional accuracy at long range while unleashing rapid bursts, making it a rare and highly coveted weapon among elite marksmen.</description>
         <graphicData>
@@ -670,7 +677,10 @@
             <AccuracyMedium>0.90</AccuracyMedium>
             <AccuracyLong>0.85</AccuracyLong>
             <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
-        </statBases>        <smeltable>false</smeltable>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
+        </statBases>
+        <smeltable>false</smeltable>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -693,7 +703,7 @@
         <modExtensions>
             <li Class="FCP.Core.UniqueThingExtension" />
         </modExtensions>
-    </ThingDef> -->
+    </ThingDef>
 
     <!-- Dinner Bell -->
 
@@ -966,6 +976,385 @@
                 <soundCast>FCP_Sound_Shot_DKS_501_Sniper_Rifle</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>7</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Unique</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.UniqueThingExtension" />
+        </modExtensions>
+    </ThingDef>
+
+    <!-- FIDO -->
+
+    <ThingDef ParentName="BaseGun">
+        <defName>FCP_Gun_FIDO</defName>
+        <useHitPoints>false</useHitPoints>
+        <label>FIDO</label>
+        <description>FIDO is an advanced prototype of the K9000 Cyberdog Gun, modified by the Think Tank at Big MT. Enhanced targeting systems and improved rate of fire make it even more effective than the standard model, though the barking sound effect has been amplified to 'boost morale.'</description>
+        <graphicData>
+            <texPath>Weapons/Unique/FCP_FIDO</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>1150</MarketValue>
+            <Mass>7.2</Mass>
+            <AccuracyTouch>0.65</AccuracyTouch>
+            <AccuracyShort>0.76</AccuracyShort>
+            <AccuracyMedium>0.82</AccuracyMedium>
+            <AccuracyLong>0.68</AccuracyLong>
+            <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
+        </statBases>
+        <smeltable>false</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_357mm</defaultProjectile>
+                <warmupTime>1.0</warmupTime>
+                <range>33</range>
+                <burstShotCount>14</burstShotCount>
+                <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Assault_Rifle</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>11</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Unique</rarity>
+            </li>
+            <li Class="FCP.Core.Backpacks.CompProperties_WeaponBackpack">
+                <backpackTexPath>Things/Pawn/Backpacks/Ammo_Backpack/FCP_Ammo_Backpack</backpackTexPath>
+                <backpackScale>1.0</backpackScale>
+                <drawBackOnlyWhenDrafted>false</drawBackOnlyWhenDrafted>
+                <northOffset>(0, 0.04, -0.10)</northOffset>
+                <southOffset>(0, -0.04, -0.10)</southOffset>
+                <eastOffset>(-0.3, 0.04, -0.10)</eastOffset>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.UniqueThingExtension" />
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Light Shining in Darkness -->
+
+    <ThingDef ParentName="BaseGun">
+        <defName>FCP_Gun_Light_Shining_In_Darkness</defName>
+        <useHitPoints>false</useHitPoints>
+        <label>A Light Shining in Darkness</label>
+        <description>A Light Shining in Darkness is Joshua Graham's personal .45 Auto pistol, engraved with Psalm 23:4. Maintained with religious devotion, it has been modified for enhanced accuracy and power, making it one of the finest pistols in the wasteland.</description>
+        <graphicData>
+            <texPath>Weapons/Unique/FCP_Light_Shining_In_Darkness</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>920</MarketValue>
+            <Mass>1.6</Mass>
+            <AccuracyTouch>0.90</AccuracyTouch>
+            <AccuracyShort>0.85</AccuracyShort>
+            <AccuracyMedium>0.70</AccuracyMedium>
+            <AccuracyLong>0.45</AccuracyLong>
+            <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
+        </statBases>
+        <smeltable>false</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_45ACP</defaultProjectile>
+                <warmupTime>0.32</warmupTime>
+                <range>23</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>FCP_Sound_Shot_10mm_Pistol</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>3.5</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Unique</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.UniqueThingExtension" />
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Paciencia -->
+
+    <ThingDef ParentName="BaseGun">
+        <defName>FCP_Gun_Paciena</defName>
+        <useHitPoints>false</useHitPoints>
+        <label>Paciencia</label>
+        <description>Paciencia is a fine pre-war hunting rifle that has been meticulously maintained. Chambered for .308 rounds, its name means 'patience' in Spanish—a fitting reminder that a skilled marksman waits for the perfect shot. Its superior craftsmanship grants it exceptional accuracy and increased critical damage.</description>
+        <graphicData>
+            <texPath>Weapons/Unique/FCP_Paciena</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>1050</MarketValue>
+            <Mass>4.5</Mass>
+            <AccuracyTouch>0.60</AccuracyTouch>
+            <AccuracyShort>0.82</AccuracyShort>
+            <AccuracyMedium>0.92</AccuracyMedium>
+            <AccuracyLong>0.96</AccuracyLong>
+            <RangedWeapon_Cooldown>2.0</RangedWeapon_Cooldown>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
+        </statBases>
+        <smeltable>false</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_308mm</defaultProjectile>
+                <warmupTime>1.6</warmupTime>
+                <range>42</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>FCP_Sound_Shot_308mm_Hunting_Rifle</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>10</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Unique</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.UniqueThingExtension" />
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Sleepytime -->
+
+    <ThingDef ParentName="BaseGun">
+        <defName>FCP_Gun_Sleepy_Time</defName>
+        <useHitPoints>false</useHitPoints>
+        <label>Sleepytime</label>
+        <description>Sleepytime is a unique silenced .22 pistol with a colorful past. Despite its small caliber, it has been expertly tuned for silent kills, making it a favorite of assassins who prefer discretion over raw firepower. The name is both ironic and menacing.</description>
+        <graphicData>
+            <texPath>Weapons/Unique/FCP_Sleepy_Time</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>680</MarketValue>
+            <Mass>1.0</Mass>
+            <AccuracyTouch>0.92</AccuracyTouch>
+            <AccuracyShort>0.85</AccuracyShort>
+            <AccuracyMedium>0.62</AccuracyMedium>
+            <AccuracyLong>0.30</AccuracyLong>
+            <RangedWeapon_Cooldown>0.65</RangedWeapon_Cooldown>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
+        </statBases>
+        <smeltable>false</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_22LR</defaultProjectile>
+                <warmupTime>0.28</warmupTime>
+                <range>19</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>FCP_Sound_Shot_Silenced_22_Pistol</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>1.5</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Unique</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.UniqueThingExtension" />
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Sturdy Caravan Shotgun -->
+
+    <ThingDef ParentName="BaseGun">
+        <defName>FCP_Gun_Sturdy_Caravan_Shotgun</defName>
+        <useHitPoints>false</useHitPoints>
+        <label>Sturdy Caravan Shotgun</label>
+        <description>The Sturdy Caravan Shotgun is a reinforced variant of the standard caravan shotgun, modified with heavier components and better craftsmanship. More durable and slightly more powerful than its common counterpart, it has been the trusted companion of many successful caravan guards.</description>
+        <graphicData>
+            <texPath>Weapons/Unique/FCP_Sturdy_Caravan_Shotgun</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>820</MarketValue>
+            <Mass>3.8</Mass>
+            <AccuracyTouch>0.88</AccuracyTouch>
+            <AccuracyShort>0.75</AccuracyShort>
+            <AccuracyMedium>0.45</AccuracyMedium>
+            <AccuracyLong>0.18</AccuracyLong>
+            <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
+        </statBases>
+        <smeltable>false</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_Shotgun</defaultProjectile>
+                <warmupTime>0.8</warmupTime>
+                <range>18</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>FCP_Sound_Shot_Combat_Shotgun</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>10</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Unique</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.UniqueThingExtension" />
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Survivalist's Rifle -->
+
+    <ThingDef ParentName="BaseGun">
+        <defName>FCP_Gun_Survivalist_Rifle</defName>
+        <useHitPoints>false</useHitPoints>
+        <label>Survivalist's Rifle</label>
+        <description>The Survivalist's Rifle is a weathered but well-maintained service rifle that once belonged to Randall Clark, "The Father in the Cave" of Zion Canyon. This 5.56mm rifle has been modified with a makeshift suppressor and improved internals, bearing witness to decades of solitary survival in the harsh wilderness.</description>
+        <graphicData>
+            <texPath>Weapons/Unique/FCP_Survivalist_Rifle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>980</MarketValue>
+            <Mass>3.4</Mass>
+            <AccuracyTouch>0.68</AccuracyTouch>
+            <AccuracyShort>0.78</AccuracyShort>
+            <AccuracyMedium>0.85</AccuracyMedium>
+            <AccuracyLong>0.75</AccuracyLong>
+            <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
+        </statBases>
+        <smeltable>false</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_556mm</defaultProjectile>
+                <warmupTime>0.75</warmupTime>
+                <range>32</range>
+                <burstShotCount>3</burstShotCount>
+                <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Assault_Rifle</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>5</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Unique</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.UniqueThingExtension" />
+        </modExtensions>
+    </ThingDef>
+
+    <!-- This Machine -->
+
+    <ThingDef ParentName="BaseGun">
+        <defName>FCP_Gun_This_Machine</defName>
+        <useHitPoints>false</useHitPoints>
+        <label>This Machine</label>
+        <description>This Machine is a pre-war battle rifle chambered for 7.62mm rounds, featuring an en-bloc clip loading system. Given as a reward by the Mojave branch of the New California Republic, it bears a brass plate reading "THIS MACHINE KILLS FASCISTS" - a reference to an ancient musician's defiant message.</description>
+        <graphicData>
+            <texPath>Weapons/Unique/FCP_This_Machine</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>1080</MarketValue>
+            <Mass>4.3</Mass>
+            <AccuracyTouch>0.60</AccuracyTouch>
+            <AccuracyShort>0.76</AccuracyShort>
+            <AccuracyMedium>0.88</AccuracyMedium>
+            <AccuracyLong>0.92</AccuracyLong>
+            <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
+        </statBases>
+        <smeltable>false</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_762mm</defaultProjectile>
+                <warmupTime>0.9</warmupTime>
+                <range>38</range>
+                <burstShotCount>2</burstShotCount>
+                <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_Assault_Rifle</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Unique</rarity>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="FCP.Core.UniqueThingExtension" />
+        </modExtensions>
+    </ThingDef>
+
+    <!-- Weathered 10mm Pistol -->
+
+    <ThingDef ParentName="BaseGun">
+        <defName>FCP_Gun_Weathered_10mm_Pistol</defName>
+        <useHitPoints>false</useHitPoints>
+        <label>Weathered 10mm Pistol</label>
+        <description>The Weathered 10mm Pistol has seen better days. Its finish is worn and scratched from years of use, but it remains mechanically sound. A reliable backup weapon for those who know that a working gun in hand beats a pristine showpiece in the holster.</description>
+        <graphicData>
+            <texPath>Weapons/Unique/FCP_Weathered_10mm_Pistol</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>320</MarketValue>
+            <Mass>1.5</Mass>
+            <AccuracyTouch>0.84</AccuracyTouch>
+            <AccuracyShort>0.68</AccuracyShort>
+            <AccuracyMedium>0.42</AccuracyMedium>
+            <AccuracyLong>0.16</AccuracyLong>
+            <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
+        </statBases>
+        <smeltable>false</smeltable>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_10mm</defaultProjectile>
+                <warmupTime>0.4</warmupTime>
+                <range>20</range>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>FCP_Sound_Shot_10mm_Pistol</soundCast>
+                <soundCastTail>GunTail_Light</soundCastTail>
+                <muzzleFlashScale>2.5</muzzleFlashScale>
             </li>
         </verbs>
         <comps>
