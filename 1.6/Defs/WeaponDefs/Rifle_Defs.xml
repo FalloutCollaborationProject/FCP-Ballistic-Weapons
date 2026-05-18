@@ -374,6 +374,74 @@
         </comps>
     </ThingDef>
 
+    <!-- Lever Action Rifle -->
+
+    <ThingDef ParentName="FCP_Simple_Gun_Base">
+        <defName>FCP_Lever_Action_Rifle</defName>
+        <label>Lever Action Rifle</label>
+        <description>A rugged lever-action rifle commonly found in the swamps of Point Lookout. Chambered for 10mm rounds, this reliable firearm was favored by tribals and swampfolk for its durability in harsh, humid conditions and readily available ammunition. Its simple design and fast cycling action make it effective against both wildlife and hostile intruders in close to medium range encounters.</description>
+        <smeltable>false</smeltable>
+        <graphicData>
+            <texPath>Weapons/Rifles/FCP_Lever_Action_Rifle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <statBases>
+            <MarketValue>420</MarketValue>
+            <Mass>3.2</Mass>
+            <AccuracyTouch>0.75</AccuracyTouch>
+            <AccuracyShort>0.80</AccuracyShort>
+            <AccuracyMedium>0.70</AccuracyMedium>
+            <AccuracyLong>0.50</AccuracyLong>
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+        </statBases>
+        <weaponTags>
+            <li>FCP_Lever_Action_Rifle</li>
+            <li>FCP_Rifle</li>
+        </weaponTags>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>FCP_Bullet_10mm</defaultProjectile>
+                <warmupTime>1.1</warmupTime>
+                <range>28</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>0</ticksBetweenBurstShots>
+                <soundCast>FCP_Sound_Shot_10mm_Pistol</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>7</muzzleFlashScale>
+            </li>
+        </verbs>
+        <tools>
+            <li>
+                <label>stock</label>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>barrel</label>
+                <capacities>
+                    <li>Blunt</li>
+                    <li>Poke</li>
+                </capacities>
+                <power>8</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Uncommon</rarity>
+            </li>
+        </comps>
+    </ThingDef>
+
     <!-- Cowboy Repeater -->
 
     <ThingDef ParentName="FCP_Simple_Gun_Base">
