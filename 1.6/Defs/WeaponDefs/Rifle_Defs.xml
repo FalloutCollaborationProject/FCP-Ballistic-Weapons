@@ -437,7 +437,7 @@
         </tools>
         <comps>
             <li Class="FCP.Core.CompProperties_LabelColored">
-                <rarity>Uncommon</rarity>
+                <rarity>Rare</rarity>
             </li>
         </comps>
     </ThingDef>
