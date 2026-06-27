@@ -105,7 +105,6 @@
             <texPath>Weapons/Assault_Rifles/FCP_R91_Assault_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-		<equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Rifle</soundInteract>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -578,6 +577,7 @@
         <label>Automatic Rifle</label>
         <description>The Automatic Rifle is a compact, fully automatic rifle chambered for 5.56mm rounds. Its lightweight design and high rate of fire make it effective in close to medium range combat, though it sacrifices some accuracy compared to larger battle rifles.</description>
         <smeltable>false</smeltable>
+		<equippedAngleOffset>45</equippedAngleOffset>
         <graphicData>
             <texPath>Weapons/Assault_Rifles/FCP_Automatic_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
