@@ -79,7 +79,21 @@
             <texPath>Weapons/Revolvers/FCP_357_Revolver</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Revolver</soundInteract>        <thingSetMakerTags>
+        <soundInteract>Interact_Revolver</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_357Revolver</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
@@ -90,7 +104,12 @@
             <AccuracyMedium>0.42</AccuracyMedium>
             <AccuracyLong>0.13</AccuracyLong>
             <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+            <WorkToMake>12000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_357_Revolver</li>
             <li>FCP_Revolver</li>
@@ -140,7 +159,21 @@
             <texPath>Weapons/Revolvers/FCP_44Magnum_Revolver</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Revolver</soundInteract>        <thingSetMakerTags>
+        <soundInteract>Interact_Revolver</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_44MagnumRevolver</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
@@ -151,7 +184,12 @@
             <AccuracyMedium>0.40</AccuracyMedium>
             <AccuracyLong>0.12</AccuracyLong>
             <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+            <WorkToMake>12000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_44Magnum_Revolver</li>
             <li>FCP_Revolver</li>
@@ -201,7 +239,21 @@
             <texPath>Weapons/Revolvers/FCP_Hunting_Revolver</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Revolver</soundInteract>        <thingSetMakerTags>
+        <soundInteract>Interact_Revolver</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_HuntingRevolver</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
@@ -212,7 +264,12 @@
             <AccuracyMedium>0.48</AccuracyMedium>
             <AccuracyLong>0.18</AccuracyLong>
             <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+            <WorkToMake>12000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_Hunting_Revolver</li>
             <li>FCP_Revolver</li>
@@ -262,7 +319,21 @@
             <texPath>Weapons/Revolvers/FCP_Police_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Revolver</soundInteract>        <thingSetMakerTags>
+        <soundInteract>Interact_Revolver</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_PolicePistol</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
@@ -273,7 +344,12 @@
             <AccuracyMedium>0.50</AccuracyMedium>
             <AccuracyLong>0.22</AccuracyLong>
             <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+            <WorkToMake>12000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_Police_Pistol</li>
             <li>FCP_Revolver</li>

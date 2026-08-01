@@ -16,7 +16,21 @@
             <texPath>Weapons/Sniper_Rifles/FCP_DKS_501_Sniper_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>        <thingSetMakerTags>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_DKS501SniperRifle</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>            <Mass>5.5</Mass>
@@ -25,7 +39,12 @@
             <AccuracyMedium>0.85</AccuracyMedium>
             <AccuracyLong>0.95</AccuracyLong>
             <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+            <WorkToMake>32000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>55</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_DKS_501_Sniper_Rifle</li>
             <li>FCP_Sniper_Rifle</li>
@@ -80,7 +99,21 @@
             <texPath>Weapons/Sniper_Rifles/FCP_Scoped_Hunting_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>        <thingSetMakerTags>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_ScopedHuntingRifle</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
@@ -91,7 +124,12 @@
             <AccuracyMedium>0.85</AccuracyMedium>
             <AccuracyLong>0.90</AccuracyLong>
             <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+            <WorkToMake>32000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>55</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_Scoped_Hunting_Rifle</li>
             <li>FCP_Sniper_Rifle</li>
@@ -147,6 +185,19 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_AntiMaterielRifle</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
@@ -158,7 +209,12 @@
             <AccuracyMedium>0.88</AccuracyMedium>
             <AccuracyLong>0.98</AccuracyLong>
             <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+            <WorkToMake>32000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>55</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_Anti_Material_Rifle</li>
             <li>FCP_Sniper_Rifle</li>
@@ -215,6 +271,19 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_DKS500SniperRifle</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>6</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
@@ -226,7 +295,12 @@
             <AccuracyMedium>0.82</AccuracyMedium>
             <AccuracyLong>0.92</AccuracyLong>
             <RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
+            <WorkToMake>32000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>55</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_DKS_500_Sniper_Rifle</li>
             <li>FCP_Sniper_Rifle</li>

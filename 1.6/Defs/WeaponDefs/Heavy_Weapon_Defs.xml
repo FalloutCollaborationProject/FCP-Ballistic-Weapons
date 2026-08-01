@@ -16,7 +16,21 @@
             <texPath>Weapons/Heavy_Weapons/FCP_Minigun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>        <thingSetMakerTags>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Blueprint_Minigun</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
@@ -27,7 +41,12 @@
             <AccuracyMedium>0.30</AccuracyMedium>
             <AccuracyLong>0.10</AccuracyLong>
             <RangedWeapon_Cooldown>3.0</RangedWeapon_Cooldown>
+            <WorkToMake>55000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>100</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_Minigun_FO3</li>
             <li>FCP_Power_Armor_Required</li>
@@ -96,7 +115,21 @@
             <texPath>Weapons/Heavy_Weapons/FCP_Light_Machine_Gun</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Rifle</soundInteract>        <thingSetMakerTags>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Blueprint_LightMachineGun</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
@@ -107,7 +140,12 @@
             <AccuracyMedium>0.55</AccuracyMedium>
             <AccuracyLong>0.40</AccuracyLong>
             <RangedWeapon_Cooldown>2.2</RangedWeapon_Cooldown>
+            <WorkToMake>55000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>100</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_Light_Machine_Gun</li>
             <li>FCP_Heavy_Weapon</li>
@@ -162,6 +200,19 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Blueprint_ChunkyBoi</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <smeltable>false</smeltable>
         <statBases>
             <MarketValue>3500</MarketValue>
@@ -171,7 +222,12 @@
             <AccuracyMedium>0.22</AccuracyMedium>
             <AccuracyLong>0.09</AccuracyLong>
             <RangedWeapon_Cooldown>3.7</RangedWeapon_Cooldown>
-        </statBases>        <verbs>
+            <WorkToMake>55000</WorkToMake>
+        </statBases>
+        <costList>
+            <Steel>100</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -213,6 +269,19 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Blueprint_MkIAvenger</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <smeltable>false</smeltable>
         <statBases>
             <MarketValue>1200</MarketValue>
@@ -222,7 +291,12 @@
             <AccuracyMedium>0.35</AccuracyMedium>
             <AccuracyLong>0.15</AccuracyLong>
             <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
-        </statBases>        <verbs>
+            <WorkToMake>55000</WorkToMake>
+        </statBases>
+        <costList>
+            <Steel>100</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -287,6 +361,19 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Blueprint_Vindicator</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <smeltable>false</smeltable>
         <statBases>
             <MarketValue>950</MarketValue>
@@ -296,7 +383,12 @@
             <AccuracyMedium>0.40</AccuracyMedium>
             <AccuracyLong>0.20</AccuracyLong>
             <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
-        </statBases>        <verbs>
+            <WorkToMake>55000</WorkToMake>
+        </statBases>
+        <costList>
+            <Steel>100</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -354,6 +446,19 @@
         </graphicData>
 		<equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Blueprint_50CalMG</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <smeltable>false</smeltable>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -366,7 +471,12 @@
             <AccuracyMedium>0.60</AccuracyMedium>
             <AccuracyLong>0.70</AccuracyLong>
             <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+            <WorkToMake>55000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>100</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_50_Cal_MG</li>
             <li>FCP_Power_Armor_Required</li>
@@ -436,6 +546,19 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Blueprint_K9000CyberdogGun</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <smeltable>false</smeltable>
         <smeltable>false</smeltable>
         <thingSetMakerTags>
@@ -449,7 +572,12 @@
             <AccuracyMedium>0.75</AccuracyMedium>
             <AccuracyLong>0.60</AccuracyLong>
             <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+            <WorkToMake>55000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>100</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_K900_Cyberdog_Gun</li>
             <li>FCP_Heavy_Weapon</li>
@@ -504,6 +632,19 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Blueprint_RockwellCZ53Minigun</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <smeltable>false</smeltable>
         <smeltable>false</smeltable>
         <thingSetMakerTags>
@@ -517,7 +658,12 @@
             <AccuracyMedium>0.35</AccuracyMedium>
             <AccuracyLong>0.15</AccuracyLong>
             <RangedWeapon_Cooldown>2.8</RangedWeapon_Cooldown>
+            <WorkToMake>55000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>100</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_Rockwell_CZ54_Minigun</li>
             <li>FCP_Power_Armor_Required</li>
@@ -588,6 +734,19 @@
         </graphicData>
 		<equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Rifle</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Advanced_Weapons_Manufacturing</li>
+                <li>FCP_Research_Blueprint_ShoulderMountedMG</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>8</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Complex_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <smeltable>false</smeltable>
         <smeltable>false</smeltable>
         <thingSetMakerTags>
@@ -601,7 +760,12 @@
             <AccuracyMedium>0.68</AccuracyMedium>
             <AccuracyLong>0.55</AccuracyLong>
             <RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
+            <WorkToMake>55000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>100</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_Shoulder_Mounted_MG</li>
             <li>FCP_Heavy_Weapon</li>

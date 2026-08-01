@@ -16,7 +16,21 @@
             <texPath>Weapons/Pistols/FCP_10mm_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_10mmPistol</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
@@ -27,7 +41,12 @@
             <AccuracyMedium>0.45</AccuracyMedium>
             <AccuracyLong>0.18</AccuracyLong>
             <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+            <WorkToMake>12000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_10mm_Pistol</li>
             <li>FCP_Pistol</li>
@@ -82,7 +101,21 @@
             <texPath>Weapons/Pistols/FCP_Silenced_10mm_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_Silenced10mmPistol</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
@@ -93,7 +126,12 @@
             <AccuracyMedium>0.44</AccuracyMedium>
             <AccuracyLong>0.16</AccuracyLong>
             <RangedWeapon_Cooldown>0.9</RangedWeapon_Cooldown>
+            <WorkToMake>12000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_Silenced_10mm_Pistol</li>
             <li>FCP_Pistol</li>
@@ -148,7 +186,21 @@
             <texPath>Weapons/Pistols/FCP_Chinese_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_ChinesePistol</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
@@ -159,7 +211,12 @@
             <AccuracyMedium>0.32</AccuracyMedium>
             <AccuracyLong>0.08</AccuracyLong>
             <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+            <WorkToMake>12000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_Chinese_Pistol</li>
             <li>FCP_Pistol</li>
@@ -214,7 +271,21 @@
             <texPath>Weapons/Pistols/FCP_9mm_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_9mmPistol</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
@@ -225,7 +296,12 @@
             <AccuracyMedium>0.40</AccuracyMedium>
             <AccuracyLong>0.12</AccuracyLong>
             <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+            <WorkToMake>12000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_9mm_Pistol</li>
             <li>FCP_Pistol</li>
@@ -280,7 +356,21 @@
             <texPath>Weapons/Pistols/FCP_556_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_556Pistol</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
@@ -291,7 +381,12 @@
             <AccuracyMedium>0.52</AccuracyMedium>
             <AccuracyLong>0.22</AccuracyLong>
             <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+            <WorkToMake>12000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_556_Pistol</li>
             <li>FCP_Pistol</li>
@@ -346,7 +441,21 @@
             <texPath>Weapons/Pistols/FCP_127mm_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_127mmPistol</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
@@ -357,7 +466,12 @@
             <AccuracyMedium>0.38</AccuracyMedium>
             <AccuracyLong>0.10</AccuracyLong>
             <RangedWeapon_Cooldown>1.3</RangedWeapon_Cooldown>
+            <WorkToMake>12000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_127mm_Pistol</li>
             <li>FCP_Pistol</li>
@@ -412,7 +526,21 @@
             <texPath>Weapons/Pistols/FCP_Silenced_22_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_Silenced22Pistol</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
@@ -423,7 +551,12 @@
             <AccuracyMedium>0.38</AccuracyMedium>
             <AccuracyLong>0.10</AccuracyLong>
             <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+            <WorkToMake>12000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_Silenced_22_Pistol</li>
             <li>FCP_Pistol</li>
@@ -478,7 +611,21 @@
             <texPath>Weapons/Pistols/FCP_10mm_Pistol_MkII</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_10mmPistolMkII</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
@@ -489,7 +636,12 @@
             <AccuracyMedium>0.50</AccuracyMedium>
             <AccuracyLong>0.20</AccuracyLong>
             <RangedWeapon_Cooldown>0.85</RangedWeapon_Cooldown>
+            <WorkToMake>12000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_10mm_Pistol_MkII</li>
             <li>FCP_Pistol</li>
@@ -544,7 +696,21 @@
             <texPath>Weapons/Pistols/FCP_14mm_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_14mmPistol</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
@@ -555,7 +721,12 @@
             <AccuracyMedium>0.35</AccuracyMedium>
             <AccuracyLong>0.09</AccuracyLong>
             <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+            <WorkToMake>12000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_14mm_Pistol</li>
             <li>FCP_Pistol</li>
@@ -610,7 +781,21 @@
             <texPath>Weapons/Pistols/FCP_223_Pistol</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_223Pistol</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
@@ -621,7 +806,12 @@
             <AccuracyMedium>0.55</AccuracyMedium>
             <AccuracyLong>0.25</AccuracyLong>
             <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
+            <WorkToMake>12000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_223_Pistol</li>
             <li>FCP_Pistol</li>
@@ -676,7 +866,21 @@
             <texPath>Weapons/Pistols/FCP_Colt_6520</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_Colt6520Pistol</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
@@ -687,7 +891,12 @@
             <AccuracyMedium>0.42</AccuracyMedium>
             <AccuracyLong>0.15</AccuracyLong>
             <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+            <WorkToMake>12000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_Colt_6520</li>
             <li>FCP_Pistol</li>
@@ -742,7 +951,21 @@
             <texPath>Weapons/Pistols/FCP_Deagle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <soundInteract>Interact_Autopistol</soundInteract>        <thingSetMakerTags>
+        <soundInteract>Interact_Autopistol</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_Deagle</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
+        <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
         <statBases>
@@ -753,7 +976,12 @@
             <AccuracyMedium>0.30</AccuracyMedium>
             <AccuracyLong>0.07</AccuracyLong>
             <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+            <WorkToMake>12000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_Deagle</li>
             <li>FCP_Pistol</li>
@@ -809,6 +1037,19 @@
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
         <soundInteract>Interact_Autopistol</soundInteract>
+        <recipeMaker MayRequire="Rick.FCP.Wastelanders">
+            <researchPrerequisites>
+                <li>FCP_Research_Gunsmithing</li>
+                <li>FCP_Research_Blueprint_45AutoPistol</li>
+            </researchPrerequisites>
+            <skillRequirements>
+                <Crafting>4</Crafting>
+            </skillRequirements>
+            <recipeUsers>
+                <li>FCP_Production_Simple_Weapons_Workbench</li>
+                <li>TableMachining</li>
+            </recipeUsers>
+        </recipeMaker>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
@@ -820,7 +1061,12 @@
             <AccuracyMedium>0.48</AccuracyMedium>
             <AccuracyLong>0.22</AccuracyLong>
             <RangedWeapon_Cooldown>0.95</RangedWeapon_Cooldown>
+            <WorkToMake>12000</WorkToMake>
         </statBases>
+        <costList>
+            <Steel>35</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
         <weaponTags>
             <li>FCP_45_Auto_Pistol</li>
             <li>FCP_Pistol</li>
