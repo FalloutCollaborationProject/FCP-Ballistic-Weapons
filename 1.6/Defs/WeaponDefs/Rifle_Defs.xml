@@ -73,6 +73,7 @@
             <texPath>Weapons/Rifles/FCP_Combat_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker MayRequire="Rick.FCP.Wastelanders">
             <researchPrerequisites>
