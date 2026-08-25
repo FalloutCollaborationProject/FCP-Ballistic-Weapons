@@ -576,6 +576,7 @@
             <texPath>Weapons/Unique/FCP_Gobi_Campaign_Scout_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <equippedAngleOffset>45</equippedAngleOffset>
         <statBases>
             <MarketValue>1450</MarketValue>
             <Mass>4.0</Mass>
@@ -766,6 +767,7 @@
             <texPath>Weapons/Unique/FCP_Ratslayer</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
             <MarketValue>820</MarketValue>
@@ -954,6 +956,7 @@
             <texPath>Weapons/Unique/FCP_Reservists_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
+        <equippedAngleOffset>45</equippedAngleOffset>
         <statBases>
             <Mass>3.6</Mass>
             <AccuracyTouch>0.60</AccuracyTouch>
@@ -1095,7 +1098,7 @@
         <defName>FCP_Gun_Paciena</defName>
         <useHitPoints>false</useHitPoints>
         <label>Paciencia</label>
-        <description>Paciencia is a fine pre-war hunting rifle that has been meticulously maintained. Chambered for .308 rounds, its name means 'patience' in Spanish—a fitting reminder that a skilled marksman waits for the perfect shot. Its superior craftsmanship grants it exceptional accuracy and increased critical damage.</description>
+        <description>Paciencia is a fine pre-war hunting rifle that has been meticulously maintained. Chambered for .308 rounds, its name means 'patience' in Spanish, a fitting reminder that a skilled marksman waits for the perfect shot. Its superior craftsmanship grants it exceptional accuracy and increased critical damage.</description>
         <graphicData>
             <texPath>Weapons/Unique/FCP_Paciena</texPath>
             <graphicClass>Graphic_Single</graphicClass>

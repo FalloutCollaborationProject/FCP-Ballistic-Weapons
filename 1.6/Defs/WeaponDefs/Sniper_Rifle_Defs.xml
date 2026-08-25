@@ -100,7 +100,6 @@
             <texPath>Weapons/Sniper_Rifles/FCP_Scoped_Hunting_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker MayRequire="Rick.FCP.Wastelanders">
             <researchPrerequisites>
@@ -274,7 +273,6 @@
             <texPath>Weapons/Sniper_Rifles/FCP_DKS_500_Sniper_Rifle</texPath>
             <graphicClass>Graphic_Single</graphicClass>
         </graphicData>
-        <equippedAngleOffset>45</equippedAngleOffset>
         <soundInteract>Interact_Rifle</soundInteract>
         <recipeMaker MayRequire="Rick.FCP.Wastelanders">
             <researchPrerequisites>
