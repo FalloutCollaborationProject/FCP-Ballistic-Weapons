@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
     <!--__________ Ballistic Weapons __________-->
@@ -227,7 +227,12 @@
         <costList>
             <Steel>100</Steel>
             <ComponentIndustrial>6</ComponentIndustrial>
-        </costList>        <verbs>
+        </costList>
+        <weaponTags>
+            <li>FCP_ChunkyBoi</li>
+            <li>FCP_Heavy_Weapon</li>
+        </weaponTags>
+        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -296,7 +301,13 @@
         <costList>
             <Steel>100</Steel>
             <ComponentIndustrial>6</ComponentIndustrial>
-        </costList>        <verbs>
+        </costList>
+        <weaponTags>
+            <li>FCP_MkI_Avenger</li>
+            <li>FCP_Minigun_FO3</li>
+            <li>FCP_Power_Armor_Required</li>
+        </weaponTags>
+        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -388,7 +399,13 @@
         <costList>
             <Steel>100</Steel>
             <ComponentIndustrial>6</ComponentIndustrial>
-        </costList>        <verbs>
+        </costList>
+        <weaponTags>
+            <li>FCP_Vindicator</li>
+            <li>FCP_Minigun_FO3</li>
+            <li>FCP_Power_Armor_Required</li>
+        </weaponTags>
+        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
@@ -560,7 +577,6 @@
             </recipeUsers>
         </recipeMaker>
         <smeltable>false</smeltable>
-        <smeltable>false</smeltable>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
         </thingSetMakerTags>
@@ -645,7 +661,6 @@
                 <li>TableMachining</li>
             </recipeUsers>
         </recipeMaker>
-        <smeltable>false</smeltable>
         <smeltable>false</smeltable>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>
@@ -747,7 +762,6 @@
                 <li>TableMachining</li>
             </recipeUsers>
         </recipeMaker>
-        <smeltable>false</smeltable>
         <smeltable>false</smeltable>
         <thingSetMakerTags>
             <li>RewardStandardQualitySuper</li>

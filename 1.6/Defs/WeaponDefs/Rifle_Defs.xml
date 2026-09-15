@@ -596,6 +596,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Trail Carbine -->
@@ -676,6 +681,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- .32 Hunting Rifle -->
@@ -756,6 +766,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Varmint Rifle -->
@@ -802,6 +817,7 @@
         </costList>
         <weaponTags>
             <li>FCP_Varmint_Rifle</li>
+            <li>FCP_Rifle</li>
         </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -835,6 +851,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- 9mm Hunting Rifle -->
@@ -938,6 +959,7 @@
         </costList>
         <weaponTags>
             <li>FCP_223_RangeMaster</li>
+            <li>FCP_Rifle</li>
         </weaponTags>        <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
@@ -971,6 +993,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- FCP .223 Rifle -->
@@ -1051,6 +1078,11 @@
                 <cooldownTime>2</cooldownTime>
             </li>
         </tools>
+        <comps>
+            <li Class="FCP.Core.CompProperties_LabelColored">
+                <rarity>Common</rarity>
+            </li>
+        </comps>
     </ThingDef>
 
     <!-- Battle Rifle -->
