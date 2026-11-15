@@ -1,4 +1,4 @@
-# FCP - Ballistic Weapons  ![release number](https://img.shields.io/badge/release-unreleased-red) [![RimWorld 1.5](https://img.shields.io/badge/RimWorld-1.5-green.svg?longCache=true&style=flat)](http://rimworldgame.com/)
+# FCP - Ballistic Weapons  ![release number](https://img.shields.io/badge/release-unreleased-red) [![RimWorld 1.6 / 1.7](https://img.shields.io/badge/RimWorld-1.6%20%2F%201.7-green.svg?longCache=true&style=flat)](http://rimworldgame.com/)
 
 ## Acknowledgements
 - RickGrymes / Ranger Rick - Project Lead / XML
